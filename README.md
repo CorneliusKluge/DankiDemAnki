@@ -1,5 +1,5 @@
 # DankiDemAnki
-Collaborative German Anki decks for Media IT studies
+Collaborative German Anki decks for Media IT studies <br>
 The Anki-addon [CrowdAnki](https://github.com/Stvad/CrowdAnki) is used for the distribution via GitHub.
 
 ## Before you start
