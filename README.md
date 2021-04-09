@@ -13,7 +13,7 @@ Also, just as a quick warning: CrowdAnki doesn't seem to be very stable or well 
 ## Importing
 Be sure you pull before importing for the most recent version.
 When you have this repo on your user's "collection.media" folder, you can import Anki cards by following these steps:
-* "Data" -> "CrowdAnki: Import From Disk" -> Choose your subject folder (For example "Betriebssysteme". Not "collection.media"!) -> OK. <br>
+* "Data" -> "CrowdAnki: Import From Disk" -> Choose your subject folder (For example "Betriebssysteme". Not "collection.media"!) -> Don't tick anything. -> OK.  <br>
 You should now have successfully imported all the recent updates of the repo into you Anki app.
  
 
@@ -30,3 +30,4 @@ You should now have successfully exported all of your updates into the repo. If 
 
 ## Contributing to DankiDemAnki via GitHub
 Despite this being a German course, please use English in your commit messages and when communicating through GitHub.
+I would advise you to follow these commit message rules: https://chris.beams.io/posts/git-commit/
