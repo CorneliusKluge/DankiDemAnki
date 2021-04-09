@@ -17,6 +17,7 @@ You can import Anki cards by following these steps:
 You should now have successfully imported one subject deck into your Anki app. This needs to be repeated for each subject folder.
 
 ## Creating new DankiDemAnki cards
+* Deck hierarchy goes as following, illustrated by Betriebssysteme: "Betriebssysteme" > "1 - Einleitung". Going any deeper is probably not necessary.
 * To make working with Anki more user friendly, I'd encourage you to use a consistent style when creating new cards.
 * Use as few highlighting as possible, but as much as needed. When editing, press Ctrl+Shift+X for HTML editor.
 * Try to use different approaches to the medium. Don't always write "Wie lautet die Definition von x?", try to get creative when appropriate!
