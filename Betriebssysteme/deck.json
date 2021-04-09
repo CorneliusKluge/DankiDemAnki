@@ -1,0 +1,225 @@
+{
+    "__type__": "Deck",
+    "children": [
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "fed5e817-97a1-11eb-97cb-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "1.2_Benutzungsablauf-545855fc95a983ac5e7ee25ce9c7306477864e19.png"
+            ],
+            "name": "1 - Einleitung",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wofür ist das Betriebssystem eine Schnittstelle? (2 Antwortpaare)",
+                        "Schnittstelle zwischen Benutzerprogramm und Hardware&nbsp;<br><div>Schnittstelle zwischen Maschine und Mensch&nbsp;<br></div>"
+                    ],
+                    "guid": "Em-{=jSJMz",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<div>Fülle die Lücken aus!<img src=\"1.2_Benutzungsablauf-545855fc95a983ac5e7ee25ce9c7306477864e19.png\"></div>",
+                        "(1 - Benutzer)<div>&nbsp; benutzt<br><div>&nbsp;2 - Benutzerprogramm</div><div>&nbsp; benutzt<br></div><div>&nbsp;3 - Betriebssystem</div><div>&nbsp; benutzt<br></div><div>&nbsp;4 - Hardware</div></div>"
+                    ],
+                    "guid": "fk#1:6VRVr",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sollte bei der Ressourcenzuteilung beachtet werden?",
+                        "Fairness,<div>Konfliktvermeidung,</div><div>Verklemmungsvermeidung&nbsp;<br></div>"
+                    ],
+                    "guid": "fZFQVjw6T<",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche drei Schritte gehören zur Programmausführung?",
+                        "<div>Laden,</div>Starten,<div>Beenden</div>"
+                    ],
+                    "guid": "dS.=`dj@NH",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist ein Programm?",
+                        "statisches Textstück, das eine Folge von Aktionen spezifiziert,&nbsp;<div>prozessorspezifisch&nbsp;<br></div>"
+                    ],
+                    "guid": "NX{Infd`V9",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist ein Prozess/Thread?",
+                        "Programm in der Ausführung&nbsp;<br>"
+                    ],
+                    "guid": "xm#DO+m?us",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist ein Prozessor/Kern?",
+                        "ausführende Komponente der Hardware,<br>Betriebsmittel&nbsp;<br>"
+                    ],
+                    "guid": "Ir(uJ=6nb[",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist ein Betriebsmittel?",
+                        "Systemelement, das während eines oder aller Prozesse benötigt<br>wird&nbsp;<br>"
+                    ],
+                    "guid": "vuN,X3mqxm",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Definition Multiprogramming<br>",
+                        "Während eines Prozesses auf I/O wartet, werden andere Prozesse ausgefuhrt. Der Wechsel geschieht durch Interrupts (Polling o. DMA).&nbsp;<br>"
+                    ],
+                    "guid": "jxM%C0ny&3",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
+        }
+    ],
+    "crowdanki_uuid": "64afe766-979c-11eb-b996-2cf05d79ab8e",
+    "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Standard",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Betriebssysteme",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+            "css": ".card {\n font-family: arial;\n font-size: 16px;\n text-align: left;\n color: black;\n background-color: white;\npadding: 5px\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Standard-6e06c",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                    "bafmt": "",
+                    "bfont": "Arial",
+                    "bqfmt": "",
+                    "bsize": 12,
+                    "did": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": []
+}
