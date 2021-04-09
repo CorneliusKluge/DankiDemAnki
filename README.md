@@ -7,17 +7,17 @@ The Anki-addon [CrowdAnki](https://github.com/Stvad/CrowdAnki) is used for the d
 * You should create a new Anki user dedicated to DankiDemAnki, because when importing Anki decks, all of the current user's data will be overwritten.
 * Also, please make sure Anki is running the most recent version.
 
-Also, just as a quick warning: CrowdAnki doesn't seem to be very stable or well bugfixed. On my first two days of working with it, I've already encountered various ways to freeze or crash Anki, so please follow the instructions below carefully.
+Just as a quick warning: CrowdAnki doesn't seem to be very stable or well bugfixed. On my first two days of working with it, I've already encountered various ways to freeze or crash Anki, so please follow the instructions below carefully.
 
 ## Importing
-Be sure you pull the repository before importing for the most recent version.
-You can import Anki cards by following these steps:
+Be sure you pull the repository before importing for the most recent version. <br>
+You can import Anki cards by following these steps: <br>
 * "Data" -> "CrowdAnki: Import From Disk" -> From this repo's directory, choose your subject folder (For example "Betriebssysteme".) -> Don't tick anything. -> OK. 
 
 You should now have successfully imported one subject deck into your Anki app. This needs to be repeated for each subject folder.
 
 ## Creating new DankiDemAnki cards
-* Deck hierarchy goes as following, illustrated by Betriebssysteme: "Betriebssysteme" > "1 - Einleitung". Going any deeper is probably not necessary.
+* Deck hierarchy goes as following, illustrated by Betriebssysteme: "Betriebssysteme" > "1 - Einleitung". <br> Going any deeper is probably not necessary.
 * To make working with Anki more user friendly, I'd encourage you to use a consistent style when creating new cards.
 * Use as few highlighting as possible, but as much as needed. When editing, press Ctrl+Shift+X for HTML editor.
 * Try to use different approaches to the medium. Don't always write "Wie lautet die Definition von x?", try to get creative when appropriate!
