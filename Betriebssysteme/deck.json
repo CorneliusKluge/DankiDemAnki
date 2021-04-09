@@ -11,7 +11,7 @@
             "extendNew": 0,
             "extendRev": 0,
             "media_files": [
-                "1.2_Benutzungsablauf-545855fc95a983ac5e7ee25ce9c7306477864e19.png"
+                "1.2_Benutzungsablauf.png"
             ],
             "name": "1 - Einleitung",
             "notes": [
@@ -28,7 +28,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "<div>Fülle die Lücken aus!<img src=\"1.2_Benutzungsablauf-545855fc95a983ac5e7ee25ce9c7306477864e19.png\"></div>",
+                        "<div>Fülle die Lücken aus!</div><div><img src=\"1.2_Benutzungsablauf.png\"><br><br></div>",
                         "(1 - Benutzer)<div>&nbsp; benutzt<br><div>&nbsp;2 - Benutzerprogramm</div><div>&nbsp; benutzt<br></div><div>&nbsp;3 - Betriebssystem</div><div>&nbsp; benutzt<br></div><div>&nbsp;4 - Hardware</div></div>"
                     ],
                     "guid": "fk#1:6VRVr",
