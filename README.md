@@ -8,10 +8,10 @@ The Anki-addon [CrowdAnki](https://github.com/Stvad/CrowdAnki) is used for the d
 * **The directory of this repository should be the folder "collection.media" of your designated Anki user.** Here you will have a folder for each deck/subject.
 * Also, please make sure Anki is running the most recent version.
 
-Also, just as a quick warning: CrowdAnki doesn't seem to be very stable or well bugfixed. On my first two days of working with it, I've already encountered various ways to freeze or crash your Anki app, so please follow the instructions carefully.
+Also, just as a quick warning: CrowdAnki doesn't seem to be very stable or well bugfixed. On my first two days of working with it, I've already encountered various ways to freeze or crash Anki, so please follow the instructions below carefully.
 
 ## Importing
-Be sure you pull before importing for the most recent version.
+Be sure you pull the repository before importing for the most recent version.
 When you have this repo on your user's "collection.media" folder, you can import Anki cards by following these steps:
 * "Data" -> "CrowdAnki: Import From Disk" -> Choose your subject folder (For example "Betriebssysteme". Not "collection.media"!) -> Don't tick anything. -> OK.  <br>
 You should now have successfully imported all the recent updates of the repo into you Anki app.
@@ -19,7 +19,7 @@ You should now have successfully imported all the recent updates of the repo int
 
 ## Creating new DankiDemAnki cards
 * To make working with Anki more user friendly, I'd encourage you to use a consistent style when creating new cards.
-* Use as few highlighting as possible, but as much as needed.
+* Use as few highlighting as possible, but as much as needed. When editing, press Ctrl+Shift+X for HTML editor.
 * Try to use different approaches to the medium. Don't always write "Wie lautet die Definition von x?", try to get creative when possible!
 * Use images, videos, helpful internet ressources! A picture often says more than a thousand words. :)
 * I myself haven't done so yet, but don't be afraid of using different card layouts (instead of only front and backside)!
@@ -30,4 +30,4 @@ You should now have successfully exported all of your updates into the repo. If 
 
 ## Contributing to DankiDemAnki via GitHub
 Despite this being a German course, please use English in your commit messages and when communicating through GitHub.
-I would advise you to follow these commit message rules: https://chris.beams.io/posts/git-commit/
+When creating commit messages I would advise you to follow these rules: https://chris.beams.io/posts/git-commit/
