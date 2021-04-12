@@ -1,0 +1,180 @@
+{
+    "__type__": "Deck",
+    "children": [
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8ec4c8-9b9d-11eb-af59-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Abtastung",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8eebe8-9b9d-11eb-a672-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Allgemeine Grundlagen",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8f12fa-9b9d-11eb-ba9c-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Blockschaltpläne",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8f3a13-9b9d-11eb-804d-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Cutting / Videobearbeitung",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8f3a17-9b9d-11eb-9d48-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Digitalisierung von Signalen",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8f612c-9b9d-11eb-9368-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Kompression",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8f6130-9b9d-11eb-afce-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Optik",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8f8842-9b9d-11eb-9d80-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Technische Grundlagen",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8f8846-9b9d-11eb-978d-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Vierpoltheorie",
+            "notes": []
+        }
+    ],
+    "crowdanki_uuid": "ec8e9dad-9b9d-11eb-a408-2cf05d79ab8e",
+    "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Standard",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Videotechnik",
+    "note_models": [],
+    "notes": []
+}
