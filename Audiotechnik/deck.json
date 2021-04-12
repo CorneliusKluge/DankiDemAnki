@@ -90,7 +90,28 @@
             "extendRev": 0,
             "media_files": [],
             "name": "Schall",
-            "notes": []
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Nennen sie mind. 5 wichtige Eigenschaften von Schallwellen! (7 möglich)",
+                        "<div>- akkustische, mechanische Wellen</div>\n<div>- Ausbreitungsgeschwindigkeit abhängig vom\nAusbreitungsmedium</div>\n<div>- Wellenlänge zwischen 17 mm und 21 Metern</div>\n<div>- ändert zeitlich periodisch ihren Druck</div>\n<div>- kann reflektiert, gebrochen, gebeugt,\nabsorbiert und interferiert werden</div>\n<div>- bewegen Teilchen in einem Medium und breiten\nsich in einer bestimmten Geschwindigkeit aus</div>\n<div>- transportieren Schallenergie</div>"
+                    ],
+                    "guid": "M,H:]w_^Dk",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Bereiche bilden den für den Menschen hörbaren Frequenzbereich?",
+                        "20 Hz - 20 kHz"
+                    ],
+                    "guid": "wh3qSPhZ3#",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
         }
     ],
     "crowdanki_uuid": "cc43ab53-9b67-11eb-90b0-001a7dda7115",
@@ -149,6 +170,62 @@
     "extendRev": 0,
     "media_files": [],
     "name": "Audiotechnik",
-    "note_models": [],
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+            "css": ".card {\n font-family: arial;\n font-size: 16px;\n text-align: left;\n color: black;\n background-color: white;\npadding: 5px\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Standard-6e06c-aa354",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                    "bafmt": "",
+                    "bfont": "Arial",
+                    "bqfmt": "",
+                    "bsize": 12,
+                    "did": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
     "notes": []
 }
