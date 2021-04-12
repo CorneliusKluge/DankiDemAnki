@@ -81,14 +81,73 @@
         },
         {
             "__type__": "Deck",
-            "children": [],
+            "children": [
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "a8808056-9b83-11eb-acc7-001a7dda7115",
+                    "deck_config_uuid": "32c611e0-97b1-11eb-8eab-001a7dda7115",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "Interferenzen von Wellen",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "Was verstehen unter \"Interferenz von Wellen\"?",
+                                "<div>Sie beschreibt die Verstärkung oder Verminderung\n(bis hin zu Auslöschung) von Wellen, wenn diese sich überlagern.</div>"
+                            ],
+                            "guid": "q.u-Nmmurb",
+                            "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "Was verstehen Sie unter \"Kammerflimmern\"?",
+                                "<div>- Filterung von Frequenzgruppen<br>- verursacht Laufzeitunterschied bei den Wellen (sofern gleicher Ursprung)</div>"
+                            ],
+                            "guid": "s;T`KIQE`I",
+                            "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "Was verstehen Sie unter \"Auslöschung\" bei Schall?",
+                                "<div>Trifft ein Wellenberg auf ein Wellental,\nverringert sich die Auslenkung der Welle bis hin zur Auslöschung.</div>"
+                            ],
+                            "guid": "BM#O_Gq4#0",
+                            "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "fields": [
+                                "Was verstehen Sie unter \"Überhöhung\"?",
+                                "<div>Treffen zwei Wellenberge aufeinander, verstärken\nsie sich</div>"
+                            ],
+                            "guid": "nmX!@~t;nd",
+                            "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                            "tags": []
+                        }
+                    ]
+                }
+            ],
             "crowdanki_uuid": "cc446e1d-9b67-11eb-88a7-001a7dda7115",
             "deck_config_uuid": "32c611e0-97b1-11eb-8eab-001a7dda7115",
             "desc": "",
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
-            "media_files": [],
+            "media_files": [
+                "abb-7-11.jpg",
+                "kammfiltereffekt_thumbnail.jpg",
+                "nachhall1.gif"
+            ],
             "name": "Schall",
             "notes": [
                 {
@@ -108,6 +167,76 @@
                         "20 Hz - 20 kHz"
                     ],
                     "guid": "wh3qSPhZ3#",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was versteht man unter \"Isophone\"?",
+                        "Beschreibt den Zusammenhang zwischen Lautstärkepegel in dB und der Frequenz in Hz."
+                    ],
+                    "guid": "t.(MQL~%Pe",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Zum Thema Isophone:&nbsp;<br><br>Erklären Sie Isophone bezüglich der menschlichen Sprache (Gehör)!",
+                        "Um mit\nmöglichst wenig Energie für den Menschen hörbare Sprache zu erzeugen, muss\ndiese in den Bereich der höchsten Empfindlichkeit für Sprache gelegt werden,\n<br><br>also <b>zwischen 200 Hz und 5 Khz bei 50 bis 70 db</b>"
+                    ],
+                    "guid": "IE_16(9.WG",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie breitet sich Schall aus?",
+                        "Eine\nSchallwelle bereitet sich in alle Richtungen aus<br><br><img src=\"nachhall1.gif\"><br><br>Lesen Sie das Beispiel zur Verinnerlichung!<br><br><div>Stellen wir uns eine Box in einem Raum vor, aus\nder Musik zu hören ist. Ihre Schallwellen breiten sich im Raum aus und\nwerden von den Wänden reflektiert. Stellen wir uns dazu noch eine Person vor,\ndie vor der Box steht. Die Schallwelle, die ohne Umwege zum Ohr der Person\ngelangt, ist nach dem Gesetzt der ersten Wellenfront dafür verantwortlich, wo\nim Raum die Person die Tonquelle verortet. Alle, von den Wänden reflektierten\nWellen werden in die ersten Reflektionen und die mehrfachen Reflektionen\nunterteilt, die für den Raumeindruck sorgen.&nbsp;</div>"
+                    ],
+                    "guid": "ia3JY.{~Tz",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was verstehen Sie unter einer \"Phantomschallquelle\" und wie funktioniert ihre Ortung?",
+                        "<div>- Wahrnehmungsrichtung der Schallquelle ergibt sich aus dem\nMittelwert der beiden Ersatzschallquellen (beispielsweise einem Lautsprecher\nLinks und Rechts)<br><div>- das lautere oder das zuerst eintreffende Signal\ndominiert und sorgt für die Verortung der Schallquelle im Raum (Gesetz der\nersten Wellenfront)</div></div>"
+                    ],
+                    "guid": "Ls1~YXHQ+x",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "1) Was ist ein Verzögerungsgerät?<br><br>2) Welche Effekte kann es erzeugen?",
+                        "zu 1) <br>Es verändert die Art des Klangs durch das Mischen des Originalsignals mit deinem verzögerten Double, das es erzeugt.<br><br>zu 2) <br><br><img src=\"kammfiltereffekt_thumbnail.jpg\"><br>- Kammfiltereffekt&nbsp;<br>&nbsp; (kann zu einem seltsam »topfigen«, »hohlen« und »dünnen« Sound führen)<br><br>- typische Halleffekte(Reverb), Echo, Delay<br><br>"
+                    ],
+                    "guid": "Jq&e0/}?w1",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was versteht man unter einer \"räumlichen Aufnahme\"?",
+                        "Eine Zweikanalmikrofonierung!<br><br>1. Mikrofone werden leicht versetzt angeordnet (40 - 60 cm von Schallquelle entfernt)<br>2. Schallquelle wird leiser gemacht (erhöht den Raumanteil)<br>3. Ein Hallgerät kann zusätzliche Raumtiefe erzeugen.<br>"
+                    ],
+                    "guid": "s!#]Zev=sk",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was verstehen Sie unter \"Schallbeugung\"?",
+                        "- Phänomen, das die Schallausbreitung behindert<br>- spielt\nwichtige Rolle, wenn es um die Absenkung des Lärmpegels mittels Schallschirmen\noder anderweitiger schallundurchlässiger Hindernisse geht<br><br><img src=\"abb-7-11.jpg\">"
+                    ],
+                    "guid": "fE*`|fkAE%",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
                 }
