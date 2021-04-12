@@ -36,9 +36,73 @@
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
-            "media_files": [],
+            "media_files": [
+                "syntheseformen_klangsynthese_faq_additiv.png",
+                "syntheseformen_klangsynthese_faq_fm.png"
+            ],
             "name": "Klangerzeugung / Klangsynthese",
-            "notes": []
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was verstehen sie unter subtraktiver<sup>1</sup> oder additiver<sup>2</sup> Klangsynthese?",
+                        "<b><sup>1&nbsp;</sup>subtraktiv<br></b>- Grundsound wird vorerst durch einen Oszillator erzeugt<br><div>- es wird das\nSpektrum einer mehr oder weniger obertonreichen Signalform durch Filterung\numgeformt<br>-&gt; es werden also Höhen, Mitten und Bässe abgezogen und ein neues Signal entsteht<br><br></div><b><sup>2&nbsp;</sup>additiv<br></b>- es entsteht Klang durch die Überlagerung mehrerer Sinuswellen, die von Oszillatoren erzeugt werden<br><b>-&nbsp;</b>Mit additiven Synthesizern werden in der Regel Klänge erzeugt, die an eine Orgel oder ein E-Piano erinnern<b><br><br></b><img src=\"syntheseformen_klangsynthese_faq_additiv.png\"><br><br><b><br></b><b><sup>Anmerkung: Oszillator<br></sup></b>Ein Oszillator in der Elektronik erzeugt ungedämpfte meist sinusförmige elektrische Schwingungen. Er arbeitet an Gleichspannung und erzeugt Wechselspannung und kann aus einem einzelnen selbstschwingenden Bauteil oder aus mehreren Bauteilen bestehen, die zu einer Oszillatorschaltung zusammengefügt werden.<b><br></b>"
+                    ],
+                    "guid": "y$TX=,)0fz",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was verstehen Sie unter \"FM-Synthese\"?",
+                        "<div>- Frequenz des Trägersignals wird über einen Modulator gesteuert<br>- ermöglicht somit mit wenigen Oszillatoren komplexe Signalformen<br><br><img src=\"syntheseformen_klangsynthese_faq_fm.png\"><br>Carrier = Träger (Welle A)<br>Modulator (Welle B)<br><br>beide zusammen: \"Operatoren\"</div>"
+                    ],
+                    "guid": "tA!U&lv=G~",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist \"Physical Modeling\"? (PM-Synthese)",
+                        "Ein Verfahren zur Klangerzeugung oder -veränderung, das physikalische Eigenschaften eines Musikinstruments oder akusitschen Gerätes in einem mathematischen Modell abbildet"
+                    ],
+                    "guid": "QF)7}8{#_l",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Synthesizer - Was ist \"DCA\"?",
+                        "Digitally Controlled Amplifier<br>- Synthesizer wird durch einen digitalen, also exakt definierbaren Wert gesteuert<br>- moduliert Lautstärke und bringt Dynamik in den Klangablauf"
+                    ],
+                    "guid": "Pk6p[?HSN;",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Synthesizer - Was ist \"DCF\"?<br>",
+                        "<div>\"Digitally Controlled FIlter\"<br><br>- ermöglicht eine programmierbare Dynamik der\nKlangfarbe eines Synthesizersounds<br>- rechnet Frequenzanteile aus dem dem Audiosignal heraus</div>"
+                    ],
+                    "guid": "EWV3kMv|q<",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Synthesizer - Was ist \"DCO\"?<br>",
+                        "\"Digitally Controlled Oscillator\"<br>- digitaler Klangerzeuger<br>- der\ndigital gesteuerte <b>Oszillator</b> in einem analogen Synthesizer ist zwar\nstimmstabiler, klingt durch die exakte Steuerung aber auch etwas steriler als\nein <b>VCO<br></b><br>VCO \"Voltage Controlled Oscillator\"<br>= Klangerzeugung durch Spannungsänderung"
+                    ],
+                    "guid": "h3!=p~R(Us",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
         },
         {
             "__type__": "Deck",
