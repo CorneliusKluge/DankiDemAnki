@@ -104,6 +104,130 @@
                     "guid": "jxM%C0ny&3",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Erkläre in drei Stichpunkten den Second Chance Algorithmus!",
+                        "- Bei einer neu eingelagerten Seite wird das Referenzbit zunächst auf 1 gesetzt.<br>- Wird Platz beötigt, werden die Referenzbits von 1 auf 0 gesetzt (Second Chance).<br>- Ist ein Referenzbit bereits auf 0, wird die Seite ersetzt."
+                    ],
+                    "guid": "AoS~;],1-b",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "f4de882b-9c9b-11eb-9fe4-888888888788",
+            "deck_config_uuid": "f4deaf1e-9c9b-11eb-aac7-888888888788",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "9 - Ein- und Ausgabe",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet Programmed I/O?",
+                        "Der Prozessor liest oder schreibt die Daten in ein Datenregister der Steuereinheit."
+                    ],
+                    "guid": "o>V{125KiM",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wofür steht DMA?",
+                        "Direct Memory Access -&nbsp;Direkter Speicherzugriff<br>Die Steuereinheit kann über den Bus selbständig auf den HS zugreifen."
+                    ],
+                    "guid": "MG!1@>[#F(",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Beschreibe was bei einem Interrupt passiert!",
+                        "E/A Modul gibt ein Interrupt Request Signal.<br>Prozessor läuft eine Interrupt Service Routine (ISR) und kann jetzt abhängig von der ISR was anderes machen.<br>Prozessor führt das Programm nach dem Interrupt fort."
+                    ],
+                    "guid": "x-xkv$q0In",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was passiert beim Polling?",
+                        "Der Prozessor frage in bestimmten Zeitabständen, ob <i>das </i>Ereignis eingetreten ist. Das Betriebssystem wartet in aktiver Warteschleife (busy wait) auf E/A."
+                    ],
+                    "guid": "c3dh/umL$5",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Vergleiche Polling und Interrupt!",
+                        "Polling ist einfach umzusetzen, kostet aber laufend Rechenzeit.<br>Bei Interrupts kann die CPU weiterarbeiten, während E/A arbeitet.<br>In der Regel bieten Interrupts eine&nbsp;Verbesserung der Rechenleistung. Bei kurzen E/A-Befehlen (z.B. Tastatur) ist Polling schneller."
+                    ],
+                    "guid": "O|u.4nI}eW",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Erkläre kurz, was bei DMA passiert!",
+                        "Die CPU initialisiert einen Datentransfer&nbsp;zwischen E/A Gerät und Hauptspeicher und ist dann frei für andere Aufgaben.<br>Der DMA Controller sendet einen Interrupt an die CPU, wenn der Transfer beendet ist."
+                    ],
+                    "guid": "y1oah%k/<>",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Ist Festplattenscheduling noch wichtig? Begründung",
+                        "Ja.<br>CPU werden immer schneller, Festplatten nicht. Durch immer größere Platten kann die Suchzeit sogar größer werden."
+                    ],
+                    "guid": "t[.Rk)JO~+",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Nenne zwei Methoden der E/A-Kommunikation zwischen CPU und Peripheri!",
+                        "Memory-mapped I/O<br>Port-mapped I/O"
+                    ],
+                    "guid": "k}ZwAYJd+W",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist&nbsp;Memory-mapped I/O?",
+                        "Speicher und Register des E/A-Gerätes werden auf den gleichen Adressraum wie der HS abgebildet. Anweisungen der CPU, die desSpeicherzugriffs dienen, können auch E/A-Geräte ansprechen.&nbsp;"
+                    ],
+                    "guid": "c`WLu9VKIW",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist&nbsp;Port-mapped I/O?",
+                        "Beim Port-mapped I/O wird ein E/A-Gerät über ein spezifisches, diesem Gerät zugeordneten E/A-Port angesteuert."
+                    ],
+                    "guid": "l?BD/Q[B-g",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
                 }
             ]
         }
@@ -115,6 +239,52 @@
             "__type__": "DeckConfig",
             "autoplay": true,
             "crowdanki_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Standard",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "f4deaf1e-9c9b-11eb-aac7-888888888788",
             "dyn": false,
             "interdayLearningMix": 0,
             "lapse": {
