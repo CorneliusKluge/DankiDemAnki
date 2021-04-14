@@ -1,125 +1,7 @@
 {
     "__type__": "Deck",
-    "children": [
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "ec8ec4c8-9b9d-11eb-af59-2cf05d79ab8e",
-            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 0,
-            "extendRev": 0,
-            "media_files": [],
-            "name": "Abtastung",
-            "notes": []
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "ec8eebe8-9b9d-11eb-a672-2cf05d79ab8e",
-            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 0,
-            "extendRev": 0,
-            "media_files": [],
-            "name": "Allgemeine Grundlagen",
-            "notes": []
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "ec8f12fa-9b9d-11eb-ba9c-2cf05d79ab8e",
-            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 0,
-            "extendRev": 0,
-            "media_files": [],
-            "name": "Blockschaltpläne",
-            "notes": []
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "ec8f3a13-9b9d-11eb-804d-2cf05d79ab8e",
-            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 0,
-            "extendRev": 0,
-            "media_files": [],
-            "name": "Cutting / Videobearbeitung",
-            "notes": []
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "ec8f3a17-9b9d-11eb-9d48-2cf05d79ab8e",
-            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 0,
-            "extendRev": 0,
-            "media_files": [],
-            "name": "Digitalisierung von Signalen",
-            "notes": []
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "ec8f612c-9b9d-11eb-9368-2cf05d79ab8e",
-            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 0,
-            "extendRev": 0,
-            "media_files": [],
-            "name": "Kompression",
-            "notes": []
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "ec8f6130-9b9d-11eb-afce-2cf05d79ab8e",
-            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 0,
-            "extendRev": 0,
-            "media_files": [],
-            "name": "Optik",
-            "notes": []
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "ec8f8842-9b9d-11eb-9d80-2cf05d79ab8e",
-            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 0,
-            "extendRev": 0,
-            "media_files": [],
-            "name": "Technische Grundlagen",
-            "notes": []
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "ec8f8846-9b9d-11eb-978d-2cf05d79ab8e",
-            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 0,
-            "extendRev": 0,
-            "media_files": [],
-            "name": "Vierpoltheorie",
-            "notes": []
-        }
-    ],
-    "crowdanki_uuid": "ec8e9dad-9b9d-11eb-a408-2cf05d79ab8e",
+    "children": [],
+    "crowdanki_uuid": "ec8eebe8-9b9d-11eb-a672-2cf05d79ab8e",
     "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
     "deck_configurations": [
         {
@@ -173,8 +55,74 @@
     "dyn": 0,
     "extendNew": 0,
     "extendRev": 0,
-    "media_files": [],
-    "name": "Videotechnik",
-    "note_models": [],
-    "notes": []
+    "media_files": [
+        "paste-f8989edae0d2ef803ab6885439a4bd9c9dd85956.jpg"
+    ],
+    "name": "Videotechnik::Allgemeine Grundlagen",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Einfach",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "1. Wie hoch ist der Teilstrom an R4? Den Spannungsabfall bei Siliziumdioden in Flussrichtung<br>beachten! (kurzer Rechenweg) (4p)<br><img src=\"paste-f8989edae0d2ef803ab6885439a4bd9c9dd85956.jpg\">",
+                "\\(\\frac{ 1 }{R123&nbsp; } = \\frac{ 1 }{ R1 } +\\frac{ 1 }{R2&nbsp; } + \\frac{ 1 }{ R3 }=&gt;<br><br><br>(Bruch-erweitern) \\frac{ 1 }{ R123 } = \\frac{ R2*R3+R1*R3+R1*R2 }{ R1*R2*R3 }<br>=&gt; R123 = \\frac{ R1*R2*R3 }{R2*R3+R1*R3+R1*R2} =&gt;R123= 104,22 Ohm\\)"
+            ],
+            "guid": "fWA3,7Mu;s",
+            "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+            "tags": []
+        }
+    ]
 }
