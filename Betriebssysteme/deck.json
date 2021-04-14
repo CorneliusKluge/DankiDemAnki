@@ -120,8 +120,154 @@
         {
             "__type__": "Deck",
             "children": [],
-            "crowdanki_uuid": "f4de882b-9c9b-11eb-9fe4-888888888788",
-            "deck_config_uuid": "f4deaf1e-9c9b-11eb-aac7-888888888788",
+            "crowdanki_uuid": "c83600cc-9d45-11eb-9008-888888888788",
+            "deck_config_uuid": "c83600cd-9d45-11eb-aa02-888888888788",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "7 - Ablauf Seitenfehler.PNG"
+            ],
+            "name": "7 - Virtueller Speicher",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Warum braucht es einen Virtuellen Speicher?",
+                        "• Programme (einschließlich Daten) passen nicht in den Hauptspeicher<br>• Das Laden eines Programmes dauert zu lange<br>• Multiprogrammbetrieb"
+                    ],
+                    "guid": "o(0mhhGEP.",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Warum ist ein Virtueller Speicher möglich?",
+                        "In jedem kleinen Zeitintervall wird nur ein kleiner Teil des Adressraumestatsächlich benötigt. Nicht benötigter Teil muss nicht im HS sein. (Konsequenz des Lokalitätsprinzips)"
+                    ],
+                    "guid": "IJL`s@^Bm!",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist ein Seitenfehler (page fault)?",
+                        "Ein Prozess versucht auf eine Speicherseite zuzugreifen, die noch nicht durch die MMU in der virtuellen Adressraums des Prozesses abgebildet wurde. Die Seite wurde noch nicht in den physischen HS geladen."
+                    ],
+                    "guid": "m2iC27LKw8",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie ist der Ablauf bei einem Seitenfehler?<br><img src=\"7 - Ablauf Seitenfehler.PNG\">",
+                        "0) Befehl mit Referenz soll ausgeführt werden<br>1) Lookup im TLB oder Page Table (Page Walk): Ist Referenz gültig?Hier: Seite ist gültig<br>2) Ist zugehörige Seite im HS geladen? Hier: Seite ist nicht im HS geladen<br>•&nbsp;Page Fault Interrupt durch CPU wird ausgelöst<br>• Prozessunterbrechung (Trap)<br>3) Behandlung der Unterbrechung durch ISR des OS (inkl. Verdrängen einer eingelagerten Seiten)<br>4) Leeres Frame fürs Einlagern der gewünschten Seite finden, Kopieren von externen Medium in HS<br>5) Update der Page Table<br>6) Befehl wird nochmals ausgeführt"
+                    ],
+                    "guid": "]Zr2prS8R",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Ersetzungsstrategien: Belady Optimal /&nbsp;Denning, Chen, Schedler",
+                        "Belady Optimal:<br>Ersetze diejenige Seite, die am längsten nicht gebraucht wird.<br>Denning, Chen, Schedler:<br>Ersetze diejenige Seite, die <b>wahrscheinlich </b>am längsten nicht gebraucht wird."
+                    ],
+                    "guid": "dJ,0J1jj<Y",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Ersetzungsstrategien:&nbsp;Queue FIFO /&nbsp;Stack LIFO",
+                        "FIFO:<br>Lagere die Seite aus, für die die Zeit seit der ersten Referenz auf die Seite&nbsp;<b>maximal</b> ist.<br>LIFO:<br>Lagere die Seite aus, für die die Zeit seit der ersten Referenz auf die Seite&nbsp;<b>minimal</b> ist."
+                    ],
+                    "guid": "jf/g=S7NS$",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Ersetzungsstrategie:&nbsp;LRU Least Recently Used /&nbsp;LFU Least Frequently Used",
+                        "LRU<br>Ersetze diejenige Seite, die am längsten nicht gebraucht wurde.<br>LFU<br>Lagere die Seite aus, die am seltensten referenziert wurde."
+                    ],
+                    "guid": "H{8arj?Nsh",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Ersetzungsstrategien: LD Loop Detection / Random",
+                        "LD<br>Eine zyklisch genutzte Seite darf nicht entferntwerden.<br>Random<br>zufällige Auswahl"
+                    ],
+                    "guid": "lrB#J@oEo]",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Ersetzungsstrategie: SC&nbsp;Second Chance / Clock",
+                        "SC:<br>LRU Annäherung mit FIFO<br>Bei einer neu eingelagerten Seite wird das Referenzbit zunächst auf 1 gesetzt. Beim Ersetzen einer Seite wird überprüft, ob:<br>• das Referenzbit 1 ist, dann wird es auf 0 gesetzt (zweite Chance)<br>• das Referenzbit 0 ist, dann wird die Seite ersetzt<br>Clock:<br>wie SC mit einer leicht veränderten Implementierung<br>gleiches Resultat wie SC"
+                    ],
+                    "guid": "N,Z6Xi>zLr",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist Thrashing?",
+                        "• zu viele Page Faults in kurzer Zeit<br>• Performanz der CPU bricht ein, weil nur noch sinnlos gepaged wird"
+                    ],
+                    "guid": "h?p#1z2ZDg",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Thrashing Lösung 1: Working Set",
+                        "Empirische Beobachtung: eine bestimmte Anzahl eingeblendeter Seiten ist optimal.<br>• Anzahl zu gering: hohe Seitenfehlerrate<br>• Anzahl zu groß: Speicherverschwendung, möglicherweise kein Prozess mehr bereit.<br>Während der verschiedenen Phasen der Ausführung wird nur eine Untermenge aller Seiten referenziert (Working Set). Entweder, das Working Set für ein Prozess ist komplett im HS und die CPU kann arbeiten&nbsp;oder der Prozess wird ausgelagert und später bearbeitet."
+                    ],
+                    "guid": "Q=*wRZ@UP}",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche praktischen Probleme ergeben sich beim Working Set Ansatz?",
+                        "Vergangenheit sagt nicht immer die Zukunft voraus<br>damit ist die Erfassung des Working Set problematisch<br>• Zeitstempel mit jeder Referenz abspeichern<br>• optimaler Wert der Größe des Working Set unbekannt und zeitabhängig"
+                    ],
+                    "guid": "r,MxQs#q8P",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Thrashing Lösung 2:&nbsp;Page Fault Frequency algorithm",
+                        "<b>PFF = Arbeitsmengen mit variabler Fenstergröße<br></b><br>Vorgabe einer minimalen und maximalen Seitenfehler-Frequenz<br>Bei Überschreitung der <b>oberenGrenze:&nbsp;</b>Erhöhung der Anzahl der Seitenrahmen<br>Bei Unterschreitung der <b>unteren Grenze:&nbsp;</b>Reduktion der Anzahl der Seitenrahmen"
+                    ],
+                    "guid": "C8I0RI279T",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "c8364ebf-9d45-11eb-8bb8-888888888788",
+            "deck_config_uuid": "c8364ec0-9d45-11eb-9dea-888888888788",
             "desc": "",
             "dyn": 0,
             "extendNew": 0,
@@ -284,7 +430,53 @@
         {
             "__type__": "DeckConfig",
             "autoplay": true,
-            "crowdanki_uuid": "f4deaf1e-9c9b-11eb-aac7-888888888788",
+            "crowdanki_uuid": "c83600cd-9d45-11eb-aa02-888888888788",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Standard",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "c8364ec0-9d45-11eb-9dea-888888888788",
             "dyn": false,
             "interdayLearningMix": 0,
             "lapse": {
