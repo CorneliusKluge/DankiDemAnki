@@ -19,7 +19,7 @@ You should now have successfully imported one subject deck into your Anki app. T
 
 ## Creating new DankiDemAnki cards
 * Deck hierarchy goes as following, illustrated by Betriebssysteme: "Betriebssysteme" > "1 - Einleitung". <br> Going any deeper is probably not necessary. 
-* If you have the luck of using an already structured guideline, please also use numbers as first part of your decks. Anki sorts alphabetically, but users may want to study chronologically instead.
+* If you have the luck of using an already structured guideline, please also use numbers as first part of the name of your decks. Anki sorts alphabetically, but users may want to study chronologically instead.
 * To make working with Anki more user friendly, I'd encourage you to use a consistent style when creating new cards.
 * Use as few highlighting as possible, but as much as needed. When editing, press Ctrl+Shift+X for HTML editor.
 * Try to use different approaches to the medium. Don't always write "Wie lautet die Definition von x?", try to get creative when appropriate!
