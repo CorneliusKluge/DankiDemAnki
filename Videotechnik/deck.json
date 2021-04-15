@@ -1,7 +1,271 @@
 {
     "__type__": "Deck",
-    "children": [],
-    "crowdanki_uuid": "ec8eebe8-9b9d-11eb-a672-2cf05d79ab8e",
+    "children": [
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8ec4c8-9b9d-11eb-af59-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Abtastung",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8eebe8-9b9d-11eb-a672-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "paste-85fad127431b373d08ab7ffbb42cc90b6740cf6d.jpg",
+                "paste-9d62443220d15f82269adfba2bfb16cdebe99beb.jpg",
+                "paste-be2d7723300397854f2afd07d6aba64e52f8797c.jpg",
+                "paste-e1b4c7cef3a6b1b152c8d26c8cc72fdb817d0301.jpg",
+                "paste-f8989edae0d2ef803ab6885439a4bd9c9dd85956.jpg"
+            ],
+            "name": "Allgemeine Grundlagen",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "1. Wie hoch ist der Teilstrom an R4? Den Spannungsabfall bei Siliziumdioden in Flussrichtung<br>beachten! (kurzer Rechenweg) (4p)<br><img src=\"paste-f8989edae0d2ef803ab6885439a4bd9c9dd85956.jpg\">",
+                        "\\(\\frac{ 1 }{R123&nbsp; } = \\frac{ 1 }{ R1 } +\\frac{ 1 }{R2&nbsp; } + \\frac{ 1 }{ R3 }=&gt;<br><br><br>(Bruch-erweitern) \\frac{ 1 }{ R123 } = \\frac{ R2*R3+R1*R3+R1*R2 }{ R1*R2*R3 }<br>=&gt; R123 = \\frac{ R1*R2*R3 }{R2*R3+R1*R3+R1*R2} =&gt;R123= 104,22 Ohm\\)"
+                    ],
+                    "guid": "fWA3,7Mu;s",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<div>Wie groß ist der Strom Iges nach 720 ms?&nbsp;<br></div><img src=\"paste-9d62443220d15f82269adfba2bfb16cdebe99beb.jpg\">",
+                        "<img src=\"paste-85fad127431b373d08ab7ffbb42cc90b6740cf6d.jpg\">"
+                    ],
+                    "guid": "j-<x>&@KqW",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche ungefähre Farbtemperatur haben Glühlampen?&nbsp;<br>",
+                        "<div>Gängige Glühlampen haben eine Farbtemperatur von ca. 2600 - 2800 K.<img src=\"paste-be2d7723300397854f2afd07d6aba64e52f8797c.jpg\"><img src=\"paste-e1b4c7cef3a6b1b152c8d26c8cc72fdb817d0301.jpg\"></div>"
+                    ],
+                    "guid": "lM|%|1cB_9",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8f12fa-9b9d-11eb-ba9c-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Blockschaltpläne",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8f3a13-9b9d-11eb-804d-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Cutting / Videobearbeitung",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8f3a17-9b9d-11eb-9d48-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Digitalisierung von Signalen",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8f612c-9b9d-11eb-9368-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Kompression",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8f6130-9b9d-11eb-afce-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "paste-374ce84ea9f24ba1811e6beb0206a88d1352f8d9.jpg",
+                "paste-5cbd13dae8ed4b39e4c89e6e93d6d3777b3b3ca0.jpg",
+                "paste-c1d2a38f876a3b44aea48e5fba130dab61c264fa.jpg"
+            ],
+            "name": "Optik",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Linsen kennen Sie?<br>",
+                        "<img src=\"paste-c1d2a38f876a3b44aea48e5fba130dab61c264fa.jpg\"><div><img src=\"paste-374ce84ea9f24ba1811e6beb0206a88d1352f8d9.jpg\"><br></div>"
+                    ],
+                    "guid": "vFpv%_?.!t",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was verstehen Sie unter Bildschärfe?<br>",
+                        "Deutliches Wahrnehmen von Kanten und Konturen,<div>Hohe Kontrastunterschiede (insbes. Hell-Dunkel-Kontrast),</div><div>Hohe Farbunterschiede,</div><div>Unterschiedliche Formen</div>"
+                    ],
+                    "guid": "Q70$ky@Qab",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was verstehen Sie unter \"Normalobjektiv\"?&nbsp;<br>",
+                        "Ein Objektiv, bei dem die Brennweite der Diagonalen des Aufnahmemediums entspricht.<div>43mm Brennweite bei Kleinbildformat (24 x 36 mm)<br><div><img src=\"paste-5cbd13dae8ed4b39e4c89e6e93d6d3777b3b3ca0.jpg\"><br></div></div>"
+                    ],
+                    "guid": "GEZ{&S184h",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8f8842-9b9d-11eb-9d80-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "paste-61e03754f086b831b9eb3d01e64e58c47c71e345.jpg",
+                "paste-9284487387ccbe04d15fac04f49088147c377097.jpg"
+            ],
+            "name": "Technische Grundlagen",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet BAS? Benennen Sie alle wichtigen Signalbestandteile!&nbsp;<br>",
+                        "Schwarz-weißes Videosignal bestehend aus:<table><tbody><tr><td><br><b>Bildsignal</b>: Festlegen von Hell-Dunkel durch Spannung zwischen 0,3 V (Schwarz) und 1 V (Weiß)<br><b>Austastsignal</b>: Ausschaltung des Elektronenstrahls bei Zeilenwechsel<br><b>Synchronsignal</b>: steuert Gleichlauf<br></td></tr></tbody></table>"
+                    ],
+                    "guid": "cc;d3Mz`Lh",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sagt eine BAS-Angabe über die Übertragungsart des Signals aus?",
+                        "Da digitale Videosignale nicht über Synchronimpulse verfügen, kann es sich nur um eine Angabe eines analogen Videosignals handeln."
+                    ],
+                    "guid": "uPV1,`n7yl",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet \"Burst\"?",
+                        "Ein Burst-Signal ist ein kurzes Signal, was der eigentlichen Videosignalübertragung vorausgeht. Durch das Burst-Signal wird die Phasenlage und Frequenz einer Schwingung übertragen.&nbsp;<br><div>Es wird auch zu Prüfzwecken genutzt.</div>"
+                    ],
+                    "guid": "PfAC+8f*dQ",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie viele Zeilen <i>sieht</i> man bei einer PAL-Übertragung?&nbsp;<br>",
+                        "<div>Bei PAL werden 625 Zeilen übertragen, die Steuersignale der 25 Bildwechsel pro Sekunde (und pro Halbbild) verbrauchen aber etwas Zeit.&nbsp;</div><div>625 - (25*2) = 575 Zeilen.</div>"
+                    ],
+                    "guid": "i?O4|ar@#i",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was macht das Synchronsignal einer (F)BAS-Übertragung?",
+                        "Gleichlauf von Sender und Empfänger,<div>Taktung von diversen Studiogeräten, um Mischbarkeit zu gewährleisten</div>"
+                    ],
+                    "guid": "x;WeUhZEVy",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie oft wird das Synchronsignal in Deutschland bei einem 90-minütigen Film benötigt?",
+                        "575 Zeilen pro 25 Vollbilder pro Sekunde = 50 Halbbilder pro Sekunde<div>288 * 50 Halbbilder * 60 Sekunden = 864.000 Synchronsignale / Minute</div><div>864.000 Sync. * 90 Minuten = 77.760.000 Synchronsignale&nbsp;im Verlauf eines 90-minütigen Films.</div>"
+                    ],
+                    "guid": "tN$w<p%C~}",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Gegeben ist ein Bild mit einer Farbfläche, welche folgende Anteile hat:&nbsp;<div>R = 45%,&nbsp;</div><div>G = 11%,</div><div>B = 33%.<br>Transformieren Sie in das YUV-Farbmodell!&nbsp;</div><div>Wie hell ist die Farbfläche?&nbsp;</div><div>Welche Farbe hat die Farbfläche?&nbsp;<br></div>",
+                        "<b>Formeln zur Umwandlung von RGB zu YUV:</b><br>Y = 0,299*R + 0,587 * G + 0,114 * B&nbsp;<br><div>U = B - Y</div><div>V = R - Y</div><div><br></div><div>→ Y = 0,299 * 45 R + 0,587 * 11 G + 0,114 * 33 B</div><div>= 13,455 + 6,457 + 3,762&nbsp;</div><div>= 23,674 / 100 → Helligkeit beträgt 0,23674.</div><div>U = 33 - 23,674 = 9,326 / 100 = 0,09326</div><div>V = 45 - 23,674 = 21,326 / 100 = 0,21326</div><div><br></div><div>Farbwerte bei&nbsp;<a href=\"http://colorizer.org\">http://colorizer.org</a>&nbsp;unter \"YPbPr / YUV\" eingeben</div><div>→&nbsp;&nbsp;<img src=\"paste-9284487387ccbe04d15fac04f49088147c377097.jpg\"></div><div>(siehe rot unterstrichen)</div><div><br></div><div>Oder per Farbebene ablesen:</div><div><img src=\"paste-61e03754f086b831b9eb3d01e64e58c47c71e345.jpg\"><br></div>"
+                    ],
+                    "guid": "h-#4MYwJg7",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8f8846-9b9d-11eb-978d-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Vierpoltheorie",
+            "notes": []
+        }
+    ],
+    "crowdanki_uuid": "ec8e9dad-9b9d-11eb-a408-2cf05d79ab8e",
     "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
     "deck_configurations": [
         {
@@ -55,10 +319,8 @@
     "dyn": 0,
     "extendNew": 0,
     "extendRev": 0,
-    "media_files": [
-        "paste-f8989edae0d2ef803ab6885439a4bd9c9dd85956.jpg"
-    ],
-    "name": "Videotechnik::Allgemeine Grundlagen",
+    "media_files": [],
+    "name": "Videotechnik",
     "note_models": [
         {
             "__type__": "NoteModel",
@@ -85,7 +347,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Einfach",
+            "name": "Einfach-c578e",
             "req": [
                 [
                     0,
@@ -113,16 +375,5 @@
             "type": 0
         }
     ],
-    "notes": [
-        {
-            "__type__": "Note",
-            "fields": [
-                "1. Wie hoch ist der Teilstrom an R4? Den Spannungsabfall bei Siliziumdioden in Flussrichtung<br>beachten! (kurzer Rechenweg) (4p)<br><img src=\"paste-f8989edae0d2ef803ab6885439a4bd9c9dd85956.jpg\">",
-                "\\(\\frac{ 1 }{R123&nbsp; } = \\frac{ 1 }{ R1 } +\\frac{ 1 }{R2&nbsp; } + \\frac{ 1 }{ R3 }=&gt;<br><br><br>(Bruch-erweitern) \\frac{ 1 }{ R123 } = \\frac{ R2*R3+R1*R3+R1*R2 }{ R1*R2*R3 }<br>=&gt; R123 = \\frac{ R1*R2*R3 }{R2*R3+R1*R3+R1*R2} =&gt;R123= 104,22 Ohm\\)"
-            ],
-            "guid": "fWA3,7Mu;s",
-            "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
-            "tags": []
-        }
-    ]
+    "notes": []
 }
