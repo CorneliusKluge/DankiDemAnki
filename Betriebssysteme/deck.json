@@ -273,7 +273,7 @@
             "extendNew": 0,
             "extendRev": 0,
             "media_files": [],
-            "name": "Kapitel 4, 5 und 6",
+            "name": "Kapitel 4 - Prozessor",
             "notes": [
                 {
                     "__type__": "Note",
@@ -464,7 +464,21 @@
                     "guid": "k~n33g/5-_",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
-                },
+                }
+                ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "c83600cc-9d45-11eb-9008-888888888788",
+            "deck_config_uuid": "c83600cd-9d45-11eb-aa02-888888888788",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Kapitel 5 - Verklemmungen Deadlocks",
+            "notes": [
                 {
                     "__type__": "Note",
                     "fields": [
@@ -524,7 +538,21 @@
                     "guid": "LP4[hzvpwi",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
-                },
+                }
+                ]
+        },      
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "c83600cc-9d45-11eb-9008-888888888788",
+            "deck_config_uuid": "c83600cd-9d45-11eb-aa02-888888888788",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Kapitel 6 - Hauptspeicherverwaltung",
+            "notes": [        
                 {
                     "__type__": "Note",
                     "fields": [
