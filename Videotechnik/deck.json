@@ -35,7 +35,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "1. Wie hoch ist der Teilstrom an R4? Den Spannungsabfall bei Siliziumdioden in Flussrichtung<br>beachten! (kurzer Rechenweg) (4p)<br><img src=\"paste-f8989edae0d2ef803ab6885439a4bd9c9dd85956.jpg\">",
+                        "Wie hoch ist der Teilstrom an R4? Den Spannungsabfall bei Siliziumdioden in Flussrichtung<br>beachten! (kurzer Rechenweg) (4p)<br><img src=\"paste-f8989edae0d2ef803ab6885439a4bd9c9dd85956.jpg\">",
                         "\\(\\frac{ 1 }{R123&nbsp; } = \\frac{ 1 }{ R1 } +\\frac{ 1 }{R2&nbsp; } + \\frac{ 1 }{ R3 }=&gt;<br><br><br>(Bruch-erweitern) \\frac{ 1 }{ R123 } = \\frac{ R2*R3+R1*R3+R1*R2 }{ R1*R2*R3 }<br>=&gt; R123 = \\frac{ R1*R2*R3 }{R2*R3+R1*R3+R1*R2} =&gt;R123= 104,22 Ohm\\)<br>R123 + R4 = 10.104,22 Ohm<br>Dioden nehmen 0,7 V =&gt; 16 V - 1,4 V = 14,6V<br>U = 14.6 V/ 10.104,22 Ohm = 0.00144 A"
                     ],
                     "guid": "fWA3,7Mu;s",
