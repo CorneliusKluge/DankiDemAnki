@@ -1,0 +1,863 @@
+{
+    "__type__": "Deck",
+    "children": [
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8ec4c8-9b9d-11eb-af59-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Abtastung",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8eebe8-9b9d-11eb-a672-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "paste-85fad127431b373d08ab7ffbb42cc90b6740cf6d.jpg",
+                "paste-9d62443220d15f82269adfba2bfb16cdebe99beb.jpg",
+                "paste-be2d7723300397854f2afd07d6aba64e52f8797c.jpg",
+                "paste-e1b4c7cef3a6b1b152c8d26c8cc72fdb817d0301.jpg",
+                "paste-f8989edae0d2ef803ab6885439a4bd9c9dd85956.jpg"
+            ],
+            "name": "Allgemeine Grundlagen",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "1. Wie hoch ist der Teilstrom an R4? Den Spannungsabfall bei Siliziumdioden in Flussrichtung<br>beachten! (kurzer Rechenweg) (4p)<br><img src=\"paste-f8989edae0d2ef803ab6885439a4bd9c9dd85956.jpg\">",
+                        "\\(\\frac{ 1 }{R123&nbsp; } = \\frac{ 1 }{ R1 } +\\frac{ 1 }{R2&nbsp; } + \\frac{ 1 }{ R3 }=&gt;<br><br><br>(Bruch-erweitern) \\frac{ 1 }{ R123 } = \\frac{ R2*R3+R1*R3+R1*R2 }{ R1*R2*R3 }<br>=&gt; R123 = \\frac{ R1*R2*R3 }{R2*R3+R1*R3+R1*R2} =&gt;R123= 104,22 Ohm\\)<br>R123 + R4 = 10.104,22 Ohm<br>Dioden nehmen 0,7 V =&gt; 16 V - 1,4 V = 14,6V<br>U = 14.6 V/ 10.104,22 Ohm = 0.00144 A"
+                    ],
+                    "guid": "fWA3,7Mu;s",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<div>Wie groß ist der Strom Iges nach 720 ms?&nbsp;<br></div><img src=\"paste-9d62443220d15f82269adfba2bfb16cdebe99beb.jpg\">",
+                        "<img src=\"paste-85fad127431b373d08ab7ffbb42cc90b6740cf6d.jpg\">"
+                    ],
+                    "guid": "j-<x>&@KqW",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche ungefähre Farbtemperatur haben Glühlampen?&nbsp;<br>",
+                        "<div>Gängige Glühlampen haben eine Farbtemperatur von ca. 2600 - 2800 K.<img src=\"paste-be2d7723300397854f2afd07d6aba64e52f8797c.jpg\"><img src=\"paste-e1b4c7cef3a6b1b152c8d26c8cc72fdb817d0301.jpg\"></div>"
+                    ],
+                    "guid": "lM|%|1cB_9",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Richtung haben Magnetlinien?",
+                        "- vom Nordpol zum Südpol hin"
+                    ],
+                    "guid": "D~Q1z>YJ[v",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Erläutern Sie die Komprimierung des YUV- Modells!",
+                        "- Im YUV Farbraum steckt die Helligkeitsinformation nur in der Y-Komponente<br>- Das menschliche Auge hat verschiedene Auflösungsvermögen, deshalb ist es möglich diese Informationen verschieden zu gewichten (chrominance subsampling)<br>- Hier wird die Y-Komponente, also die Helligkeit mit voller Auflösung abgetastet, und die anderen beiden Komponenten U und V mit halber Auflösung<br>- Es werden zwei Pixel zu einem interpoliert<br><br>- Hinzu kommt, daß in einem Bild Regionen mit gleicher Helligkeit häufiger vorkommmen, , Somit wird hier noch zusätzlich eine stärkere Kompression der Y-Komponente begünstigt.<br><br>kurz: es werden nur 2 Kanäle benötigt"
+                    ],
+                    "guid": "O,8V_[B,4F",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Temperatur hat die Sonne ungefähr?",
+                        "5600K"
+                    ],
+                    "guid": "A-4pc?eRIN",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was versteht man unter R-Y und B-Y?",
+                        "- Differenzsignal- Helligkeitsinformationen R-rot, B- blau"
+                    ],
+                    "guid": "SNcn=tLF~",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wieviele Zeilen hat das PAL?",
+                        "- 625 Zeilen insgesamt<br>- 576 Zeilen sichtbar- reserviert für Austastlücken<br>- 768 Spalten<br>- 1/50sek. Belichtungszeit für 2 Halbbilder<br>- 1/25sek. Belichtungszeit für Halbbild<br>- 6MHz Bandbreite<br>- 13.5 MHz Abtastrate"
+                    ],
+                    "guid": "yI_EG;L$*&",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8f12fa-9b9d-11eb-ba9c-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Blockschaltpläne",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8f3a13-9b9d-11eb-804d-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Cutting / Videobearbeitung",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Nennen Sie die Vor- und Nachteile linearer und nicht- linearer Schhnittplätze!",
+                        "Linear<br>Vorteil: schneller, geringer Speicherbedarf<br>Nachteil: teuer, nicht krativ<br><br>Nicht Linear<br>Vorteil: kreativ, billiger<br>Nachteil: längerfristig, hoher Speicherbedarf"
+                    ],
+                    "guid": "C-6B)dl6|7",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Warum nutzt man das Schrägspurverfahren?",
+                        "- damit Bandbreite erhöht wird<br>- Band kann schneller an den Köpfen vorbei"
+                    ],
+                    "guid": "d+-K`[Qg|5",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist ein LTC?",
+                        "- longitudinal time code<br>- Technik, um verschiedene technische Geräte auf den Bruchteil einer Sekunde genau zu synchronisieren<br>- wird mit festen Tonköpfen gelesen<br>- Timecode wird kontinuierlich geschrieben"
+                    ],
+                    "guid": "p&c2CFDY~g",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was verrichtet der Sync? Wie oft wird er in DE bei einem 2,5- stündigen Film benötigt?",
+                        "- Damit man das Bild schneiden kann<br>- 2,5h = 9000 Sekunden * 50Hz (Halbbilder)"
+                    ],
+                    "guid": "h6rn&vf2yD",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8f3a17-9b9d-11eb-9d48-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "Bildschirmfoto 2021-04-18 um 15.28.20.png"
+            ],
+            "name": "Digitalisierung von Signalen",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Kann man Signale hören? Falls ja- wann/ wann nicht?",
+                        "Digitale Signale können in Schwingungen umgewandelt werden und sind somit bspw. über Kopfhörer hörbar.<br>Sie sind nicht hörbar, wenn die Frequenz außerhalb des Hörbereiches vom menschlichen Gehör liegt."
+                    ],
+                    "guid": "Iw&@m_wXLX",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wird es immer analoge Signale geben?",
+                        "Ja, in der Natur existieren nur analoge Signale."
+                    ],
+                    "guid": "b6[lFIM0L[",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist der Unterschied zwischen einem analogen und digitalen Signal?",
+                        "Digital: Zeit- und Wertdiskret<br>Analog: Zeit- und Wertkontinuierlich"
+                    ],
+                    "guid": "Im:ox-9p0/",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Nennen Sie Vor- und Nachteile digitaler Signale!",
+                        "Digital<br>Vorteil: leicht kopierbar, leicht bearbeitbar<br>Nachteil: es existieren Unmengen verschiedener Digitalformate- kein Überblick<br><br>Analog<br>Vorteil: hohe Bandbreite<br>Nachteil: fehlerbehaftet bei Weiterverarbeitung"
+                    ],
+                    "guid": "BD2l|{nXG0",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Stellen Sie die Folge der Digitalisierung dar!",
+                        "Abtasten des analogen Signals- Abtastung- diskontinuierliche Folge analoger Werte- Quantisierung- diskontinuierliche Folge digitaler Werte- digitale Darstellung- Folge digitaler Werte als Ergebnis"
+                    ],
+                    "guid": "B2;oACvN8u",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Nennen Sie die Werte der digitalen Zustände Low und High!",
+                        "Low: 0 - 0,4 V<br>High: 4,1 - 5 V"
+                    ],
+                    "guid": "tsKK6t4f!X",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet Quantisierung?",
+                        "- Abtastwerte werden im Definitionsbereich abgetastet<br>- Quantisieren= runden"
+                    ],
+                    "guid": "f%b#tfH:l?",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet Sampling?",
+                        "- Samplingrate mind. doppelt so hoch wie max. Signalfrequenz (44,1kHz)<br>- wird später runtergerechnet auf ca. 20kHz<br>- Abtastung des Signals"
+                    ],
+                    "guid": "OiMkG$G)Y?",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Modulationsmethoden kennen Sie?",
+                        "Frequenzmodulation (FM):<br>- Amplitude bleibt gleich, Frequenz wird moduliert<br>- Nutzsignal wird auf dem Trägersignal aufmoduliert<br><br>Amplitudenmodulation (AM):<br>- Frequenz bleibt gleich<br>- unterschiedliche Amplitudenhöhe (wird moduliert)<br>- Nutzsignal wird aufmoduliert<br><br>Quadrantenmodulation (QM):<br>- 2 Schwingungen gleicher Frequenz mit 90 Grad Phasenverschiebung<br>-Winkel im Einheitskreis wird um 90 Grad gedreht- unterschiedlich langer Vektor, Einfluss auf Amplitude"
+                    ],
+                    "guid": "PcRbz0E==b",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Zeichnen Sie zwei mit unterschiedlicher Amplitude und unterschiedlicher Phasenlänge (90 Grad) ein! Zeigen Sie den Zusammenhang des entstehenden Vektors hinsichtlich Winkel und Betrag!",
+                        "<img src=\"Bildschirmfoto 2021-04-18 um 15.28.20.png\"><br>- Amplitude und Phasenkreis hängen zusammen<br>- Einheitskreis= Farbkreis"
+                    ],
+                    "guid": "PPQG(yD;*9",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie hoch ist die Maximalspannung von Videosignalen?",
+                        "1V"
+                    ],
+                    "guid": "m89F/:r1;4",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8f612c-9b9d-11eb-9368-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Kompression",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8f6130-9b9d-11eb-afce-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "paste-374ce84ea9f24ba1811e6beb0206a88d1352f8d9.jpg",
+                "paste-5cbd13dae8ed4b39e4c89e6e93d6d3777b3b3ca0.jpg",
+                "paste-c1d2a38f876a3b44aea48e5fba130dab61c264fa.jpg"
+            ],
+            "name": "Optik",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Linsen kennen Sie?<br>",
+                        "<img src=\"paste-c1d2a38f876a3b44aea48e5fba130dab61c264fa.jpg\"><div><img src=\"paste-374ce84ea9f24ba1811e6beb0206a88d1352f8d9.jpg\"><br></div>"
+                    ],
+                    "guid": "vFpv%_?.!t",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was verstehen Sie unter Bildschärfe?<br>",
+                        "Deutliches Wahrnehmen von Kanten und Konturen,<div>Hohe Kontrastunterschiede (insbes. Hell-Dunkel-Kontrast),</div><div>Hohe Farbunterschiede,</div><div>Unterschiedliche Formen</div>"
+                    ],
+                    "guid": "Q70$ky@Qab",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was verstehen Sie unter \"Normalobjektiv\"?&nbsp;<br>",
+                        "Ein Objektiv, bei dem die Brennweite der Diagonalen des Aufnahmemediums entspricht.<div>43mm Brennweite bei Kleinbildformat (24 x 36 mm)<br><div><img src=\"paste-5cbd13dae8ed4b39e4c89e6e93d6d3777b3b3ca0.jpg\"><br></div></div>"
+                    ],
+                    "guid": "GEZ{&S184h",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet Zoom?",
+                        "kontinuierliche Änderung der Brennweite an einem festen Standort"
+                    ],
+                    "guid": "Nw2z_)&~72",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist beim Einsatz von Weitwinkelobjektiven wichtig bzw. zu beachten? Wann überwiegen die Vorteile?",
+                        "Überbelichtung; das reale Abbild könnte verzerrt werden<br><br>Vorteile überwiegen in dunklen Umgebungen"
+                    ],
+                    "guid": "A}eRf+p{o}",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welchen Einfluss hat der Linsendurchmesser auf die Lichtstärke eines Objektivs?",
+                        "- je größer der Durchmesser, desto lichstärker ist das Objektiv<br>- bei großer Blende (kleine Öffnung) wird weniger Licht reingelassen<br>- bei kleiner Blende (große Öffnung) wird mehr Licht reingelassen"
+                    ],
+                    "guid": "c0bm[<#NS!",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist Tiefenschärfe? Nennen sie Zusammenhänge!",
+                        "Maß für die Ausdehnung des scharfen Bereiches im Objektraum eines optischen Systems<br><br>Die Schärfentiefer ist umso größer:<br>- je heller die Aufnahmeumgebung<br>- je größer die Blende<br>- je höher die Blendenzahl<br>- je kleiner die Brennweite (Weitwinkel)<br>- je größer die Entfernung zum Aufnahmeobjekt (Schärfeverlagerung)<br>- 1/3 Schärfe vor dem Objekt<br>- 2/3 Schärfe nach dem Objekt"
+                    ],
+                    "guid": "DVwhJQbq0~",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wann ist ein Bild scharf? Wie groß ist der \"Schärfenbereich\" des menschlichen Auges?",
+                        "- scharfe Kanten und Konturen<br>- hohe Farbunterschiede<br>- Schärfenbereich des menschl. Auges ist 8%, im 4:3 Format genau in der Mitte"
+                    ],
+                    "guid": "cL|,C,Ca#7",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist bei hoher Blendenzahl zu unternehmen?",
+                        "- längere Belichtungszeiten<br>- Begungseffekte<br>- förderliche Blende"
+                    ],
+                    "guid": "gL09NPD*,!",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Nennen Sie mindestens 3 Hauptbestandteile einer elektronischen Videokamera!",
+                        "- Objektiv<br>- Sucher/ Mikrofon<br>- Kamerakopf<br>- Recordereinheit<br>- Multifunktionsdisplay"
+                    ],
+                    "guid": "df)`iLr>|w",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wozu dient der Weißabgleich?",
+                        "- Kamera an Lichtverhältnisse anpassen<br>- alle Lichtfarben müssen verteilt sein- neutrales Grau (metameriefrei)<br>- Farbanteile an RGB anpassen"
+                    ],
+                    "guid": "I;o]e.cc}B",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wann wird ein Schwarzabgleich nötig?",
+                        "In elektronischen Kameras werden die Verstärker der drei Farbkanäle (RGB) so aneinander angeglichen, dass schwarze Bildteile einer Szene ohne Farbstich, also neutral, wiedergegeben werden."
+                    ],
+                    "guid": "fSB4sv>UAE",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie kann man eine kontinuierliche Brennweitenveränderung noch nennen?",
+                        "Zoomfahrt; erzeugt den Eindruck einer Kamerabewegung/Fahrt"
+                    ],
+                    "guid": "[[vS<^v9F",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Nennen Sie die wichtigsten Einstellungsgrößen und beschreiben Sie kurz Verwendung und Wirkung!",
+                        "1. Extreme Totale/ Panorama (Long Shots)<br>- zeigt Menschen oder Landschaften aus großem Abstand<br><br>2. Totale (Wide Shot)<br>- führt die Örtlichkeit und/oder die Handlung ein<br><br>3. Halbtotale (Full Shot)<br>- zeigt einen Menschen von Kopf bis Fuß oder ein Objekt vollständig. führt person ein/ begleitet sie<br><br>4. Die Amerikanische (Three Quarter Shot)<br>- zeigt den Menschen vom Knie an aufwärts und verdankt ihren deutschen Namen<br>der häufigen Verwendung bei Duell-Szenen in Western-Filmen. Filmheld, Halfter,<br>Colt und die \"ziehende\" Hand konnten nur in dieser Einstellung vernünftig ins Bild<br>gesetzt werden<br><br>5. Halbnahe (Medium Shot)<br>- zeigt den Menschen von der Hüfte an aufwärts. Sie zeigt uns mehr von der<br>Handlung und lenkt unser Interesse auf eine Person<br><br>6. Die Nahe (Head &amp; Shoulder)<br>- ist die am häufigsten für Dialoge oder in Interviews verwendete Größe. Wir stellen<br>damit mehr Nähe zur Filmfigur her, können ihr Verhalten, ihre Aktionen und<br>Reaktionen zeigen<br><br>7. Groß (Close- Up)<br>- zeigt den Kopf oberhalb der Schultern und erlaubt eine größere Annäherung an die<br>Filmfigur. Sie zeigt vor allem Mimik und Gestik der Filmfigur. Eine eher im<br>Videobereich verwendete Größe<br><br>8. Detail (Extreme Close- Up)<br>- Kinn und Stirn sind angeschnitten. Keine belanglose Größe, sondern eine besonders<br>dichte, die man mit Bedacht einsetzen sollte. Sie kann innere Zustände und Emotionen<br>besonders intensiv abbilden<br>- besondere Details als Makroaufnahmen"
+                    ],
+                    "guid": "MImGvn7Y(h",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was versteht man unter der Auflösung eines Videosystems und welchen Zahlenwert sollten professionelle Videosysteme aufweisen?",
+                        "1. Schärfeinformation, d.h. die Fähigkeit, kleine Bilddetails abzubilden. Je feiner bzw. größer die Auflösung, desto größer wird die zu übertragende Videofrequenzbandbreite, Modulationstiefe, Horinzontalauflösung, Vertikalauflösung, Bewegtbildauflösung und die Grafik- Standards<br><br>2. Bei der Analog/ Digital- Wandlung beschreibt die Auflösung die Anzahl der Pegelstufen bei der Quantisierung. Eine Schärfeinformation z.b. das digitalisierte Bild ist darin nicht enthalten.<br><br>3. Zahlenwert: 768x576"
+                    ],
+                    "guid": "Q$^+qS.g!?",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist ein geleiteter Schwenk und wovon ist die Schwenkgeschwindigkeit abhängig?",
+                        "- horizontale Bewegung meist gleich bleibender Geschwindigkeit der Kamera<br>- beim schnellen Schwenk einer Kamera z.b. über einen Lattenzaun ergibt sich, je nach Geschwindigkeit durch die Latten ein Shutter- Effekt (ruckelnde Bilder)"
+                    ],
+                    "guid": "BU)!}9&]lS",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Warum hat man sich bei der EU- Fernsehnorm für 25Bilder/s entschieden?",
+                        "- grundsätzliche Übertragung im Zeilensprungverfahren&nbsp;<br>- dabei bestehen 25 Vollbilder/s aus jeweils 2 Halbbildern<br>- im Normalfall trägt jedes Halbbild eine Bewegungsphase, so dass sich eine Bewegtbildauflösung von 50 Hz ergibt"
+                    ],
+                    "guid": "oB}F.?dA!q",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Erklären Sie den Zusammenhang zwischen Brennweite und verwendetem Objektiv!",
+                        "- große Brennweite von 50mm bis ∞<br>- kleine Brennweite von &gt;50mm bis 0<br>- Weitwinkelobjektiv&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Teleobjektiv<br>(kleine Brennweite)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (große Brennweite)"
+                    ],
+                    "guid": "xQI+V~60p*",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Ringe sollte ein Profiobjektiv mindestens haben?",
+                        "4 Ringe (Zoom, Schärfe, Blende, Auflagemaß)"
+                    ],
+                    "guid": "s/^3yb~T/!",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was verstehen Sie unter einem Normalobjektiv?",
+                        "- Normalbrennweite- 50mm ca. 46 Grad Blickwinkel<br>- gibt kaum Verzerrungen<br>- bezieht sich auf Kleinbildfilm"
+                    ],
+                    "guid": "mlYZH_kW**",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8f8842-9b9d-11eb-9d80-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "Bildschirmfoto 2021-04-18 um 15.52.14.png",
+                "paste-61e03754f086b831b9eb3d01e64e58c47c71e345.jpg",
+                "paste-9284487387ccbe04d15fac04f49088147c377097.jpg"
+            ],
+            "name": "Technische Grundlagen",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet BAS? Benennen Sie alle wichtigen Signalbestandteile!&nbsp;<br>",
+                        "Schwarz-weißes Videosignal bestehend aus:<table><tbody><tr><td><br><b>Bildsignal</b>: Festlegen von Hell-Dunkel durch Spannung zwischen 0,3 V (Schwarz) und 1 V (Weiß)<br><b>Austastsignal</b>: Ausschaltung des Elektronenstrahls bei Zeilenwechsel<br><b>Synchronsignal</b>: steuert Gleichlauf<br></td></tr></tbody></table>"
+                    ],
+                    "guid": "cc;d3Mz`Lh",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sagt eine BAS-Angabe über die Übertragungsart des Signals aus?",
+                        "Da digitale Videosignale nicht über Synchronimpulse verfügen, kann es sich nur um eine Angabe eines analogen Videosignals handeln."
+                    ],
+                    "guid": "uPV1,`n7yl",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet \"Burst\"?",
+                        "Ein Burst-Signal ist ein kurzes Signal, was der eigentlichen Videosignalübertragung vorausgeht. Durch das Burst-Signal wird die Phasenlage und Frequenz einer Schwingung übertragen.&nbsp;<br><div>Es wird auch zu Prüfzwecken genutzt.</div>"
+                    ],
+                    "guid": "PfAC+8f*dQ",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie viele Zeilen <i>sieht</i> man bei einer PAL-Übertragung?&nbsp;<br>",
+                        "<div>Bei PAL werden 625 Zeilen übertragen, die Steuersignale der 25 Bildwechsel pro Sekunde (und pro Halbbild) verbrauchen aber etwas Zeit.&nbsp;</div><div>625 - (25*2) = 575 Zeilen.</div>"
+                    ],
+                    "guid": "i?O4|ar@#i",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was macht das Synchronsignal einer (F)BAS-Übertragung?",
+                        "Gleichlauf von Sender und Empfänger,<div>Taktung von diversen Studiogeräten, um Mischbarkeit zu gewährleisten</div>"
+                    ],
+                    "guid": "x;WeUhZEVy",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie oft wird das Synchronsignal in Deutschland bei einem 90-minütigen Film benötigt?",
+                        "575 Zeilen pro 25 Vollbilder pro Sekunde = 50 Halbbilder pro Sekunde<div>288 * 50 Halbbilder * 60 Sekunden = 864.000 Synchronsignale / Minute</div><div>864.000 Sync. * 90 Minuten = 77.760.000 Synchronsignale&nbsp;im Verlauf eines 90-minütigen Films.</div>"
+                    ],
+                    "guid": "tN$w<p%C~}",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Gegeben ist ein Bild mit einer Farbfläche, welche folgende Anteile hat:&nbsp;<div>R = 45%,&nbsp;</div><div>G = 11%,</div><div>B = 33%.<br>Transformieren Sie in das YUV-Farbmodell!&nbsp;</div><div>Wie hell ist die Farbfläche?&nbsp;</div><div>Welche Farbe hat die Farbfläche?&nbsp;<br></div>",
+                        "<b>Formeln zur Umwandlung von RGB zu YUV:</b><br>Y = 0,299*R + 0,587 * G + 0,114 * B&nbsp;<br><div>U = B - Y</div><div>V = R - Y</div><div><br></div><div>→ Y = 0,299 * 45 R + 0,587 * 11 G + 0,114 * 33 B</div><div>= 13,455 + 6,457 + 3,762&nbsp;</div><div>= 23,674 / 100 → Helligkeit beträgt 0,23674.</div><div>U = 33 - 23,674 = 9,326 / 100 = 0,09326</div><div>V = 45 - 23,674 = 21,326 / 100 = 0,21326</div><div><br></div><div>Farbwerte bei&nbsp;<a href=\"http://colorizer.org\">http://colorizer.org</a>&nbsp;unter \"YPbPr / YUV\" eingeben</div><div>→&nbsp;&nbsp;<img src=\"paste-9284487387ccbe04d15fac04f49088147c377097.jpg\"></div><div>(siehe rot unterstrichen)</div><div><br></div><div>Oder per Farbebene ablesen:</div><div><img src=\"paste-61e03754f086b831b9eb3d01e64e58c47c71e345.jpg\"><br></div>"
+                    ],
+                    "guid": "h-#4MYwJg7",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Zeichnen Sie 2 Schwingungen mit gleicher Amplitude in ein Koordinatensystem! Die Phasenverschiebung beträgt 90 Grad.",
+                        "<img src=\"Bildschirmfoto 2021-04-18 um 15.52.14.png\">"
+                    ],
+                    "guid": "jTmg%Ioaj|",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "ec8f8846-9b9d-11eb-978d-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "Bildschirmfoto 2021-04-18 um 15.37.18.png",
+                "Bildschirmfoto 2021-04-18 um 15.42.38.png"
+            ],
+            "name": "Vierpoltheorie",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wo ist der Innenwiderstand wichtig?",
+                        "Bei der Anpassung im Vierpol"
+                    ],
+                    "guid": "O2pd:{aCDB",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet Masse bei Vierpolen und Schaltungssystemen?",
+                        "Masse = Erdung<br><img src=\"Bildschirmfoto 2021-04-18 um 15.37.18.png\">"
+                    ],
+                    "guid": "LOl6OJO]5O",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wann ist ein Vierpol ein Verstärker? (Verstärkung darf nicht Teil der Antwort sein)",
+                        "Eingangssignal &lt; Ausgangssignal"
+                    ],
+                    "guid": "zb|ky!S&wJ",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet Anpassung?",
+                        "Eingangssignal = Augangssignal<br>Eingangswiderstand = Ausgangswiderstand<br><img src=\"Bildschirmfoto 2021-04-18 um 15.42.38.png\">"
+                    ],
+                    "guid": "d7xDgWgiyV",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
+        }
+    ],
+    "crowdanki_uuid": "ec8e9dad-9b9d-11eb-a408-2cf05d79ab8e",
+    "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Standard",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Videotechnik",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Einfach-c578e",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+            "css": ".card {\n font-family: arial;\n font-size: 16px;\n text-align: left;\n color: black;\n background-color: white;\npadding: 5px\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Standard-6e06c",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                    "bafmt": "",
+                    "bfont": "Arial",
+                    "bqfmt": "",
+                    "bsize": 12,
+                    "did": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": []
+}
