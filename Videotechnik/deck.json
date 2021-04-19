@@ -99,9 +99,22 @@
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
-            "media_files": [],
+            "media_files": [
+                "big_thumb.jpg"
+            ],
             "name": "Digitalisierung von Signalen",
-            "notes": []
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Erläutern Sie den Begriff Sampling?Welche Rolle spielt die Quantisierung? Skizzen und exakte<br>Bezeichnung!",
+                        "Beim Sampling wird ein analoges Signal in regelmäßigen Abständen abgetastet (Samplingrate). Das analoge Signal ist zunächst werte - und zeitkontinuierlich. Beim Sampling wird das Signal zeitdiskret, jedoch bleiben die Werte kontinuierlich. Die Quantisierung unterteilt die Werte in bestimmte zustände, damit aus dem wertkontinuierlichem Signal ein wertdiskretes Signal wird.<br><img src=\"big_thumb.jpg\">"
+                    ],
+                    "guid": "GsNC[nJ!mg",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                }
+            ]
         },
         {
             "__type__": "Deck",
