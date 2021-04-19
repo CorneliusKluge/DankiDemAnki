@@ -114,6 +114,390 @@
                     "guid": "AoS~;],1-b",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist die Aufgabe des Zugriffschutzes?",
+                        "Verhindern von unerlaubten Zugriffen"
+                    ],
+                    "guid": "njS~]1|)G7",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Für was ist die Abrechnung zuständig?",
+                        "Erfassung und Aufbereitung des Ressourcenverbrauchts (z.B. Drucker, Kamera, Beamer)"
+                    ],
+                    "guid": "bxS$?u%=p?",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist das Hauptziel des Betriebssystems?",
+                        "Die Optimale Auslastung der Betriebsmittel"
+                    ],
+                    "guid": "K%s5xk)zyI",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Aufgabe wird im Bezug auf die&nbsp;Eingabe und Ausgabe der Peripherie erfüllt?",
+                        "Die Koordination und \"Verbergen\" der Lese- und Schreibvorgänge (CD, HDD, SD)"
+                    ],
+                    "guid": "v!rA~pZNd}",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie funktioniert Multiprogramming?",
+                        "Während eines Prozesses auf I/O wartet, werden andere Prozesse ausgeführt. Der Wechsel geschieht durch Interrupts (Polling o. DMA)."
+                    ],
+                    "guid": "Cuc6W2z:0x",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie werden Prozesse im Multitasking abgearbeitet?",
+                        "Die Prozesse werden häppchenweise von der CPU abgearbeitet."
+                    ],
+                    "guid": "IMA4J$<5-R",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was heißt Spooling und wie funktioniert es?",
+                        "- Spooling:&nbsp;simultaneous peripheral operations online<br>- zu bearbeitende Aufträge werden in Puffer oder auf externen Datenspeicher gespeichert, bevor sie der eigentlichen Verarbeitung zugeleitet werden<br>(z.B.&nbsp;Drucken und gleichzeitig was anderes machen)"
+                    ],
+                    "guid": "kNz-(LT]<%",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was versteht man unter Time Sharing?",
+                        "- System wird von mehreren Nutzern gleichzeitig genutzt<br>- durch gleichzeitiges Multiprogramming + Multitasking wird die Rechenzeit \"geteilt\"<br>- pseudoparallele Nutzung des Systems"
+                    ],
+                    "guid": "p&aK`xH.ql",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was für moderne Technologien werden heute genutzt?",
+                        "- Multimedia mit QoS\n<br>- skalierbare Systeme (horizontal, vertikal)\n<br>- Embedded Systems\n<br>- Interoperabilität"
+                    ],
+                    "guid": "sQ:Ln|*kd~",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Zielfunktionen gibt es im BS und warum werden sie auch als Zielkonkurrenz bezeichnet?",
+                        "- Optimale Ausnutzung der Betriebsmittel&nbsp;<br>- Bedienung von Nutzeranforderungen<br><br>Die Konkurrenz besteht darin, dass sich durch Nutzereingaben durchgehend die Anforderungen verändern und so die Auslastung der Betriebsmittel stetig angepasst werden muss."
+                    ],
+                    "guid": "oV2Z~0fB@?",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "83c1c96f-a0fe-11eb-b5ae-00d861376c4e",
+            "deck_config_uuid": "83c1c970-a0fe-11eb-af37-00d861376c4e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "Aufbau.PNG",
+                "AufbauLeer.PNG",
+                "Treppenschichtmodell.PNG"
+            ],
+            "name": "2 - Betriebssystemklassifizierung",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist das Ziel der Aufgliederung des BS?",
+                        "Die Bekämpfung der Komplexität,&nbsp;durch mehrere Schichten wird die\nAufgabenmenge einer Schicht viel übersichtlicher."
+                    ],
+                    "guid": "rT7ca=G)3>",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Eigenschaften gibt es in einer&nbsp;hierarchischen Schichtung?",
+                        "-&nbsp;Konsistent: Funktionen der nächstniedrigen Schicht zugreifen (weniger effizient, deswegen aufgegeben)<br>-&nbsp;Quasikonsistent:&nbsp;Funktionen einer niedrigeren Schicht zugreifen<br><br><img src=\"Treppenschichtmodell.PNG\">"
+                    ],
+                    "guid": "x4^$4|F9;*",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie funktioniert die Kommunikation zwischen den Schichten?",
+                        "Durch Dienste, die die angebotenen Funktionen repräsentieren"
+                    ],
+                    "guid": "lc:3{|![8w",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie ist ein BS aufgebaut?<br>Vervollständige das Schichtenmodell<br><img src=\"AufbauLeer.PNG\">",
+                        "<img src=\"Aufbau.PNG\">"
+                    ],
+                    "guid": "gg5nrg%%f7",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sind Schnittstellen?",
+                        "Relation zwischen benachbarten Schichten"
+                    ],
+                    "guid": "l[zYj_/7p=",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist ein Protokoll?",
+                        "Relation zwischen Objekten verschiedener Systeme\neiner Schicht"
+                    ],
+                    "guid": "r$lCZN,m>;",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Für was werden virtuelle Maschinen genutzt?",
+                        "Zur&nbsp;gleichzeitige Ausführung mehrer BS auf einer realen Maschine"
+                    ],
+                    "guid": "dcK8.Xm6`_",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sind die Vorteile einer virtuellen Maschine?",
+                        "- Isolierung<br>- Test<br>- Entwicklung von BS"
+                    ],
+                    "guid": "i:[O`c!<;I",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sind die Nachteile einer virtuellen Maschine?",
+                        "- Ressourcenverbrauch höher als bei Containern<br>- Angriffsoberfläche Hypervisor<br>- evtl. Lizenzberechtigungen pro Hardware"
+                    ],
+                    "guid": "lO{%3WM%ou",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist die Dialogverarbeitung (Interactive Mode)?",
+                        "- Nutzungsform, bei der im ständigen\nWechsel vom Auftraggeber Teilaufträge\n(Transaktionen) erteilt und sofort abgewickelt\nwerden<br>- gleichzeitige Ausführung von Aufträgen mittels Zeitscheiben über einen Zeitraum"
+                    ],
+                    "guid": "n0vo#o^.rG",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist der Vorteile der Dialogverarbeitung (Interactive Mode)?",
+                        "- Gute Antwortzeit<br>- Gut für Interaktive Anwendungen<br>- Nutzer hat den Eindruck, er arbeitet gleichzeitig\nmit mehreren Anwendungen"
+                    ],
+                    "guid": "wE/9$_c=OH",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist der Nachteil der Dialogverarbeitung (Interactive Mode)?",
+                        "Geringe Auslastung der BM"
+                    ],
+                    "guid": "Q!IYU)j=_u",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Beschreibe die zwei Antwortzeiten (deadline) die bei der Echtzeit-Verarbeitung (real-time mode) definiert sind?&nbsp;",
+                        "<b>harte Echtzeit-Anforderungen:</b>&nbsp;<br>- Sekundärspeicher begrenzt bzw. gar nicht vorhanden <br>- Programme/Betriebssysteme im ROM<br><br><b>weiche Echtzeit-Anforderungen</b>\n<br>- kein deadline-Support, meist nur prioritätsbasierend <br>- kaum in Steuerungen einsetzbar<br>- Anwendungsgebiete: Multimedia, VirtualReality"
+                    ],
+                    "guid": "G.ZU!gL=d*",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was steckt hinter der Bezeichnung&nbsp;Cloud?",
+                        "Cloud = Rechnerwolke als Sinnbild für das\nInternet oder ein anderes Netzwerk"
+                    ],
+                    "guid": "L@Y+HH7^&X",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist Cloud Computing?",
+                        "IT-Ressourcen\nwerden über ein Netzwerk (z.B. Internet) von\neinem Cloud-Anbieter zur Verfügung gestellt:\n<br>- Rechenkapazität, Betriebssysteme, Datenspeicher,\nSoftware&nbsp;<br>- Keine Installation auf lokalen Rechnern"
+                    ],
+                    "guid": "JrmP:ACub",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Nenne und beschreibe drei Cloud-Dienste.",
+                        "<b>SaaS </b>= Software as a Service (Nutzer: IT-Betrieb)\n<br>- Software on Demand\n<br>- Cloud-Provider bietet Zugang zu Anwendungsprogrammen\n<br><br><b>PaaS </b>= Platform as a Service (Nutzer: Entwickler)\n<br>- Cloud-Provider bietet Zugang zu Programmierungsumgebungen<br><br><b>IaaS </b>= Infrastructure as a Service (Nutzer:\nEndanwender)\n<br>- Cloud-Provider bietet Zugang zu virtualisierten Rechnern (inkl.\nBS) und Speichersystemen: Basis ist Betriebssystemvirtualisierung"
+                    ],
+                    "guid": "pHWnfP!Z4G",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie wird nach&nbsp;Betriebsart des Rechnersystems klassifiziert?",
+                        "<b>Welche Betriebsart ist es?</b><br><br>- Dialogbetrieb-Betriebssysteme\n<br>- Netzwerk-Betriebssysteme\n<br>- Realzeit-Betriebssysteme\n<br>- Universelle Betriebssysteme (erfüllt mehrere Kriterien)"
+                    ],
+                    "guid": "t%>s=xW(%k",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie wird nach Anzahl der gleichzeitig laufenden Programme klassifiziert?",
+                        "<b>Single Tasking vs. Multitasking<br></b><br>- Einzelprogrammbetrieb (singletasking)\n<br>- Mehrprogrammbetrieb (multitasking)"
+                    ],
+                    "guid": "FV_5E!*JZ4",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie wird nach Anzahl der gleichzeitig am Computer\narbeitenden Benutzer klassifiziert?",
+                        "<b>Single User vs. Multi User</b><br><br>- Einzelbenutzerbetrieb (Single User)<br>- Mehrbenutzerbetrieb (Multi User)"
+                    ],
+                    "guid": "iv98.1_*|z",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "83c217b0-a0fe-11eb-a815-00d861376c4e",
+            "deck_config_uuid": "83c217b1-a0fe-11eb-a627-00d861376c4e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "VerwaltungWorkflow.PNG"
+            ],
+            "name": "3 -Betriebsmittelverwaltung",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Kriterien gibt es für die&nbsp;Betriebsmittelklassifizierung?",
+                        "- Hardware / Software<br>- wiederverwendbar (reusable) / verbrauchbar (consumable)\n<br>- entziehbar (preemptible) / nicht entziehbar (non - preemptible)<br>-&nbsp;exklusiv (exclusive) / mehrfach nutzbar (multiple)\n<br>- Gleichartigkeit / Ersetzbarkeit / Austauschbarkeit"
+                    ],
+                    "guid": "N2YmnQ;(to",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sind die Probleme bei einer Dezentrale Steuerung/Unkoordinierten Nutzung von Betriebsmitteln?",
+                        "- Prozesse müssen sich untereinander abstimmen (außerhalb des OS) <br>- Unerwünschte Effekte können auftreten: 2 Sachen gleichzeitig Drucken"
+                    ],
+                    "guid": "i3.j<(v~SG",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sind die Ziele der&nbsp;Betriebsmittelverwaltung?",
+                        "- kollisionsfreie Abwicklung\naller Aufträge\n<br>- korrekte Bearbeitung aller\nAufträge in endlicher Zeit\n<br>- gleichmäßige und hohe\nAuslastung aller Betriebsmittel\n<br>- hoher Durchsatz aller Aufträge\n<br>- kurze Verweilzeit der Aufträge\n<br>- hohe Ausfallsicherheit"
+                    ],
+                    "guid": "v(&>-y*>@8",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie sieht der Workflow der Betriebsmittelverwaltung aus?",
+                        "<img src=\"VerwaltungWorkflow.PNG\">"
+                    ],
+                    "guid": "EkSVD.7r8^",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Nenne und beschreibe die Aufgaben der Betriebsmittelverwaltung?",
+                        "<b>Buchführung über vorhandene BM\n</b><br>- Zustand, Zuordnung, Zugriffsrechte,...\n<br>- Vermerken der belegten Betriebsmittel<br><br><b>Koordination der BM</b><br>- Entgegennahme von BM-Forderungen\n<br>- Überprüfung der Zugriffsrechte\n<br>- Zeitliche Abfolge der Zuteilung der jeweiligen BM regeln<br>- Zuteilung von BM\n<br>- Freigabe nicht mehr benutzter BM"
+                    ],
+                    "guid": "Q*>;(n|[4=",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Nennen und beschreiben sie zwei Varianten der&nbsp;Betriebsmittelverwaltung.",
+                        "<b>Statische Verwaltung</b>:<br>- Prozesse fordern (Teilabschnitte) gleich alles an (sonst blockiert)<br>- Problem: BM Tastendruck ist nicht vorhersehbar<br><br><b>Dynamische Verwaltung</b>: <br>- Zuteilung On-Demand zur Laufzeit&nbsp;<br>- Vorteil: Bessere Auslastung der BM&nbsp;<br>- Nachteil: Verklemmungen / gegenseitiges Blockieren kann auftreten"
+                    ],
+                    "guid": "I;ewQA^_:2",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
                 }
             ]
         },
@@ -258,6 +642,120 @@
                         "<b>PFF = Arbeitsmengen mit variabler Fenstergröße<br></b><br>Vorgabe einer minimalen und maximalen Seitenfehler-Frequenz<br>Bei Überschreitung der <b>oberenGrenze:&nbsp;</b>Erhöhung der Anzahl der Seitenrahmen<br>Bei Unterschreitung der <b>unteren Grenze:&nbsp;</b>Reduktion der Anzahl der Seitenrahmen"
                     ],
                     "guid": "C8I0RI279T",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "c8364ebf-9d45-11eb-8bb8-888888888788",
+            "deck_config_uuid": "c83600cd-9d45-11eb-aa02-888888888788",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "9 - Ein- und Ausgabe",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet Programmed I/O?",
+                        "Der Prozessor liest oder schreibt die Daten in ein Datenregister der Steuereinheit."
+                    ],
+                    "guid": "o>V{125KiM",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wofür steht DMA?",
+                        "Direct Memory Access -&nbsp;Direkter Speicherzugriff<br>Die Steuereinheit kann über den Bus selbständig auf den HS zugreifen."
+                    ],
+                    "guid": "MG!1@>[#F(",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Beschreibe was bei einem Interrupt passiert!",
+                        "E/A Modul gibt ein Interrupt Request Signal.<br>Prozessor läuft eine Interrupt Service Routine (ISR) und kann jetzt abhängig von der ISR was anderes machen.<br>Prozessor führt das Programm nach dem Interrupt fort."
+                    ],
+                    "guid": "x-xkv$q0In",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was passiert beim Polling?",
+                        "Der Prozessor frage in bestimmten Zeitabständen, ob <i>das </i>Ereignis eingetreten ist. Das Betriebssystem wartet in aktiver Warteschleife (busy wait) auf E/A."
+                    ],
+                    "guid": "c3dh/umL$5",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Vergleiche Polling und Interrupt!",
+                        "Polling ist einfach umzusetzen, kostet aber laufend Rechenzeit.<br>Bei Interrupts kann die CPU weiterarbeiten, während E/A arbeitet.<br>In der Regel bieten Interrupts eine&nbsp;Verbesserung der Rechenleistung. Bei kurzen E/A-Befehlen (z.B. Tastatur) ist Polling schneller."
+                    ],
+                    "guid": "O|u.4nI}eW",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Erkläre kurz, was bei DMA passiert!",
+                        "Die CPU initialisiert einen Datentransfer&nbsp;zwischen E/A Gerät und Hauptspeicher und ist dann frei für andere Aufgaben.<br>Der DMA Controller sendet einen Interrupt an die CPU, wenn der Transfer beendet ist."
+                    ],
+                    "guid": "y1oah%k/<>",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Ist Festplattenscheduling noch wichtig? Begründung",
+                        "Ja.<br>CPU werden immer schneller, Festplatten nicht. Durch immer größere Platten kann die Suchzeit sogar größer werden."
+                    ],
+                    "guid": "t[.Rk)JO~+",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Nenne zwei Methoden der E/A-Kommunikation zwischen CPU und Peripheri!",
+                        "Memory-mapped I/O<br>Port-mapped I/O"
+                    ],
+                    "guid": "k}ZwAYJd+W",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist&nbsp;Memory-mapped I/O?",
+                        "Speicher und Register des E/A-Gerätes werden auf den gleichen Adressraum wie der HS abgebildet. Anweisungen der CPU, die desSpeicherzugriffs dienen, können auch E/A-Geräte ansprechen.&nbsp;"
+                    ],
+                    "guid": "c`WLu9VKIW",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist&nbsp;Port-mapped I/O?",
+                        "Beim Port-mapped I/O wird ein E/A-Gerät über ein spezifisches, diesem Gerät zugeordneten E/A-Port angesteuert."
+                    ],
+                    "guid": "l?BD/Q[B-g",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
                 }
@@ -465,7 +963,7 @@
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
                 }
-                ]
+            ]
         },
         {
             "__type__": "Deck",
@@ -539,8 +1037,8 @@
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
                 }
-                ]
-        },      
+            ]
+        },
         {
             "__type__": "Deck",
             "children": [],
@@ -552,7 +1050,7 @@
             "extendRev": 0,
             "media_files": [],
             "name": "Kapitel 6 - Hauptspeicherverwaltung",
-            "notes": [        
+            "notes": [
                 {
                     "__type__": "Note",
                     "fields": [
@@ -653,120 +1151,6 @@
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
                 }
-                ]
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "c8364ebf-9d45-11eb-8bb8-888888888788",
-            "deck_config_uuid": "c83600cd-9d45-11eb-aa02-888888888788",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 0,
-            "extendRev": 0,
-            "media_files": [],
-            "name": "9 - Ein- und Ausgabe",
-            "notes": [
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was bedeutet Programmed I/O?",
-                        "Der Prozessor liest oder schreibt die Daten in ein Datenregister der Steuereinheit."
-                    ],
-                    "guid": "o>V{125KiM",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Wofür steht DMA?",
-                        "Direct Memory Access -&nbsp;Direkter Speicherzugriff<br>Die Steuereinheit kann über den Bus selbständig auf den HS zugreifen."
-                    ],
-                    "guid": "MG!1@>[#F(",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Beschreibe was bei einem Interrupt passiert!",
-                        "E/A Modul gibt ein Interrupt Request Signal.<br>Prozessor läuft eine Interrupt Service Routine (ISR) und kann jetzt abhängig von der ISR was anderes machen.<br>Prozessor führt das Programm nach dem Interrupt fort."
-                    ],
-                    "guid": "x-xkv$q0In",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was passiert beim Polling?",
-                        "Der Prozessor frage in bestimmten Zeitabständen, ob <i>das </i>Ereignis eingetreten ist. Das Betriebssystem wartet in aktiver Warteschleife (busy wait) auf E/A."
-                    ],
-                    "guid": "c3dh/umL$5",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Vergleiche Polling und Interrupt!",
-                        "Polling ist einfach umzusetzen, kostet aber laufend Rechenzeit.<br>Bei Interrupts kann die CPU weiterarbeiten, während E/A arbeitet.<br>In der Regel bieten Interrupts eine&nbsp;Verbesserung der Rechenleistung. Bei kurzen E/A-Befehlen (z.B. Tastatur) ist Polling schneller."
-                    ],
-                    "guid": "O|u.4nI}eW",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Erkläre kurz, was bei DMA passiert!",
-                        "Die CPU initialisiert einen Datentransfer&nbsp;zwischen E/A Gerät und Hauptspeicher und ist dann frei für andere Aufgaben.<br>Der DMA Controller sendet einen Interrupt an die CPU, wenn der Transfer beendet ist."
-                    ],
-                    "guid": "y1oah%k/<>",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Ist Festplattenscheduling noch wichtig? Begründung",
-                        "Ja.<br>CPU werden immer schneller, Festplatten nicht. Durch immer größere Platten kann die Suchzeit sogar größer werden."
-                    ],
-                    "guid": "t[.Rk)JO~+",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Nenne zwei Methoden der E/A-Kommunikation zwischen CPU und Peripheri!",
-                        "Memory-mapped I/O<br>Port-mapped I/O"
-                    ],
-                    "guid": "k}ZwAYJd+W",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was ist&nbsp;Memory-mapped I/O?",
-                        "Speicher und Register des E/A-Gerätes werden auf den gleichen Adressraum wie der HS abgebildet. Anweisungen der CPU, die desSpeicherzugriffs dienen, können auch E/A-Geräte ansprechen.&nbsp;"
-                    ],
-                    "guid": "c`WLu9VKIW",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was ist&nbsp;Port-mapped I/O?",
-                        "Beim Port-mapped I/O wird ein E/A-Gerät über ein spezifisches, diesem Gerät zugeordneten E/A-Port angesteuert."
-                    ],
-                    "guid": "l?BD/Q[B-g",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                }
             ]
         }
     ],
@@ -777,6 +1161,98 @@
             "__type__": "DeckConfig",
             "autoplay": true,
             "crowdanki_uuid": "c83600cd-9d45-11eb-aa02-888888888788",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Standard",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "83c1c970-a0fe-11eb-af37-00d861376c4e",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Standard",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "83c217b1-a0fe-11eb-a627-00d861376c4e",
             "dyn": false,
             "interdayLearningMix": 0,
             "lapse": {
