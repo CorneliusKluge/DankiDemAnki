@@ -504,6 +504,19 @@
         {
             "__type__": "Deck",
             "children": [],
+            "crowdanki_uuid": "c83600cc-9d45-11eb-9008-888888888788",
+            "deck_config_uuid": "c83600cd-9d45-11eb-aa02-888888888788",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "7 - Virtueller Speicher",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
             "crowdanki_uuid": "c83600cc-9d45-11eb-9009-888888888788",
             "deck_config_uuid": "c83600cd-9d45-11eb-aa02-888888888788",
             "desc": "",
@@ -513,7 +526,7 @@
             "media_files": [
                 "7 - Ablauf Seitenfehler.PNG"
             ],
-            "name": "7 - Virtueller Speicher",
+            "name": "7 - Virtueller Speicher_3",
             "notes": [
                 {
                     "__type__": "Note",
@@ -650,6 +663,213 @@
         {
             "__type__": "Deck",
             "children": [],
+            "crowdanki_uuid": "ff604d4c-a21b-11eb-bfc4-d927f55c68d5",
+            "deck_config_uuid": "ff610fda-a21b-11eb-b9a2-d927f55c68d5",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "1eE1rxNEqWRFm3WS0eugkUYOpjnxuNsVlf-usrOLsQb9rgZV-MaFv4Non-1QTedW8wsjkW5WzftPV20QAx6pHM3zU3K93sAq4j8f7oDLMv57CDiYCSL.png",
+                "4qVkZKUTdjNcM6Asgb7jVGMb6W1L0r10cjpnS7JMuJpg0EriTpcO3ntJZ4ifYtgsbiQgSNaMzudWsOUy6JjELFgnkTcDLTMosRdP5j9W7lRaviT7CNd.png",
+                "6JrBeO83V4efaJHGSWjLfHKh6lLFjNnWIFpMP4nKNRkK8dp8_rFfz0MkcH3z7mLp9HU228484CTvV98o4p-F3CFmXgUCVhZcXdmJjmij5TGhv1RgIFX.png",
+                "8xZn5-jb9ut6RNUegmrHRRHC2hdbAmmrG2xPkO-OCgHhbH5rbuQMT8JiMsoQvAMzz2nH2mGn6gjEw5rom1-aEPzoblQKQEvdchpplp3oAVIYk94YSvM.png",
+                "9wH8qj9vQITXjrc4Zfuzus0-GToaRkbRf0PJF5ciM4EOQpZgTpmhFIsRaiLN6yLZwFWECBa4gmUtcjljT9XgYrFLUAMs1HXHF4D2o7a9DsY1nA8q-eN.png",
+                "RyVvXAy5-9XrsiCFVRBLNPCNz-N-uJcqKPMZHNch4XHFeOTP3tsvn88PFiWK8Zn8PeE8Ws8y3gjOr_uRqeVLWNiAmocyL8WeqrnZXtXhne8EmVLgefu.png",
+                "TJ6jzhu18eopGwHGRRFVkd_1awghluV9GQJ2Y-PJpQr1R3WCxJrTz6XfIr3mJsB7Qa6IuJGIncrcgbFt1na5ilc7u7JDJEoL2D9KmQIPaygFaUappSx.png",
+                "_7hUnITLMvfPqUvTlUVdE0xzZKB6YR1VFeQmtZ5bKzTtm89pJMSrafjP5DwF02c99e362-mYYMsYSCcWLm-Rs4mPS2IXHE8Lw0QobyxXcpLRlVaSzY2.png",
+                "bfwt8ZdsEEnlOBmiosO-8e1gcph4kpSpLyUPiFIwnv--4RPNPfBsdhnMf80bwKyFT_Lnn7w1GjOFX1Co_pu5ejPUhuTSLXra3QKrpt7rzOzQbhgEhtC.png"
+            ],
+            "name": "8 - Leistungsanalyse",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b><span style=\"color: rgb(67, 67, 67); font-weight: 400;\">Wie können elementare Warteschlangensysteme klassifiziert werden?</span></b>",
+                        "<b><span style=\"font-weight: 400;\"><img src=\"8xZn5-jb9ut6RNUegmrHRRHC2hdbAmmrG2xPkO-OCgHhbH5rbuQMT8JiMsoQvAMzz2nH2mGn6gjEw5rom1-aEPzoblQKQEvdchpplp3oAVIYk94YSvM.png\"></span></b>"
+                    ],
+                    "guid": "Chl0cBZ!Gd",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b><span style=\"color: rgb(67, 67, 67); font-weight: 400;\">Nenne die vier Leistungsparameter.</span></b>",
+                        "<b><ul><li><div><span style=\"font-weight: 400;\">Auslastung</span></div></li><li><div><span style=\"font-weight: 400;\">Durchsatz</span></div></li><li><div><span style=\"font-weight: 400;\">Warteschlangenlänge</span></div></li><li><div><span style=\"font-weight: 400;\">Wartezeit</span></div></li></ul></b>"
+                    ],
+                    "guid": "MF(*t/m#w^",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b><span style=\"color: rgb(67, 67, 67); font-weight: 400;\">Wodurch kann die Programmlast am realen System charakterisiert werden?</span></b>",
+                        "<b><ul><li><div><span style=\"font-weight: 400;\">Prozessorleistung</span></div></li><li><div><span style=\"font-weight: 400;\">synthetische Programme</span></div></li><li><div><span style=\"font-weight: 400;\">Benchmarks</span></div></li></ul></b>"
+                    ],
+                    "guid": "q`t5z&z_1]",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b><h3><span style=\"color: rgb(67, 67, 67); font-weight: 400;\">Was gilt hinsichltich Leistung für moderne Systeme und welche Maßnahmen können ergriffen werden um die Leistung zu verbessern?</span></h3></b>",
+                        "<b><ul><li><div><span style=\"font-weight: 400;\">Leistung ist : offensichtlich, kaufentscheident, entscheidet oft über akzeptanz und es gibt meist eine mindestanforderung (z.B: Realtimeanforderungen)</span></div></li></ul>Maßnahmen:<br><ul><li><div><span style=\"font-weight: 400;\">Messung, Modellierung und Leistungsbewertung</span></div></li><li><div><span style=\"font-weight: 400;\">Wichtig bei: Planung, Entwicklung, Tuning, Vergleich von Rechnersystemen</span></div></li></ul></b>"
+                    ],
+                    "guid": "D4R,v=Uvx:",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b><h3><span style=\"color: rgb(67, 67, 67); font-weight: 400;\">Nenne zwei Modelle mit hilfe derer man die Leistung am Entwurf modellieren kann. Vergleiche Sie anschließend miteinander!</span></h3></b>",
+                        "<b><span style=\"font-weight: 400;\"><img src=\"4qVkZKUTdjNcM6Asgb7jVGMb6W1L0r10cjpnS7JMuJpg0EriTpcO3ntJZ4ifYtgsbiQgSNaMzudWsOUy6JjELFgnkTcDLTMosRdP5j9W7lRaviT7CNd.png\"></span></b>"
+                    ],
+                    "guid": "zXfxe{W41h",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b><span style=\"color: rgb(67, 67, 67); font-weight: 400;\">Womit kann die Leistung am realen System ermittelt werden? Was ist im generellen das Ziel einer solchen Leistungsanalyse?</span></b>",
+                        "<b><ul><li><div><span style=\"font-weight: 400;\">Softwaremonitor</span></div></li><li><div><span style=\"font-weight: 400;\">Hardwaremonitor</span></div></li></ul><ul><li><div><span style=\"font-weight: 400;\">Ziel: Flaschenhals erkennen</span></div></li></ul></b>"
+                    ],
+                    "guid": "Pd_^J:Mxmj",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b><h3><span style=\"color: rgb(67, 67, 67); font-weight: 400;\">Nenne drei Voraussetzungen für die deterministische Leistungsanalyse.</span></h3></b>",
+                        "<b><ul><li><div><span style=\"font-weight: 400;\">konstante Arbeitslast</span></div></li><li><div><span style=\"font-weight: 400;\">Abhängigkeiten der Prozesse sind bekannt</span></div></li><li><div><span style=\"font-weight: 400;\">Dauer von Prozessen ist bekannt (z.B. durch Empirie, Analyse, geschätzte Maximalzeit)</span></div></li></ul></b>"
+                    ],
+                    "guid": "b&#GcqL/Y1",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b><span style=\"color: rgb(67, 67, 67); font-weight: 400;\">Was ist der unterschied zwischen&nbsp; “Scheduling” und “Dispatching” bei der Koordinierung des Zugriffs zu Betriebsmitteln?</span></b>",
+                        "<b><ul><li><div><span style=\"font-weight: 400;\">Scheduling: </span><span style=\"font-weight: 400;\"> </span><span style=\"font-weight: 400;\">Planung der Zuteilung<br><br></span></div></li><li><div><b><span style=\"font-weight: 400;\">Dispatching:&nbsp;</span><span style=\"font-weight: 400;\"></span><span style=\"font-weight: 400;\">Realisierung der Zuteilung (führt Planung aus)</span></b><br></div></li></ul></b>"
+                    ],
+                    "guid": "D!r;JOf?;h",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b><h3><span style=\"color: rgb(67, 67, 67); font-weight: 400;\">Was ist der Grundgedanke beim Multiprozessor? Nenne je ein Beispiel-Algorithmus, welcher bei 1. Systemprozessen, 2. Hintergrunddienste verwendet wird.</span></h3></b>",
+                        "<b><ul><li><div><span style=\"font-weight: 400;\">Prozessoraffinität von Prozessen söllte wegen Cache und so berücksichtigt werden</span></div></li></ul><br><ul><li><div><span style=\"font-weight: 400;\">FCFS für Systemprozesse (First come first serve)</span></div></li><li><div><span style=\"font-weight: 400;\">RR für interaktive Dialogverarbeitung (Round Robin)</span></div></li><li><div><span style=\"font-weight: 400;\">Feedback Scheduling für Hintergrunddienste</span></div></li></ul></b>"
+                    ],
+                    "guid": "vY~xt(>4A_",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b><h3><span style=\"color: rgb(67, 67, 67); font-weight: 400;\">Welche dieser Stellen sind zum Treffen von Scheduling-Entscheidungen geeignet? Welche Entscheidungen gibt es?</span></h3></b>",
+                        "<b><span style=\"font-weight: 400;\"><img src=\"TJ6jzhu18eopGwHGRRFVkd_1awghluV9GQJ2Y-PJpQr1R3WCxJrTz6XfIr3mJsB7Qa6IuJGIncrcgbFt1na5ilc7u7JDJEoL2D9KmQIPaygFaUappSx.png\"></span></b><div><b><span style=\"font-weight: 400;\"><img src=\"bfwt8ZdsEEnlOBmiosO-8e1gcph4kpSpLyUPiFIwnv--4RPNPfBsdhnMf80bwKyFT_Lnn7w1GjOFX1Co_pu5ejPUhuTSLXra3QKrpt7rzOzQbhgEhtC.png\"></span></b><b><span style=\"font-weight: 400;\"><br></span></b></div><div><b><span style=\"font-weight: 400;\">(den momentanen Prozess nicht verdrängen, also weiter laufen lassen oder ihn verdrängen und einen anderen Prozess priorisieren)</span></b><b><span style=\"font-weight: 400;\"><br></span></b></div>"
+                    ],
+                    "guid": "Qjuc9h^o~f",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b><h3><span style=\"color: rgb(67, 67, 67); font-weight: 400;\">Nenne zwei zu erreichende Ziele des Scheduling.</span></h3></b>",
+                        "<b><ul><li><div><span style=\"font-weight: 400;\">transparente Entscheidungskriterien</span></div></li><li><div><span style=\"font-weight: 400;\">alle Teile des Systems auszulasten</span></div></li></ul></b>"
+                    ],
+                    "guid": "JF+SucY5}@",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b><h3><span style=\"color: rgb(67, 67, 67); font-weight: 400;\">Welche Kriterien sind ausschlaggebend, welcher der lauffähigen Prozesse als nächstes bedient wird? Gehe dabei auf die Sicht der Prozesse und der CPU genauer ein.</span></h3></b>",
+                        "<b><span style=\"font-weight: 400;\"><img src=\"1eE1rxNEqWRFm3WS0eugkUYOpjnxuNsVlf-usrOLsQb9rgZV-MaFv4Non-1QTedW8wsjkW5WzftPV20QAx6pHM3zU3K93sAq4j8f7oDLMv57CDiYCSL.png\"></span></b>"
+                    ],
+                    "guid": "w)yH!4#k;P",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b><span style=\"color: rgb(67, 67, 67); font-weight: 400;\">Benenne vier Eigenschaften von Poisson Prozessen.</span></b>",
+                        "<b><ul><li><div><span style=\"font-weight: 400;\">EIntreffende Prozesse voneinander und von der absoluten Zeit </span>unabhängig</div></li><li><div><span style=\"font-weight: 400;\">Ankunftsrate zeitlich konstant : </span>stationär</div></li><li><div><span style=\"font-weight: 400;\">mehrere Ankunftsströme vereinigen sich additiv </span>Superposition</div></li><li><div><b><span style=\"font-weight: 400;\">Ausgangsstrom kann sich in mehrere Ströme mit der Wahrscheinlichkeit </span>pi<span style=\"font-weight: 400;\"> </span><span style=\"font-weight: 400;\">teilen<br>(pi, das \"i\" ist tiefgestellt)</span></b></div></li></ul></b>"
+                    ],
+                    "guid": "Ekyt%[gFTA",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b><h3><span style=\"color: rgb(67, 67, 67); font-weight: 400;\">Wonach werden Warteschlangensysteme unterschieden?</span></h3></b>",
+                        "<b><ul><li><div><span style=\"font-weight: 400;\">nach Art des Ankunftsprozessses (Verteilung der Ankünfte, Art der Prozesse)</span></div></li><li><div><span style=\"font-weight: 400;\">dem Bedienmechanismus (bedienzeit, anzahl der bedieneinheiten)</span></div></li><li><div><span style=\"font-weight: 400;\">der warteschlange (kapazität, art des scheduling)</span></div></li></ul></b>"
+                    ],
+                    "guid": "A80ExJDv!+",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b><h3><span style=\"color: rgb(67, 67, 67); font-weight: 400;\">Erkläre anhand der Zielkonflikte der Scheduler Algorithmen, warum es bei Prozessorzuteilungsalgorithmen nicht den einen idealen scheduler algorithmus gibt.</span></h3></b>",
+                        "<b><ul><li><div><span style=\"font-weight: 400;\">Auslastung der CPU (100% wünschenswert, wenn Energie egal)</span></div></li><li><div><span style=\"font-weight: 400;\">Durchsatz: Anzahl der erledigten Aufgaben pro Zeit</span></div></li><li><div><span style=\"font-weight: 400;\">Fairness: Jeder Benutzer / Prozess hat im Mittel die gleichen Zeitanteile</span></div></li><li><div><span style=\"font-weight: 400;\">Ausführungszeit (turnaround time): minimal</span></div></li><li><div><span style=\"font-weight: 400;\">Wartezeit (waiting time): minimal</span></div></li><li><div><span style=\"font-weight: 400;\">Antwortzeit (response time): minimal</span></div></li></ul></b>"
+                    ],
+                    "guid": "f1.%h=;uq+",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b><h3><span style=\"color: rgb(67, 67, 67); font-weight: 400;\">Was ist die Besonderheit von Multilevel Feedback Scheduling?</span></h3></b>",
+                        "<b><ul><li><div><span style=\"font-weight: 400;\">Benachteiligung von langsamen Prozessen</span></div></li><li><div><span style=\"font-weight: 400;\">Queues mit mit kürzerer Zeitscheibe haben höhere Priorität</span></div></li></ul></b>"
+                    ],
+                    "guid": "BY.J-c_~dU",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Maßzahlen der Bedienungstheorie und deren Berechnung",
+                        "<b><div><span style=\"font-weight: 400;\">&nbsp;- Mittlere Ankunftszeit E(T<sub>a</sub>), durchschnittliche Ankunftsrate: \\lambda<br><br></span></div><div><span style=\"font-weight: 400;\">&nbsp;&nbsp;- Mittlere Bedienzeit E(T<sub>b</sub>), durchschnittliche Bedienrate: \\mu<br><br></span></div><div><span style=\"font-weight: 400;\">&nbsp;&nbsp;- Mittlere Wartezeit E(T<sub>w</sub>)<br><br></span></div><div><span style=\"font-weight: 400;\">&nbsp;&nbsp;- Verweildauer: E(T<sub>v</sub>)=E(T<sub>w</sub>)+E(T<sub>b</sub>)<br><br></span></div><div><span style=\"font-weight: 400;\">&nbsp;&nbsp;- Verkehrswert (Verweildauer): \\rho<br><br></span></div><div><span style=\"font-weight: 400;\">&nbsp;&nbsp;- mittlere Anzahl der Forderungen E(N<sub>v</sub>)</span></div><div><br></div><div><span style=\"font-weight: 400;\">--------</span><span style=\"font-weight: 400;\"><br></span></div><div><span style=\"font-weight: 400;\">Berechnungen:</span></div><br><div><span style=\"background-color: rgb(24, 26, 27); font-weight: 400;\"><img src=\"RyVvXAy5-9XrsiCFVRBLNPCNz-N-uJcqKPMZHNch4XHFeOTP3tsvn88PFiWK8Zn8PeE8Ws8y3gjOr_uRqeVLWNiAmocyL8WeqrnZXtXhne8EmVLgefu.png\"></span></div><div><span style=\"font-weight: 400;\">--------</span><span style=\"background-color: rgb(24, 26, 27); font-weight: 400;\"><br></span></div><div><span style=\"font-weight: 400;\"><img src=\"6JrBeO83V4efaJHGSWjLfHKh6lLFjNnWIFpMP4nKNRkK8dp8_rFfz0MkcH3z7mLp9HU228484CTvV98o4p-F3CFmXgUCVhZcXdmJjmij5TGhv1RgIFX.png\"></span></div><div><span style=\"font-weight: 400;\">--------</span></div><div><span style=\"font-weight: 400;\"><img src=\"_7hUnITLMvfPqUvTlUVdE0xzZKB6YR1VFeQmtZ5bKzTtm89pJMSrafjP5DwF02c99e362-mYYMsYSCcWLm-Rs4mPS2IXHE8Lw0QobyxXcpLRlVaSzY2.png\"></span></div><div><span style=\"font-weight: 400;\">--------</span><span style=\"font-weight: 400;\"><br></span></div><div><b><span style=\"font-weight: 400;\"><img src=\"9wH8qj9vQITXjrc4Zfuzus0-GToaRkbRf0PJF5ciM4EOQpZgTpmhFIsRaiLN6yLZwFWECBa4gmUtcjljT9XgYrFLUAMs1HXHF4D2o7a9DsY1nA8q-eN.png\"></span></b><br></div></b><br>"
+                    ],
+                    "guid": "f^jJ2zq^+(",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "f4de882b-9c9b-11eb-9fe4-888888888788",
+            "deck_config_uuid": "f4deaf1e-9c9b-11eb-aac7-888888888788",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "9 - Ein- und Ausgabe",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
             "crowdanki_uuid": "c8364ebf-9d45-11eb-8bb8-888888888788",
             "deck_config_uuid": "c83600cd-9d45-11eb-aa02-888888888788",
             "desc": "",
@@ -657,7 +877,7 @@
             "extendNew": 0,
             "extendRev": 0,
             "media_files": [],
-            "name": "9 - Ein- und Ausgabe",
+            "name": "9 - Ein- und Ausgabe_2",
             "notes": [
                 {
                     "__type__": "Note",
@@ -1294,6 +1514,101 @@
             },
             "reviewOrder": 0,
             "timer": 0
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "ff610fda-a21b-11eb-b9a2-d927f55c68d5",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 60,
+                "separate": true
+            },
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 100
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "f4deaf1e-9c9b-11eb-aac7-888888888788",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Standard",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
         }
     ],
     "desc": "",
@@ -1301,7 +1616,7 @@
     "extendNew": 0,
     "extendRev": 0,
     "media_files": [],
-    "name": "Betriebssysteme",
+    "name": "uni::4. Semester::Betriebssysteme",
     "note_models": [
         {
             "__type__": "NoteModel",
@@ -1357,6 +1672,58 @@
             ],
             "type": 0,
             "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Einfach-c578e",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}"
+                }
+            ],
+            "type": 0
         }
     ],
     "notes": []
