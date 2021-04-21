@@ -139,9 +139,48 @@
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
-            "media_files": [],
+            "media_files": [
+                "paste-014755dbe0194c03ae40ea108501f561abe9dd2e.jpg",
+                "paste-059746b3b9e577e03fea223364e43e7e5bd4bcb8.jpg",
+                "paste-6fe2b809779439d032baad8f3689bb6d1b4b4950.jpg",
+                "paste-7e8931ca5c742f370ac8fcfce29d4e5cba529b1b.jpg",
+                "paste-809a82b518b3fe06f453b73fe574738089f115bc.jpg",
+                "paste-884f53ba43b22e830dc9045ebf136c3b8185f40d.jpg",
+                "paste-cd7665959964f095299023b0c5eb44014066397d.jpg"
+            ],
             "name": "Rechenaufgaben",
-            "notes": []
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Berechnen Sie die Nachhallzeit! Wie wirkt sie sich auf die Verständlichkeit der Sprache aus?<br>Was kann man machen, um die Nachhallzeit zu verkürzen?<br><br><img src=\"paste-059746b3b9e577e03fea223364e43e7e5bd4bcb8.jpg\"><br><br><br>Hinweis:<br><img src=\"paste-884f53ba43b22e830dc9045ebf136c3b8185f40d.jpg\">",
+                        "<img src=\"paste-cd7665959964f095299023b0c5eb44014066397d.jpg\">"
+                    ],
+                    "guid": "m3VqNg95I",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Frequenzübergang einer Übertragungskette<br><br><img src=\"paste-014755dbe0194c03ae40ea108501f561abe9dd2e.jpg\"><br><br><h3><span style=\"font-weight: normal;\"><font color=\"#ff0004\"><a>1) Welcher </a>Fremdspannungsabstand\nist von dieser Übertragungskette zu erwarten und wie groß ist der\nmaximale Übertragungsbereich (Frequenzgang)\nnach dem Lautsprecher? (6)</font></span><a style=\"font-size: 20px;\"><br><div><br></div><span style=\"font-weight: normal;\"><font color=\"#ff0004\">2) Wie viele Wechselspannungen darf das Mikro<br>fone\nabgeben, um den AD-Wandler nicht zu übersteuern, wenn der Vorverstärker mit\neiner Verstärkung von Vu = 40db betrieben wird? (2)</font><br></span></a><span style=\"font-weight: normal;\"><br></span></h3><h3><a style=\"font-weight: normal;\"><font color=\"#ff0004\">3) Welcher maximale Schalldruck kann mit den\ngegebenen Lautsprechern erreicht werden? (6)</font></a></h3><br>",
+                        "zu 1)<br><img src=\"paste-7e8931ca5c742f370ac8fcfce29d4e5cba529b1b.jpg\"><br><br>zu 2)<br><a><div style=\"display: inline !important;\"><a><img src=\"paste-809a82b518b3fe06f453b73fe574738089f115bc.jpg\"><br><br>zu 3)<br><img src=\"paste-6fe2b809779439d032baad8f3689bb6d1b4b4950.jpg\"><br><br></a><br><br></div></a>"
+                    ],
+                    "guid": "D1NVaGD7>p",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Kabelquerschnitt<br><br>Verstärker\nmit 250W Ausgangsleistung an 4 Ohm. Leitungslänge von 20m. Lautsprecher mit\n500W Belastbarkeit bei 4 Ohm.<br><h3>Aufgabe: Leitungsquerschnitt berechnen bei maximal\n10 Prozent Verlust.&nbsp;</h3>",
+                        "<div>Innenwiderstand von modernen\nVerstärkern sind 0 Ohm. </div>\n<div>Am Lautsprecher kommen noch 90%\nder Leistung an.</div>\n<div>Ergebnis: 1.72 mm²<br><br>Rechenweg fehlt noch</div>"
+                    ],
+                    "guid": "LTnK3}:(7k",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
         },
         {
             "__type__": "Deck",
