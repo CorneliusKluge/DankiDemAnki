@@ -669,6 +669,7 @@
             "extendNew": 0,
             "extendRev": 0,
             "media_files": [
+                "692px-Unmoduliertes_BA-Signal_einer_Zeile.svg (1).png",
                 "Amfm3-en-de.gif",
                 "Bildschirmfoto 2021-04-18 um 15.52.14.png",
                 "paste-61e03754f086b831b9eb3d01e64e58c47c71e345.jpg",
@@ -793,6 +794,16 @@
                         "<img src=\"Bildschirmfoto 2021-04-18 um 15.52.14.png\">"
                     ],
                     "guid": "jTmg%Ioaj|",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet FBAS?<br>Skizzieren Sie exakt das Mess-Signal (Waveform-Messgerät) mit dem Bildinhalt einer so genannten<br>8er Grautreppe links mit schwarz beginnend (exakte Bezeichnung der Bestandteile<br>des Signals)!",
+                        "<span style=\"color: rgb(51, 51, 51);\">FBAS heißt ausführlich „Farb-Bild-Austast-Synchron-Signal\"<br></span><img src=\"692px-Unmoduliertes_BA-Signal_einer_Zeile.svg (1).png\"><br><span style=\"color: rgb(51, 51, 51);\">Zu beachten ist hier, dass noch weitere 4 Graustufen eingezeichnet werden müssen.<br>Den Burst sollte man weglassen, da er nur bei Farbinformationen zu sehen ist.<br><br></span>"
+                    ],
+                    "guid": "kwV;2p&gii",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
                 }
