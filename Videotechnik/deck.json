@@ -656,6 +656,16 @@
                     "guid": "mlYZH_kW**",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wo und wie entsteht das RGB-Signal in einer elektronischen Kamera und warum wird es in<br>ein YUV-Signal umgewandelt? Erläutern Sie kurz!&nbsp;",
+                        "Im CCD Sensor. Der CCD Sensor ist ein lichtempfindliches elektronisches Bauteil. In einer Kamera gibt es drei CCD Sensoren vor jedem Sensor gibt es einen Farbfilter. Der die jeweiligen Anteile von Rot, Grün und blau aus dem Licht herauszieht.<br><br>Das YUV-Farmodell vewendet zur Darstellung der Farbinformation zwei Komponenten. Luminanz - Lichtstärke und Chrominanz - Farbanteil. -&gt; Die Informationen der Helligkeitswerte sind gespeichert ist somit auf Schwarweiß - Geräten abspielbar. Der Farbanteil kann komprimiert werden -&gt; Einsparung der Bandbreite"
+                    ],
+                    "guid": "fGUD:@C0C4",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
                 }
             ]
         },
