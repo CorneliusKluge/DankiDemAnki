@@ -437,7 +437,7 @@
             "media_files": [
                 "VerwaltungWorkflow.PNG"
             ],
-            "name": "3 -Betriebsmittelverwaltung",
+            "name": "3 - Betriebsmittelverwaltung",
             "notes": [
                 {
                     "__type__": "Note",
@@ -504,15 +504,394 @@
         {
             "__type__": "Deck",
             "children": [],
-            "crowdanki_uuid": "c83600cc-9d45-11eb-9008-888888888788",
+            "crowdanki_uuid": "1e27df2f-9dde-11eb-ad5d-4cedfb6bdbd9",
             "deck_config_uuid": "c83600cd-9d45-11eb-aa02-888888888788",
             "desc": "",
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
             "media_files": [],
-            "name": "7 - Virtueller Speicher",
-            "notes": []
+            "name": "4 - Prozessor",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Arten von Registern gibt es?",
+                        "Steuerregister<br>Vielzweckregister"
+                    ],
+                    "guid": "mT%!&jH^O{",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was heißt Aktivitäteten bzgl. Betriebsmitteln?",
+                        "Programm\nmuss von den aktiven Betriebsmitteln ausgeführt werden"
+                    ],
+                    "guid": "rf12/,,mTV",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sind Eigenschaften von Prozeduren?",
+                        "haben keine eigene Aktivitätsträgerschaft<br>nicht\nfähig zu Nebenläufigkeit"
+                    ],
+                    "guid": "jbI?RHm`7d",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sind nebenläufige Prozesse",
+                        "Vorgänge,\ndie parallel ablaufen können von nebenläufigen Prozessen betreut werden"
+                    ],
+                    "guid": "AHW^^mr<%&",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sind Eigenschaften von Prozessen?",
+                        "<div>bestehen aus Virtueller Adressraum, Programmcode, Daten</div>\n<div>ist eine zusammengehörige Folge von Aktionen\nüber Operanden</div>\n<div>Prozesse besitzen eigenen Adressraum, auf den\nanderen Prozesse nicht zugreifen können</div>"
+                    ],
+                    "guid": "u;*W>Xq!wI",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sind Eigenschaften von Threads",
+                        "<div>immer an Prozess gebunden</div>\n<div>unabhängiges Stück Code in einem Prozess</div>\n<div>teilt sich mit anderen Threads Adressraum, Daten\nund Ressourcen</div>\n<div>hat eigene Register, Stack, Stackpointer,\nVariablen</div>"
+                    ],
+                    "guid": "nOiTlD91kS",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sind Eigenschaften paralleler Prozesse?",
+                        "<div>Betriebsmittelbedarf ändert sich relativ langsam</div>\n<div>relative Ablaufgeschwindigkeit hat keinen\nEinfluss auf Steuerung</div>\n<div>Prozesse können eigene Betriebsmittel belegen,\naber auch gemeinsam nutzen</div>\n<div>nicht jeder Prozess in einem System will oder\nkann arbeiten</div>"
+                    ],
+                    "guid": "m@=PB`DV^M",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Warum will oder kann ein Prozess in einem System nicht arbeiten?",
+                        "er wartet auf ein Zwischenergebniss<br>es ist kein Prozess zur Verfügung"
+                    ],
+                    "guid": "JPI9e=jTX)",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Prozesszustände gibt es?",
+                        "<div>Prozess ist inaktiv</div>\n<div>Prozess ist aktiv</div>\n<div>Prozess ist bereit es fehlt nur der Prozessor</div>\n<div>Prozess ist blockiert</div>"
+                    ],
+                    "guid": "E)lRm<NaEP",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist PCB?",
+                        "Prozesskontrollblock"
+                    ],
+                    "guid": "CKFUX8oDqF",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sind Eigenschaften einer PCB Warteschlange?",
+                        "<div>mindestens ein Prozess existiert immer (aktiv\noder bereit)</div>\n<div>Vergabestrategie entscheidet über Effizienz des\nSystems</div>\n<div>Prozess- und Prozessorverwaltung sind\nTeilaufgaben der Betriebsmittelverwaltung</div>\n<div>kurzfristige Prozessorzuteilung</div>"
+                    ],
+                    "guid": "_mc{-Hh|",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sind kritische Abschnitte?",
+                        "<div>ist ein Abschnitt, der von genau nur einem\nProzess eingetreten werden darf</div>\n<div>wird durch Sperroptionen gesichert</div>\n<div>Vermeiden von gleichzeitigen Zugriffen auf\nVariablen (Race Condition)</div>"
+                    ],
+                    "guid": "cA$6tOdTc.",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sind Eigenschaften einer Dezentralen Steuerung?",
+                        "<div>Implementierung ist sehr aufwendig und\nFehleranfällig</div>\n<div>es muss mit unteilbaren Operationen (lesen,\nschreiben, testen) gearbeitet werden</div>"
+                    ],
+                    "guid": "M$,#VSA]]m",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sind Eigenschaften einer Zentralen Steuerung?",
+                        "<div>Zustandswechsel kann nur der Prozessumschalter\nin der darunterliegenden Schicht vornehmen, Prozesse werden damit unteilbar in\nder Schicht</div>"
+                    ],
+                    "guid": "z*Js+nCeGa",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist Semaphor und wofür wird es genutzt?",
+                        "<div>ist eine zweiwertige Synchronisationsvariable\nangelehnt an Signalmasten im Zugverkehr<br>Vermeidung\ndes aktiven Wartens (Busy Waiting)<br><b></b></div>"
+                    ],
+                    "guid": "i;rzTx}+Mq",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet 1:1, M:1 und 1:N bei der direkten Übermittlung?",
+                        "<div>1:1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; beide Partner kennen sich</div>\n<div>M:1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; zielgerichtetes Senden, Sender kennt\nEmpfänger</div>\n<div>1:N&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Selektiver Empfang, Empfänger wählt den\ngewünschten Sender aus</div>"
+                    ],
+                    "guid": "L<%Pd>[Os8",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet M:N bei der indirekten Übermittlung?",
+                        "<div>M:N&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sender und Empfänger kennen sich nicht,\nnur Adressen und</div>\n<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Nachrichtenübergabestelle\nsind bekannt</div>"
+                    ],
+                    "guid": "Lpu]6-ftzu",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist eine Asynchrone Datenübermittlung",
+                        "<div>Sender\nbeginnt Übertragung ohne Einverständnis des Empfängers</div>\n<div>Übergabe\nwird beendet ohne auf Quittung zu warten</div>"
+                    ],
+                    "guid": "fMUU`,DEF|",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist eine Synchrone Datenübermittlung?",
+                        "<div>Sender\nund Empfänger warten bis sie für die Datenübertragung bereit sind</div>\n<div>Zeitweise\nVerbindung wird hergestellt</div>"
+                    ],
+                    "guid": "k~n33g/5-_",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "270791d8-9dde-11eb-a88b-4cedfb6bdbd9",
+            "deck_config_uuid": "c83600cd-9d45-11eb-aa02-888888888788",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "5 - Verklemmungen Deadlocks",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sind Deadlocks?",
+                        "<div>Betriebsmittelzuteilung erfolgt dynamisch,\nwährend des Ablaufs der Prozesse</div>"
+                    ],
+                    "guid": "dy$2IJp#;=",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet Verhungern bzgl. Deadlocks?",
+                        "Blockade\neines Prozesses ohne Deadlock"
+                    ],
+                    "guid": "D9f=TFFlT~",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet Livelock?",
+                        "<div>Prozesse ändern ständig ihre Zustände in einer\nwiederholenden Reihenfolge aus der sie nicht herauskommen und die eigentliche\nAufgabe nicht erfüllen können</div>"
+                    ],
+                    "guid": "lYU#LtxEoD",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sind Gegenmaßnahmen für Deadlocks?",
+                        "<div>Verklemmungen werden nicht vorgebeugt aber\nerkannt und beseitigt</div>\n<div>Probleme werden ignoriert, da Aufwand um\nDeadlocks zu verhindern zu hoch ist</div>\n<div>Informationen müssen bekannt sein</div>\n<div>Überwachung der Betriebsmittelvergabe</div>"
+                    ],
+                    "guid": "b67Wd<rQT8",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist ein sicherer Zustand?",
+                        "<div>Zustand ist sicher, wenn kein Deadlock-Zustand\nvorliegt und es eine Scheduling-Reihenfolge gibt, die nicht zum Deadlock führt</div>"
+                    ],
+                    "guid": "j_Xk}LfU0q",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wofür werden Zyklensuche beim Entdecken von Deadlocks verwendet?",
+                        "<div>wird häufig wegen Verschwendung von Rechenzeit\nüberprüft</div>\n<div>wird selten wegen schlechter\nBetriebsmittelauslastung überprüft</div>"
+                    ],
+                    "guid": "LP4[hzvpwi",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "324dc46e-9dde-11eb-8955-4cedfb6bdbd9",
+            "deck_config_uuid": "c83600cd-9d45-11eb-aa02-888888888788",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "6 - Hauptspeicherverwaltung",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist eine Hauptspeicherverwaltung?",
+                        "<div>Hauptspeicherverwaltung vermittelt zwischen der\nlogischen Sicht, in der jeder Prozess seinen privaten Speicher hat, und der\nphysikalischen Sicht, wo der Speicher eine Folge von Speicherzellen ist</div>"
+                    ],
+                    "guid": "mC@0ejaRTX",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sind die Aufgaben der Hauptspeicherverwaltung?",
+                        "<div>Belegung und Freigabe des Hauptspeichers<br><div><b>Sharing</b>: Gewährleistung und Koordinierung des\nZugriffs auf Speicherplätze</div>\n<div><b>Hauptspeicherzuteilung</b>: Bereitstellung und\nZuweisung von Hauptspeicherplätzen</div>\n<div><b>Hauptspeicherschutz</b>: Schutz gegen unberechtigtes\nBenutzen eines Hauptspeicherbereichs</div></div>"
+                    ],
+                    "guid": "kZ-_mq^_0C",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Strategien gibt es bei der Vergabe im Hauptspeicher?",
+                        "Einbenutzer-Einspeicher-System<br>Swapping<br>Partitionierung<br>Virtuelle Adressierung"
+                    ],
+                    "guid": "pha.xt?u`6",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet Swapping in der Hauptspeichervergabe?",
+                        "<div>Vollständige Ein- und Auslagerung von Prozessen</div>"
+                    ],
+                    "guid": "fs}sR^1CWz",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet Partitionierung?",
+                        "<div>este Zuordnung des gesamten Hauptspeichers in\nTeile, Prozess muss bei der Ausführung in diese Teile passen</div>"
+                    ],
+                    "guid": "ID!ODi<d>T",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Typen gibt es bei Partitionierung?",
+                        "statische Partitionierung<br>dynamische Partitionierung"
+                    ],
+                    "guid": "zq8NbH,,6?",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was wird bei virtueller Adressieurng gemacht?",
+                        "<div>Trennung von physikalischem und virtuellem\nSpeicher durch Hardware</div>"
+                    ],
+                    "guid": "yMeXd1XEa+",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Hauptspeicherbelegungsstrategien gibt es?",
+                        "Kompaktifizierung<br>Lücken füllen<br>Halbierungsverfahren"
+                    ],
+                    "guid": "ixKnb)0#H!",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist das Halbieurngsverfahren und wa swird gemacht?",
+                        "<div>Kompromiss zwischen fester und variabler\nPartitionierung</div>\n<div>Speicher wird so lange in Blöcke aufgeteilt, bis\nein Block mit passender Größe entsteht</div>"
+                    ],
+                    "guid": "Fk{4W%]}ZQ",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist die Kompaktifizierung bzgl. Hauptspeicherbelegungsstrategien?",
+                        "<div>Lückenbeseitigung durch Verschiebung der\nBereiche</div>\n<div>Verbesserung der Betriebsnutzung eines Prozesses\nkann nur auf Kosten anderer Prozesse stattfinden (nur sinnvoll, wenn viele\nTeile des Hauptspeichers frei sind)</div>"
+                    ],
+                    "guid": "dK&z36yx.5",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
         },
         {
             "__type__": "Deck",
@@ -526,7 +905,7 @@
             "media_files": [
                 "7 - Ablauf Seitenfehler.PNG"
             ],
-            "name": "7 - Virtueller Speicher_3",
+            "name": "7 - Virtueller Speicher",
             "notes": [
                 {
                     "__type__": "Note",
@@ -857,19 +1236,6 @@
         {
             "__type__": "Deck",
             "children": [],
-            "crowdanki_uuid": "f4de882b-9c9b-11eb-9fe4-888888888788",
-            "deck_config_uuid": "f4deaf1e-9c9b-11eb-aac7-888888888788",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 0,
-            "extendRev": 0,
-            "media_files": [],
-            "name": "9 - Ein- und Ausgabe",
-            "notes": []
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
             "crowdanki_uuid": "c8364ebf-9d45-11eb-8bb8-888888888788",
             "deck_config_uuid": "c83600cd-9d45-11eb-aa02-888888888788",
             "desc": "",
@@ -877,7 +1243,7 @@
             "extendNew": 0,
             "extendRev": 0,
             "media_files": [],
-            "name": "9 - Ein- und Ausgabe_2",
+            "name": "9 - Ein- und Ausgabe",
             "notes": [
                 {
                     "__type__": "Note",
@@ -976,398 +1342,6 @@
                         "Beim Port-mapped I/O wird ein E/A-Gerät über ein spezifisches, diesem Gerät zugeordneten E/A-Port angesteuert."
                     ],
                     "guid": "l?BD/Q[B-g",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                }
-            ]
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "1e27df2f-9dde-11eb-ad5d-4cedfb6bdbd9",
-            "deck_config_uuid": "c83600cd-9d45-11eb-aa02-888888888788",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 0,
-            "extendRev": 0,
-            "media_files": [],
-            "name": "Kapitel 4 - Prozessor",
-            "notes": [
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Welche Arten von Registern gibt es?",
-                        "Steuerregister<br>Vielzweckregister"
-                    ],
-                    "guid": "mT%!&jH^O{",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was heißt Aktivitäteten bzgl. Betriebsmitteln?",
-                        "Programm\nmuss von den aktiven Betriebsmitteln ausgeführt werden"
-                    ],
-                    "guid": "rf12/,,mTV",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was sind Eigenschaften von Prozeduren?",
-                        "haben keine eigene Aktivitätsträgerschaft<br>nicht\nfähig zu Nebenläufigkeit"
-                    ],
-                    "guid": "jbI?RHm`7d",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was sind nebenläufige Prozesse",
-                        "Vorgänge,\ndie parallel ablaufen können von nebenläufigen Prozessen betreut werden"
-                    ],
-                    "guid": "AHW^^mr<%&",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was sind Eigenschaften von Prozessen?",
-                        "<div>bestehen aus Virtueller Adressraum, Programmcode, Daten</div>\n<div>ist eine zusammengehörige Folge von Aktionen\nüber Operanden</div>\n<div>Prozesse besitzen eigenen Adressraum, auf den\nanderen Prozesse nicht zugreifen können</div>"
-                    ],
-                    "guid": "u;*W>Xq!wI",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was sind Eigenschaften von Threads",
-                        "<div>immer an Prozess gebunden</div>\n<div>unabhängiges Stück Code in einem Prozess</div>\n<div>teilt sich mit anderen Threads Adressraum, Daten\nund Ressourcen</div>\n<div>hat eigene Register, Stack, Stackpointer,\nVariablen</div>"
-                    ],
-                    "guid": "nOiTlD91kS",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was sind Eigenschaften paralleler Prozesse?",
-                        "<div>Betriebsmittelbedarf ändert sich relativ langsam</div>\n<div>relative Ablaufgeschwindigkeit hat keinen\nEinfluss auf Steuerung</div>\n<div>Prozesse können eigene Betriebsmittel belegen,\naber auch gemeinsam nutzen</div>\n<div>nicht jeder Prozess in einem System will oder\nkann arbeiten</div>"
-                    ],
-                    "guid": "m@=PB`DV^M",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Warum will oder kann ein Prozess in einem System nicht arbeiten?",
-                        "er wartet auf ein Zwischenergebniss<br>es ist kein Prozess zur Verfügung"
-                    ],
-                    "guid": "JPI9e=jTX)",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Welche Prozesszustände gibt es?",
-                        "<div>Prozess ist inaktiv</div>\n<div>Prozess ist aktiv</div>\n<div>Prozess ist bereit es fehlt nur der Prozessor</div>\n<div>Prozess ist blockiert</div>"
-                    ],
-                    "guid": "E)lRm<NaEP",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was ist PCB?",
-                        "Prozesskontrollblock"
-                    ],
-                    "guid": "CKFUX8oDqF",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was sind Eigenschaften einer PCB Warteschlange?",
-                        "<div>mindestens ein Prozess existiert immer (aktiv\noder bereit)</div>\n<div>Vergabestrategie entscheidet über Effizienz des\nSystems</div>\n<div>Prozess- und Prozessorverwaltung sind\nTeilaufgaben der Betriebsmittelverwaltung</div>\n<div>kurzfristige Prozessorzuteilung</div>"
-                    ],
-                    "guid": "_mc{-Hh|",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was sind kritische Abschnitte?",
-                        "<div>ist ein Abschnitt, der von genau nur einem\nProzess eingetreten werden darf</div>\n<div>wird durch Sperroptionen gesichert</div>\n<div>Vermeiden von gleichzeitigen Zugriffen auf\nVariablen (Race Condition)</div>"
-                    ],
-                    "guid": "cA$6tOdTc.",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was sind Eigenschaften einer Dezentralen Steuerung?",
-                        "<div>Implementierung ist sehr aufwendig und\nFehleranfällig</div>\n<div>es muss mit unteilbaren Operationen (lesen,\nschreiben, testen) gearbeitet werden</div>"
-                    ],
-                    "guid": "M$,#VSA]]m",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was sind Eigenschaften einer Zentralen Steuerung?",
-                        "<div>Zustandswechsel kann nur der Prozessumschalter\nin der darunterliegenden Schicht vornehmen, Prozesse werden damit unteilbar in\nder Schicht</div>"
-                    ],
-                    "guid": "z*Js+nCeGa",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was ist Semaphor und wofür wird es genutzt?",
-                        "<div>ist eine zweiwertige Synchronisationsvariable\nangelehnt an Signalmasten im Zugverkehr<br>Vermeidung\ndes aktiven Wartens (Busy Waiting)<br><b></b></div>"
-                    ],
-                    "guid": "i;rzTx}+Mq",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was bedeutet 1:1, M:1 und 1:N bei der direkten Übermittlung?",
-                        "<div>1:1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; beide Partner kennen sich</div>\n<div>M:1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; zielgerichtetes Senden, Sender kennt\nEmpfänger</div>\n<div>1:N&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Selektiver Empfang, Empfänger wählt den\ngewünschten Sender aus</div>"
-                    ],
-                    "guid": "L<%Pd>[Os8",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was bedeutet M:N bei der indirekten Übermittlung?",
-                        "<div>M:N&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sender und Empfänger kennen sich nicht,\nnur Adressen und</div>\n<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Nachrichtenübergabestelle\nsind bekannt</div>"
-                    ],
-                    "guid": "Lpu]6-ftzu",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was ist eine Asynchrone Datenübermittlung",
-                        "<div>Sender\nbeginnt Übertragung ohne Einverständnis des Empfängers</div>\n<div>Übergabe\nwird beendet ohne auf Quittung zu warten</div>"
-                    ],
-                    "guid": "fMUU`,DEF|",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was ist eine Synchrone Datenübermittlung?",
-                        "<div>Sender\nund Empfänger warten bis sie für die Datenübertragung bereit sind</div>\n<div>Zeitweise\nVerbindung wird hergestellt</div>"
-                    ],
-                    "guid": "k~n33g/5-_",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                }
-            ]
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "270791d8-9dde-11eb-a88b-4cedfb6bdbd9",
-            "deck_config_uuid": "c83600cd-9d45-11eb-aa02-888888888788",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 0,
-            "extendRev": 0,
-            "media_files": [],
-            "name": "Kapitel 5 - Verklemmungen Deadlocks",
-            "notes": [
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was sind Deadlocks?",
-                        "<div>Betriebsmittelzuteilung erfolgt dynamisch,\nwährend des Ablaufs der Prozesse</div>"
-                    ],
-                    "guid": "dy$2IJp#;=",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was bedeutet Verhungern bzgl. Deadlocks?",
-                        "Blockade\neines Prozesses ohne Deadlock"
-                    ],
-                    "guid": "D9f=TFFlT~",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was bedeutet Livelock?",
-                        "<div>Prozesse ändern ständig ihre Zustände in einer\nwiederholenden Reihenfolge aus der sie nicht herauskommen und die eigentliche\nAufgabe nicht erfüllen können</div>"
-                    ],
-                    "guid": "lYU#LtxEoD",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was sind Gegenmaßnahmen für Deadlocks?",
-                        "<div>Verklemmungen werden nicht vorgebeugt aber\nerkannt und beseitigt</div>\n<div>Probleme werden ignoriert, da Aufwand um\nDeadlocks zu verhindern zu hoch ist</div>\n<div>Informationen müssen bekannt sein</div>\n<div>Überwachung der Betriebsmittelvergabe</div>"
-                    ],
-                    "guid": "b67Wd<rQT8",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was ist ein sicherer Zustand?",
-                        "<div>Zustand ist sicher, wenn kein Deadlock-Zustand\nvorliegt und es eine Scheduling-Reihenfolge gibt, die nicht zum Deadlock führt</div>"
-                    ],
-                    "guid": "j_Xk}LfU0q",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Wofür werden Zyklensuche beim Entdecken von Deadlocks verwendet?",
-                        "<div>wird häufig wegen Verschwendung von Rechenzeit\nüberprüft</div>\n<div>wird selten wegen schlechter\nBetriebsmittelauslastung überprüft</div>"
-                    ],
-                    "guid": "LP4[hzvpwi",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                }
-            ]
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "324dc46e-9dde-11eb-8955-4cedfb6bdbd9",
-            "deck_config_uuid": "c83600cd-9d45-11eb-aa02-888888888788",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 0,
-            "extendRev": 0,
-            "media_files": [],
-            "name": "Kapitel 6 - Hauptspeicherverwaltung",
-            "notes": [
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was ist eine Hauptspeicherverwaltung?",
-                        "<div>Hauptspeicherverwaltung vermittelt zwischen der\nlogischen Sicht, in der jeder Prozess seinen privaten Speicher hat, und der\nphysikalischen Sicht, wo der Speicher eine Folge von Speicherzellen ist</div>"
-                    ],
-                    "guid": "mC@0ejaRTX",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was sind die Aufgaben der Hauptspeicherverwaltung?",
-                        "<div>Belegung und Freigabe des Hauptspeichers<br><div><b>Sharing</b>: Gewährleistung und Koordinierung des\nZugriffs auf Speicherplätze</div>\n<div><b>Hauptspeicherzuteilung</b>: Bereitstellung und\nZuweisung von Hauptspeicherplätzen</div>\n<div><b>Hauptspeicherschutz</b>: Schutz gegen unberechtigtes\nBenutzen eines Hauptspeicherbereichs</div></div>"
-                    ],
-                    "guid": "kZ-_mq^_0C",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Welche Strategien gibt es bei der Vergabe im Hauptspeicher?",
-                        "Einbenutzer-Einspeicher-System<br>Swapping<br>Partitionierung<br>Virtuelle Adressierung"
-                    ],
-                    "guid": "pha.xt?u`6",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was bedeutet Swapping in der Hauptspeichervergabe?",
-                        "<div>Vollständige Ein- und Auslagerung von Prozessen</div>"
-                    ],
-                    "guid": "fs}sR^1CWz",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was bedeutet Partitionierung?",
-                        "<div>este Zuordnung des gesamten Hauptspeichers in\nTeile, Prozess muss bei der Ausführung in diese Teile passen</div>"
-                    ],
-                    "guid": "ID!ODi<d>T",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Welche Typen gibt es bei Partitionierung?",
-                        "statische Partitionierung<br>dynamische Partitionierung"
-                    ],
-                    "guid": "zq8NbH,,6?",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was wird bei virtueller Adressieurng gemacht?",
-                        "<div>Trennung von physikalischem und virtuellem\nSpeicher durch Hardware</div>"
-                    ],
-                    "guid": "yMeXd1XEa+",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Welche Hauptspeicherbelegungsstrategien gibt es?",
-                        "Kompaktifizierung<br>Lücken füllen<br>Halbierungsverfahren"
-                    ],
-                    "guid": "ixKnb)0#H!",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was ist das Halbieurngsverfahren und wa swird gemacht?",
-                        "<div>Kompromiss zwischen fester und variabler\nPartitionierung</div>\n<div>Speicher wird so lange in Blöcke aufgeteilt, bis\nein Block mit passender Größe entsteht</div>"
-                    ],
-                    "guid": "Fk{4W%]}ZQ",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was ist die Kompaktifizierung bzgl. Hauptspeicherbelegungsstrategien?",
-                        "<div>Lückenbeseitigung durch Verschiebung der\nBereiche</div>\n<div>Verbesserung der Betriebsnutzung eines Prozesses\nkann nur auf Kosten anderer Prozesse stattfinden (nur sinnvoll, wenn viele\nTeile des Hauptspeichers frei sind)</div>"
-                    ],
-                    "guid": "dK&z36yx.5",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
                 }
@@ -1563,52 +1537,6 @@
             },
             "reviewOrder": 0,
             "timer": 0
-        },
-        {
-            "__type__": "DeckConfig",
-            "autoplay": true,
-            "crowdanki_uuid": "f4deaf1e-9c9b-11eb-aac7-888888888788",
-            "dyn": false,
-            "interdayLearningMix": 0,
-            "lapse": {
-                "delays": [
-                    10.0
-                ],
-                "leechAction": 1,
-                "leechFails": 8,
-                "minInt": 1,
-                "mult": 0.0
-            },
-            "maxTaken": 60,
-            "name": "Standard",
-            "new": {
-                "bury": false,
-                "delays": [
-                    1.0,
-                    10.0
-                ],
-                "initialFactor": 2500,
-                "ints": [
-                    1,
-                    4,
-                    0
-                ],
-                "order": 1,
-                "perDay": 20
-            },
-            "newMix": 0,
-            "newPerDayMinimum": 0,
-            "replayq": true,
-            "rev": {
-                "bury": false,
-                "ease4": 1.3,
-                "hardFactor": 1.2,
-                "ivlFct": 1.0,
-                "maxIvl": 36500,
-                "perDay": 200
-            },
-            "reviewOrder": 0,
-            "timer": 0
         }
     ],
     "desc": "",
@@ -1616,7 +1544,7 @@
     "extendNew": 0,
     "extendRev": 0,
     "media_files": [],
-    "name": "uni::4. Semester::Betriebssysteme",
+    "name": "Betriebssysteme",
     "note_models": [
         {
             "__type__": "NoteModel",
