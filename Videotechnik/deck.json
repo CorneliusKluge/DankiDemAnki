@@ -12,7 +12,58 @@
             "extendRev": 0,
             "media_files": [],
             "name": "Abtastung",
-            "notes": []
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was wird beim Abtasten eines Zweifarbton-Bildes (z.B. Text in einem Buch) gespeichert?&nbsp;",
+                        "<ul>\n\n\n<li>ein\n       Bit pro Pixel</li>\n<li>Helligkeit\n       und Farbe werden nicht verändert</li>\n\n</ul>"
+                    ],
+                    "guid": "j.9,AS/fCY",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was wird beim Abtasten eines Schwar-Weiß-Bildes (mit Grautönen) gespeichert?",
+                        "<ul>\n\n\n<li>es\n       wird nur der Luminanzwert zu jedem Pixel gespeichert</li>\n<li>Farbe\n       ist für das ganze Bild konstant, nur der Helligkeitswert wird\n       abgespeichert</li>\n\n</ul>"
+                    ],
+                    "guid": "rbf=7l,edb",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie funktioniert das Abtasten?",
+                        "<ul>\n<li>Videobilder\n     werden horizontal, vertikal und temporal (Bildfolge) abgetastet</li>\n<li>ein\n     Bild besteht aus einer bestimmten Anzahl von Zeilen</li>\n<li>Fernsehbilder\n     (PAL) bestehen z.B. aus 625 Zeilen, von denen nur ca. 580 sichtbar sind</li>\n<ul>\n<li>die\n      restlichen Zeilen sind Scanning-Overhead, er wird genutzt für\n      Blanking-Intervalle und zur Synchronisierung des Signals</li>\n</ul>\n<li>Im\n     Gegensatz zu den Druckwellen eines akustischen Signals kann eine diskrete\n     Folge von Einzelbildern als kontinuierliche Sequenz wahrgenommen werden</li><ul>\n<li>Grenzfrequenz\n      bei ca. 16Hz</li>\n<li>bis\n      etwa 50Hz ein Flimmereffekt</li>\n<ul>\n<li>unvollkommene\n       Speicherwirkung des Auges für optische Reize</li></ul></ul></ul>"
+                    ],
+                    "guid": "udc$LNBHyd",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was wird beim Abtasten eines Farbbildes gespeichert?",
+                        "<ul>\n\n<li>Zu\n      jedem Pixel werden 3 Komponenten gespeichert</li>\n</ul>"
+                    ],
+                    "guid": "GvaPjXlZ]G",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Abtastmethoden gibt es und wei funktionieren diese?",
+                        "<ul>\n\n<li>4:1:1</li>\n<ul>\n<li>das\n       Farbsignal wird nur bei jedem vierten Pixel, dafür aber in beiden\n       Halbbildern horizontal verschoben abgetastet</li>\n</ul>\n<li>4:2:0</li>\n<ul>\n<li>das\n       Farbsignal wird nur bei jedem zweiten Halbbild und nur in halber\n       Auflösung abgetastet</li>\n</ul>\n<li>4:4:4</li>\n<ul>\n<li>hochqualitatives\n       digitales Format</li>\n<li>jedes\n       Pixel, sowohl in Luminanz wie in den Blau- und Rotdifferenzen wird\n       abgetastet</li>\n<li>nur\n       in Effektgeräten</li>\n<li>enorme\n       Anforderungen an Hard- und Software</li>\n</ul>\n<li>4:2:2</li>\n<ul>\n<li>für\n       professionelles digitales Video</li>\n<li>jedes\n       Pixel wird nach Luminanz (Y) und jedes zweite nach den Rot- und\n       Blaudifferenzen (Cr und Cb) abgetastet</li>\n<li>dabei\n       wird die Tatsache ausgenutzt, dass das Auge weniger empfindlich auf die\n       Farbe ist als auf die Helligkeit</li>\n</ul>\n</ul>"
+                    ],
+                    "guid": "v^I*S+`ip?",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
         },
         {
             "__type__": "Deck",
@@ -221,6 +272,7 @@
             "extendNew": 0,
             "extendRev": 0,
             "media_files": [
+                "paste-4f75a0d432e534ead1bef1361249455d0cb3b3a6.jpg",
                 "paste-7ac8244017eecaf1727c24ec9c2bcef0e8ecfbb0.jpg"
             ],
             "name": "Blockschaltpläne",
@@ -232,6 +284,16 @@
                         "Ein Zweitor ist ein Modell für ein elektrisches Bauelement oder ein elektrisches Netzwerk mit vier Anschlüssen, bei dem je zwei Anschlüsse zu einem sogenannten Tor zusammengefasst werden (Vier Pole). Ein Tor liegt dann vor, wenn die elektrische Stromstärke durch beide Anschlüsse eines Tors gegengleich ist.<br><br><img src=\"paste-7ac8244017eecaf1727c24ec9c2bcef0e8ecfbb0.jpg\"><br>"
                     ],
                     "guid": "l8Tl6OQ`Zi",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie sieht ein Blockschaltbild für einen typischen Videoschnittplatz aus?",
+                        "<img src=\"paste-4f75a0d432e534ead1bef1361249455d0cb3b3a6.jpg\"><br><div>AS – Abspieler</div>\n<div>M – Monitor</div>\n<div>LS – Lautsprecher</div>\n<div>TG – Block Burst / Ref / Sync</div>"
+                    ],
+                    "guid": "o<%]?)09Uh",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
                 }
@@ -249,6 +311,46 @@
             "media_files": [],
             "name": "Cutting / Videobearbeitung",
             "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Schnittypen gibt es?",
+                        "<div>- Harter\nSchnitt (Straight Cut)</div>\n<div>- Weicher\nÜbergang (Dissolve)</div>\n<div>- Effektblende\n(Wipe)</div>"
+                    ],
+                    "guid": "m1bw9;ysjr",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was passiert bei einem Insert-Schnitt?",
+                        "<div>- Timecode auf dem Zielband bleibt erhalten, d.h.\nes muss vorher auf dem Band etwas sein</div>\n<div>- Inhalt des Zielbereichs wird komplett\nüberschrieben</div>"
+                    ],
+                    "guid": "b~lH(wE(bd",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was passiert bei einem Assemble-Schnitt?",
+                        "<div>- Timecode auf Zielband wird neu geschrieben\n(leeres Band)</div>\n<div>- Inhalt des Zielbereiches wird komplett\nüberschrieben</div>\n<div>- Nach Ende des Schnitts werden ein paar Sekunden\nTC erzeugt (für nächsten Schnitt)</div>"
+                    ],
+                    "guid": "BJuwn^Rtx|",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was versteht man bei der Videobearbeitug unter Blenden und Effekten?",
+                        "<div>Blenden:</div>\n<div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nÜbergang zwischen zwei Quellen</div>\n<div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nErforderl. Daten wie bei Dissolve</div>\n<div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nArt und Richtung einer Blende, z.B. beim Umblättern</div>\n<div>&nbsp;</div>\n<div>Effekte:</div>\n<div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nBearbeitung einer Quelle</div>\n<div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nZ.B. Wassertropfeneffekt</div>\nTiteleinblendung"
+                    ],
+                    "guid": "Qnr]UdNFp^",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
                 {
                     "__type__": "Note",
                     "fields": [
@@ -314,6 +416,46 @@
                     ],
                     "guid": "GsNC[nJ!mg",
                     "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie läuft die Umwandlung von einem analogen in ein digitales Signal ab?",
+                        "<div>Ausgangslage: kontinuierliches analoges Signal</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nAbtastung</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\ndiskontinuierliche Folge analoger Werte</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nQuantisierung</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\ndiskontinuierliche Folge digitaler Werte</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\ndigitale Darstellung</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nFolge digitaler Werte als Ergebnis</div>"
+                    ],
+                    "guid": "GxsL|M{;Kf",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche zwei Hauptprobnleme sorgen bei der Digitalisierung zum Informationsverlust und wovon werden sie beeinflusst?",
+                        "<div>1.&nbsp;&nbsp;&nbsp;&nbsp;\naufeinander folgende digitale Werte entsprechen einem\nbestimmten Intervall mit bestimmter „Breite“<br><br></div>\n<div>2.&nbsp;&nbsp;&nbsp;&nbsp;\ndigitale Werte sind diskret, d.h. sie können nur einen\nbestimmten Wert annehmen (entweder 0 und 1 oder High and Low)</div>\n<div>&nbsp;<br><div><b>Fehler werden beeinflusst von:</b></div>\n<div>- Änderung der Signalpräsentation, Verbesserung\ndes Signals, z.B. Rauschreduktion</div>\n„Feinheit“ der Abtastunng<br></div>"
+                    ],
+                    "guid": "ELW-R%srrk",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Möglichkeiten der Signalabtastung gibt es? Beschreibe die Funktionsweise dieser.",
+                        "Pulsamplitudenmodulation (PAM)<br><ul>\n<li>Die\n     analogen Signale werden übermittelt durch eine Serie von Impulsen, deren\n     Amplitude die Soundstärke repräsentieren</li></ul>Pulsbreitenmodulation (PWM)<br><ul>\n<li>Die\n     analogen Signale werden übermittelt durch eine Serie von Impulsen, deren\n     Länge (Weite) die Signalstärke repräsentieren</li></ul>Pulscodemodulation (PCM)<br><ul>\n<li>die\n     analogen Signale werden übermittelt durch eine Serie von Impulsen, die den\n     binären Daten des Samples entsprechen</li></ul>"
+                    ],
+                    "guid": "Hp2!PqxpuN",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Vorteile bieten digitale Videos im vergleich zu analogen?",
+                        "<ul>\n<li>Interaktiv</li>\n<li>Komprimierung\n     möglich</li>\n<li>Kein\n     Kopierverlust</li>\n<li>Kein\n     Speicherverlust</li>\n<li>Unabhängig\n     von Fernsehnorm</li>\n<li>Über\n     digitale Netze übertragbar</li>\n<li>Darstellung\n     auf Bildschirmen  PAL muss komprimiert werden</li></ul>"
+                    ],
+                    "guid": "Ikyd*91;qb",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
                 },
                 {
@@ -467,9 +609,95 @@
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
-            "media_files": [],
+            "media_files": [
+                "paste-032554273e987eb77092d386b64f0182e3681aba.jpg",
+                "paste-946d3b9242f38638943f5fd027095d2b120c9a04.jpg",
+                "paste-9dc19cf568d500231b70e169f14c241725fe9138.jpg",
+                "paste-fadd6e2f4c0ae25ca7bee0c9a11d40bf83bf576e.jpg"
+            ],
             "name": "Kompression",
-            "notes": []
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Warum werden Videos komprimiert, welche Vorteile bietet es?",
+                        "<ul>\n<li>Weniger\n     Bandbreite zur Übertragung</li>\n<li>Verringerung\n     Speicherbedarf</li></ul>"
+                    ],
+                    "guid": "clsgQ~9^jA",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welches Speicherbedarf hat ein einstündiges Video im 8-Bit-Farbkanal mit den Abmaßen von 768x576px und 25 fps?",
+                        "<ul>\n<li>1\n     Video-Einzelbild (768*576*8Bit Farbe) = 1,3MB</li>\n<li>1s Video (768*576*8Bit\n     Farbe*25Frames) = 31,6MB -&gt; 254 MBit/s</li>\n<li>1h Video (768*576*8Bit\n     Farbe*25Frames*60*60) = 114GB -&gt;911GBit/s</li></ul>"
+                    ],
+                    "guid": "D^K/>ih7[5",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie sieht das Codierungsmodell aus?",
+                        "<img src=\"paste-032554273e987eb77092d386b64f0182e3681aba.jpg\">"
+                    ],
+                    "guid": "BUCW8de]&G",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Auf welcher Tatsache werden Videos beruht die erfolgreiche Kompression von Videos?&nbsp;",
+                        "<ul>\n<li>Örtlich\n     und zeitlich benachbarte Bildpunkte haben ähnliche Farbwerte</li><li>Eindeutige Erkennung von Redundanz und Irrelevanz<br></li></ul><img src=\"paste-946d3b9242f38638943f5fd027095d2b120c9a04.jpg\"><br>"
+                    ],
+                    "guid": "HlbQT:)7ab",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welchee Ziele verfolgt die Videokompression?",
+                        "<div>- konstante Datenrate für Bandaufzeichnung</div>\n<div>- Variable Datenrate für Bandaufzeichnung</div>"
+                    ],
+                    "guid": "G4ftaGj0lt",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie wird ein Videostream erzeugt?",
+                        "<div>- Quantisierungsstufen</div>\n<div>-&nbsp;Umwandeln in 0 und 1<br><br><img src=\"paste-9dc19cf568d500231b70e169f14c241725fe9138.jpg\"><br><br><div>-&nbsp;Auslesen mit Schieberegister</div>\n<div>-&nbsp;Erzeugen einer Seriellen Datenfolge</div>\n<div>-&nbsp;Wichtig ist Start- und Endbild Bsp:&nbsp;<b>1</b>000<b>1</b> oder <b>1</b>101<b>1</b></div>\n<div>-&nbsp;Weiterverarbeitung durch Multiplexer -&gt; Streams</div></div>"
+                    ],
+                    "guid": "Co9hP(QJCG",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie erfolgt die Codierung und reproduktion eines Videostreams?",
+                        "<img src=\"paste-fadd6e2f4c0ae25ca7bee0c9a11d40bf83bf576e.jpg\">"
+                    ],
+                    "guid": "sxcY{[&T>W",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Videokomprimierungen gitb es?",
+                        "<div><b>Einfache Verfahren:</b></div>\n<div>-&nbsp;Reduktion des Datenaufkommens durch Reduktion der\nBildinformation</div>\n<div>-&nbsp;Truncation (Farbtiefe reduzieren 24Bit \n8Bit)<br><br><div><b>Interpoliertes Verfahren:</b></div>\n<div>-&nbsp;Speichert nur eine Teilmenge der vorgegebenen\nBildpunkte und berechnet daraus interpolativ die restlichen Bildpunkte die zum\nvollständigen Bild noch fehlen</div>\n<div>-&nbsp;Speichert nur die Differenz</div><br><div><b>JPEG-Komprimierung</b></div>\n<div>&nbsp;</div>\n<div><b>Huffmann-Komprimierung</b></div></div>"
+                    ],
+                    "guid": "NRJqgnh]5?",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
         },
         {
             "__type__": "Deck",
@@ -482,6 +710,7 @@
             "extendRev": 0,
             "media_files": [
                 "Brennweite-und-Bildwinkel-1.jpg",
+                "paste-0ad065ae38a4cfde7a1a5680db5298338e890118.jpg",
                 "paste-374ce84ea9f24ba1811e6beb0206a88d1352f8d9.jpg",
                 "paste-5cbd13dae8ed4b39e4c89e6e93d6d3777b3b3ca0.jpg",
                 "paste-c1d2a38f876a3b44aea48e5fba130dab61c264fa.jpg"
@@ -516,6 +745,86 @@
                     ],
                     "guid": "GEZ{&S184h",
                     "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wozu dient die Blende in einem Objektiv?",
+                        "<ul>\n<li>die Blende\n     regelt den Lichteinfall in das Objektiv</li><li>große Blende (kleine Blendenzahl) -&gt; viel Lichteinfall</li><li>kleine Blende (große Blendenzahl) -&gt; wenig Lichteinfall</li></ul>"
+                    ],
+                    "guid": "Iw9X[zoUJl",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sagt die Lichtstärke aus?",
+                        "<ul>\n<li>Lichtstärke\n     ist das Verhältnis Linsendurchmesser zu Brennweite</li>\n<ul>\n<li>Je\n      größer der Linsendurchmesser und je kleiner die Brennweite, desto\n      lichtstärker das Objektiv</li>\n<li>Weitwinkel\n      sind also lichtstärker als Teleobjektive</li>\n</ul></ul>"
+                    ],
+                    "guid": "yP$t!p.Mgq",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wann empfinden wir ein Bild als \"scharf\"?",
+                        "Wenn es hohe Kontraste und klare Strukturen aufweist.&nbsp;"
+                    ],
+                    "guid": "eI0IbOOt]0",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was versteht man unter Schärfenfiefe?",
+                        "Bereich der in hintereinander versetzten Ebenen scharf abgebildet wird"
+                    ],
+                    "guid": "qnto%(W&}`",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Indikatoren steigern die Tiefenschärfe?",
+                        "<ul>\n\n<li>Je\n      heller die Aufnahmeumgebung</li>\n<li>Je\n      größer die Blende</li>\n<li>Je\n      höher die Blendenzahl</li>\n<li>Je\n      kleiner die Brennweite (Weitwinkel!)</li>\n</ul>"
+                    ],
+                    "guid": "AEu3YQG&1",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was versteht man unter der \"optischen Achse\"?",
+                        "<ul>\n<li>Linie\n     zwischen Projektor und Projektionsebene</li></ul><img src=\"paste-0ad065ae38a4cfde7a1a5680db5298338e890118.jpg\"><br>"
+                    ],
+                    "guid": "glw=ie<o6-",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was vertseht man unter der \"Idealgeometrie\" in der Optik?",
+                        "<ul>\n<li>Optische\n     Achse trifft im rechten Winkel auf Projektionsfläche</li>\n<ul>\n<li>Nahezu\n      verzerrungsfreies Bild</li></ul></ul>"
+                    ],
+                    "guid": "gt7La>+9|U",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was passiert bei Zoomen?",
+                        "- die Brennweide des Objektivs ändert sich und somit der Bildausschnitt (Vorraussetzung, dass die Position der Linse unverändert bleibt)"
+                    ],
+                    "guid": "yqom~Y,_]`",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
                 },
                 {
@@ -988,58 +1297,6 @@
     "note_models": [
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
-            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
-            "flds": [
-                {
-                    "font": "Arial",
-                    "name": "Vorderseite",
-                    "ord": 0,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "name": "Rückseite",
-                    "ord": 1,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Einfach-c578e",
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tags": [],
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Karte 1",
-                    "ord": 0,
-                    "qfmt": "{{Vorderseite}}"
-                }
-            ],
-            "type": 0
-        },
-        {
-            "__type__": "NoteModel",
             "crowdanki_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
             "css": ".card {\n font-family: arial;\n font-size: 16px;\n text-align: left;\n color: black;\n background-color: white;\npadding: 5px\n}",
             "flds": [
@@ -1092,6 +1349,58 @@
             ],
             "type": 0,
             "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Einfach-c578e",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}"
+                }
+            ],
+            "type": 0
         }
     ],
     "notes": []
