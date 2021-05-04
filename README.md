@@ -3,10 +3,6 @@ Collaborative German Anki decks for Media IT studies <br>
 The Anki-addon [CrowdAnki](https://github.com/Stvad/CrowdAnki) is used for the distribution via GitHub.
 
 ## Before you start
-After a few weeks in the works, I noticed that not all collaborators are used to working with git. So, please, before starting, make sure you understand the basic principles of the git workflow, most importantly **pull**, **commit** and **push**. I recommend learning it by yourself in a sandbox project, and just trying it out. If you like dry theory though, go here: https://git-scm.com/doc <br>
-For visualisation of the git workflow: https://ndpsoftware.com/git-cheatsheet.html
-
-If you have firm knowledge of the basic git workflow, please proceed as following:
 * Please make sure Anki is running the most recent version.
 * Install [CrowdAnki](https://github.com/Stvad/CrowdAnki).
 * You should create a new Anki user dedicated to DankiDemAnki, because when importing Anki decks, all of the current user's data will be overwritten.
@@ -36,6 +32,9 @@ You should now have successfully imported one subject deck into your Anki app. T
 You should now have successfully exported all of your subject's updates into the repo. If you have GitHub Desktop installed, you can see your changes there.
 
 ## Contributing to DankiDemAnki via GitHub
+After a few weeks in the works, I noticed that not all collaborators are used to working with git. So, please, before starting, make sure you understand the basic principles of the git workflow, most importantly **pull**, **commit** and **push**. I recommend learning it by yourself in a sandbox project, and just trying it out. If you like dry theory though, go here: https://git-scm.com/doc <br>
+For visualisation of the git workflow: https://ndpsoftware.com/git-cheatsheet.html
+
 * Try to commit your changes often so you won't lose your progress when importing. Needing too much time for a commit (and others pushing in the meantime) is no one's fault but yours. If you have problems with this, try splitting your changes into smaller commits, and pushing/pulling more often. This way you'll have less conflicts with the current live version.
 * Despite this being a German course, please use English in your commit messages and when communicating through GitHub.
 * When creating commit messages I would advise you to follow these rules: https://chris.beams.io/posts/git-commit/
