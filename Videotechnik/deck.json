@@ -1036,7 +1036,8 @@
                 "Bildschirmfoto 2021-04-18 um 15.52.14.png",
                 "Focal-Length-Gif-Corrected.gif",
                 "paste-61e03754f086b831b9eb3d01e64e58c47c71e345.jpg",
-                "paste-9284487387ccbe04d15fac04f49088147c377097.jpg"
+                "paste-9284487387ccbe04d15fac04f49088147c377097.jpg",
+                "paste-9c3e0442d19bf2553e80f32f567f26656826dca2.jpg"
             ],
             "name": "Technische Grundlagen",
             "notes": [
@@ -1248,6 +1249,26 @@
                     ],
                     "guid": "r~yRslY!c[",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist BB? Wozu dient es und welche anderen Bezeichnungen kennen Sie?&nbsp;<br>",
+                        "Black Burst, ein Gerät zur Taktung von Studiogeräten.<div>Auch Tak genannt</div>"
+                    ],
+                    "guid": "AD{>fzO2-#",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet Triaxial? Zeichnen Sie den Aufbau eines solchen Kabels!&nbsp;<br>",
+                        "Triaxial wortw. \"mit drei Achsen\": Kabel mit 3 konzentrischen Leitern.<div>So können 3 Signale auf einmal übertragen werden.</div><div><br></div><div><img src=\"paste-9c3e0442d19bf2553e80f32f567f26656826dca2.jpg\"><br></div>"
+                    ],
+                    "guid": "Q-rBG(XbD&",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
                     "tags": []
                 }
             ]
