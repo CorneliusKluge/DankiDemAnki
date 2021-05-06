@@ -308,49 +308,11 @@
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
-            "media_files": [],
+            "media_files": [
+                "Ü_1.PNG"
+            ],
             "name": "Cutting / Videobearbeitung",
             "notes": [
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Welche Schnittypen gibt es?",
-                        "<div>- Harter\nSchnitt (Straight Cut)</div>\n<div>- Weicher\nÜbergang (Dissolve)</div>\n<div>- Effektblende\n(Wipe)</div>"
-                    ],
-                    "guid": "m1bw9;ysjr",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was passiert bei einem Insert-Schnitt?",
-                        "<div>- Timecode auf dem Zielband bleibt erhalten, d.h.\nes muss vorher auf dem Band etwas sein</div>\n<div>- Inhalt des Zielbereichs wird komplett\nüberschrieben</div>"
-                    ],
-                    "guid": "b~lH(wE(bd",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was passiert bei einem Assemble-Schnitt?",
-                        "<div>- Timecode auf Zielband wird neu geschrieben\n(leeres Band)</div>\n<div>- Inhalt des Zielbereiches wird komplett\nüberschrieben</div>\n<div>- Nach Ende des Schnitts werden ein paar Sekunden\nTC erzeugt (für nächsten Schnitt)</div>"
-                    ],
-                    "guid": "BJuwn^Rtx|",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was versteht man bei der Videobearbeitug unter Blenden und Effekten?",
-                        "<div>Blenden:</div>\n<div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nÜbergang zwischen zwei Quellen</div>\n<div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nErforderl. Daten wie bei Dissolve</div>\n<div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nArt und Richtung einer Blende, z.B. beim Umblättern</div>\n<div>&nbsp;</div>\n<div>Effekte:</div>\n<div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nBearbeitung einer Quelle</div>\n<div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nZ.B. Wassertropfeneffekt</div>\nTiteleinblendung"
-                    ],
-                    "guid": "Qnr]UdNFp^",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
                 {
                     "__type__": "Note",
                     "fields": [
@@ -390,6 +352,56 @@
                     "guid": "h6rn&vf2yD",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist der Unterschied zwischen einem Liveschnitt und einem nichtlinearer Schnittplatz? Nennen Sie Vor- und Nachteile bzw. Besonderheiten!&nbsp;<br>",
+                        "<img src=\"Ü_1.PNG\">"
+                    ],
+                    "guid": "wL[--OZELI",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Schnittypen gibt es?",
+                        "<div>- Harter\nSchnitt (Straight Cut)</div>\n<div>- Weicher\nÜbergang (Dissolve)</div>\n<div>- Effektblende\n(Wipe)</div>"
+                    ],
+                    "guid": "m1bw9;ysjr",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was passiert bei einem Insert-Schnitt?",
+                        "<div>- Timecode auf dem Zielband bleibt erhalten, d.h.\nes muss vorher auf dem Band etwas sein</div>\n<div>- Inhalt des Zielbereichs wird komplett\nüberschrieben</div>"
+                    ],
+                    "guid": "b~lH(wE(bd",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was passiert bei einem Assemble-Schnitt?",
+                        "<div>- Timecode auf Zielband wird neu geschrieben\n(leeres Band)</div>\n<div>- Inhalt des Zielbereiches wird komplett\nüberschrieben</div>\n<div>- Nach Ende des Schnitts werden ein paar Sekunden\nTC erzeugt (für nächsten Schnitt)</div>"
+                    ],
+                    "guid": "BJuwn^Rtx|",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was versteht man bei der Videobearbeitug unter Blenden und Effekten?",
+                        "<div>Blenden:</div>\n<div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nÜbergang zwischen zwei Quellen</div>\n<div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nErforderl. Daten wie bei Dissolve</div>\n<div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nArt und Richtung einer Blende, z.B. beim Umblättern</div>\n<div>&nbsp;</div>\n<div>Effekte:</div>\n<div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nBearbeitung einer Quelle</div>\n<div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nZ.B. Wassertropfeneffekt</div>\nTiteleinblendung"
+                    ],
+                    "guid": "Qnr]UdNFp^",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
                 }
             ]
         },
@@ -416,46 +428,6 @@
                     ],
                     "guid": "GsNC[nJ!mg",
                     "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Wie läuft die Umwandlung von einem analogen in ein digitales Signal ab?",
-                        "<div>Ausgangslage: kontinuierliches analoges Signal</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nAbtastung</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\ndiskontinuierliche Folge analoger Werte</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nQuantisierung</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\ndiskontinuierliche Folge digitaler Werte</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\ndigitale Darstellung</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nFolge digitaler Werte als Ergebnis</div>"
-                    ],
-                    "guid": "GxsL|M{;Kf",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Welche zwei Hauptprobnleme sorgen bei der Digitalisierung zum Informationsverlust und wovon werden sie beeinflusst?",
-                        "<div>1.&nbsp;&nbsp;&nbsp;&nbsp;\naufeinander folgende digitale Werte entsprechen einem\nbestimmten Intervall mit bestimmter „Breite“<br><br></div>\n<div>2.&nbsp;&nbsp;&nbsp;&nbsp;\ndigitale Werte sind diskret, d.h. sie können nur einen\nbestimmten Wert annehmen (entweder 0 und 1 oder High and Low)</div>\n<div>&nbsp;<br><div><b>Fehler werden beeinflusst von:</b></div>\n<div>- Änderung der Signalpräsentation, Verbesserung\ndes Signals, z.B. Rauschreduktion</div>\n„Feinheit“ der Abtastunng<br></div>"
-                    ],
-                    "guid": "ELW-R%srrk",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Welche Möglichkeiten der Signalabtastung gibt es? Beschreibe die Funktionsweise dieser.",
-                        "Pulsamplitudenmodulation (PAM)<br><ul>\n<li>Die\n     analogen Signale werden übermittelt durch eine Serie von Impulsen, deren\n     Amplitude die Soundstärke repräsentieren</li></ul>Pulsbreitenmodulation (PWM)<br><ul>\n<li>Die\n     analogen Signale werden übermittelt durch eine Serie von Impulsen, deren\n     Länge (Weite) die Signalstärke repräsentieren</li></ul>Pulscodemodulation (PCM)<br><ul>\n<li>die\n     analogen Signale werden übermittelt durch eine Serie von Impulsen, die den\n     binären Daten des Samples entsprechen</li></ul>"
-                    ],
-                    "guid": "Hp2!PqxpuN",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Welche Vorteile bieten digitale Videos im vergleich zu analogen?",
-                        "<ul>\n<li>Interaktiv</li>\n<li>Komprimierung\n     möglich</li>\n<li>Kein\n     Kopierverlust</li>\n<li>Kein\n     Speicherverlust</li>\n<li>Unabhängig\n     von Fernsehnorm</li>\n<li>Über\n     digitale Netze übertragbar</li>\n<li>Darstellung\n     auf Bildschirmen  PAL muss komprimiert werden</li></ul>"
-                    ],
-                    "guid": "Ikyd*91;qb",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
                 },
                 {
@@ -597,6 +569,46 @@
                     "guid": "MA:}kQF=Y1",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie läuft die Umwandlung von einem analogen in ein digitales Signal ab?",
+                        "<div>Ausgangslage: kontinuierliches analoges Signal</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nAbtastung</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\ndiskontinuierliche Folge analoger Werte</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nQuantisierung</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\ndiskontinuierliche Folge digitaler Werte</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\ndigitale Darstellung</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nFolge digitaler Werte als Ergebnis</div>"
+                    ],
+                    "guid": "GxsL|M{;Kf",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche zwei Hauptprobnleme sorgen bei der Digitalisierung zum Informationsverlust und wovon werden sie beeinflusst?",
+                        "<div>1.&nbsp;&nbsp;&nbsp;&nbsp;\naufeinander folgende digitale Werte entsprechen einem\nbestimmten Intervall mit bestimmter „Breite“<br><br></div>\n<div>2.&nbsp;&nbsp;&nbsp;&nbsp;\ndigitale Werte sind diskret, d.h. sie können nur einen\nbestimmten Wert annehmen (entweder 0 und 1 oder High and Low)</div>\n<div>&nbsp;<br><div><b>Fehler werden beeinflusst von:</b></div>\n<div>- Änderung der Signalpräsentation, Verbesserung\ndes Signals, z.B. Rauschreduktion</div>\n„Feinheit“ der Abtastunng<br></div>"
+                    ],
+                    "guid": "ELW-R%srrk",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Möglichkeiten der Signalabtastung gibt es? Beschreibe die Funktionsweise dieser.",
+                        "Pulsamplitudenmodulation (PAM)<br><ul>\n<li>Die\n     analogen Signale werden übermittelt durch eine Serie von Impulsen, deren\n     Amplitude die Soundstärke repräsentieren</li></ul>Pulsbreitenmodulation (PWM)<br><ul>\n<li>Die\n     analogen Signale werden übermittelt durch eine Serie von Impulsen, deren\n     Länge (Weite) die Signalstärke repräsentieren</li></ul>Pulscodemodulation (PCM)<br><ul>\n<li>die\n     analogen Signale werden übermittelt durch eine Serie von Impulsen, die den\n     binären Daten des Samples entsprechen</li></ul>"
+                    ],
+                    "guid": "Hp2!PqxpuN",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Vorteile bieten digitale Videos im vergleich zu analogen?",
+                        "<ul>\n<li>Interaktiv</li>\n<li>Komprimierung\n     möglich</li>\n<li>Kein\n     Kopierverlust</li>\n<li>Kein\n     Speicherverlust</li>\n<li>Unabhängig\n     von Fernsehnorm</li>\n<li>Über\n     digitale Netze übertragbar</li>\n<li>Darstellung\n     auf Bildschirmen  PAL muss komprimiert werden</li></ul>"
+                    ],
+                    "guid": "Ikyd*91;qb",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
                 }
             ]
         },
@@ -617,6 +629,16 @@
             ],
             "name": "Kompression",
             "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welches Prinzip steht hinter der sogenannten jpg-Komprimierung?&nbsp;<br>",
+                        "Farbmodellumrechnung vom RGB zu&nbsp;YCbCr. (Theoretisch verlustfrei, nach gängigen Standards verlustbehaftet.)<br>\nTiefpassfilterung&nbsp;und&nbsp;Subsampling der Farbabweichungssignale Cb und Cr (verlustbehaftet).<br>\nEinteilung in 8×8-Blöcke und&nbsp;diskrete Kosinustransformation&nbsp;dieser Blöcke (theoretisch verlustfrei, durch Rundungsfehler aber verlustbehaftet)."
+                    ],
+                    "guid": "I_:T7[Jd[>",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
                 {
                     "__type__": "Note",
                     "fields": [
@@ -745,86 +767,6 @@
                     ],
                     "guid": "GEZ{&S184h",
                     "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Wozu dient die Blende in einem Objektiv?",
-                        "<ul>\n<li>die Blende\n     regelt den Lichteinfall in das Objektiv</li><li>große Blende (kleine Blendenzahl) -&gt; viel Lichteinfall</li><li>kleine Blende (große Blendenzahl) -&gt; wenig Lichteinfall</li></ul>"
-                    ],
-                    "guid": "Iw9X[zoUJl",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was sagt die Lichtstärke aus?",
-                        "<ul>\n<li>Lichtstärke\n     ist das Verhältnis Linsendurchmesser zu Brennweite</li>\n<ul>\n<li>Je\n      größer der Linsendurchmesser und je kleiner die Brennweite, desto\n      lichtstärker das Objektiv</li>\n<li>Weitwinkel\n      sind also lichtstärker als Teleobjektive</li>\n</ul></ul>"
-                    ],
-                    "guid": "yP$t!p.Mgq",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Wann empfinden wir ein Bild als \"scharf\"?",
-                        "Wenn es hohe Kontraste und klare Strukturen aufweist.&nbsp;"
-                    ],
-                    "guid": "eI0IbOOt]0",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was versteht man unter Schärfenfiefe?",
-                        "Bereich der in hintereinander versetzten Ebenen scharf abgebildet wird"
-                    ],
-                    "guid": "qnto%(W&}`",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Welche Indikatoren steigern die Tiefenschärfe?",
-                        "<ul>\n\n<li>Je\n      heller die Aufnahmeumgebung</li>\n<li>Je\n      größer die Blende</li>\n<li>Je\n      höher die Blendenzahl</li>\n<li>Je\n      kleiner die Brennweite (Weitwinkel!)</li>\n</ul>"
-                    ],
-                    "guid": "AEu3YQG&1",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was versteht man unter der \"optischen Achse\"?",
-                        "<ul>\n<li>Linie\n     zwischen Projektor und Projektionsebene</li></ul><img src=\"paste-0ad065ae38a4cfde7a1a5680db5298338e890118.jpg\"><br>"
-                    ],
-                    "guid": "glw=ie<o6-",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was vertseht man unter der \"Idealgeometrie\" in der Optik?",
-                        "<ul>\n<li>Optische\n     Achse trifft im rechten Winkel auf Projektionsfläche</li>\n<ul>\n<li>Nahezu\n      verzerrungsfreies Bild</li></ul></ul>"
-                    ],
-                    "guid": "gt7La>+9|U",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was passiert bei Zoomen?",
-                        "- die Brennweide des Objektivs ändert sich und somit der Bildausschnitt (Vorraussetzung, dass die Position der Linse unverändert bleibt)"
-                    ],
-                    "guid": "yqom~Y,_]`",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
                 },
                 {
@@ -994,6 +936,86 @@
                         "50mm: Normalobjektiv –&nbsp;entspricht in etwa menschlichem Blickwinkel von 46°<div>&lt;50mm: Weitwinkelobjektive –&nbsp;Panoramaeffekt: Bildinhalte erscheinen verkleinert, es \"passt\" mehr ins Bild</div><div>&gt;50mm: Teleobjektive – Fernrohreffekt: Bildinhalte erscheinen vergrößert</div><div><br></div><div><img src=\"Brennweite-und-Bildwinkel-1.jpg\"><br></div>"
                     ],
                     "guid": "Hu;&:tRj}_",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wozu dient die Blende in einem Objektiv?",
+                        "<ul>\n<li>die Blende\n     regelt den Lichteinfall in das Objektiv</li><li>große Blende (kleine Blendenzahl) -&gt; viel Lichteinfall</li><li>kleine Blende (große Blendenzahl) -&gt; wenig Lichteinfall</li></ul>"
+                    ],
+                    "guid": "Iw9X[zoUJl",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sagt die Lichtstärke aus?",
+                        "<ul>\n<li>Lichtstärke\n     ist das Verhältnis Linsendurchmesser zu Brennweite</li>\n<ul>\n<li>Je\n      größer der Linsendurchmesser und je kleiner die Brennweite, desto\n      lichtstärker das Objektiv</li>\n<li>Weitwinkel\n      sind also lichtstärker als Teleobjektive</li>\n</ul></ul>"
+                    ],
+                    "guid": "yP$t!p.Mgq",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wann empfinden wir ein Bild als \"scharf\"?",
+                        "Wenn es hohe Kontraste und klare Strukturen aufweist.&nbsp;"
+                    ],
+                    "guid": "eI0IbOOt]0",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was versteht man unter Schärfenfiefe?",
+                        "Bereich der in hintereinander versetzten Ebenen scharf abgebildet wird"
+                    ],
+                    "guid": "qnto%(W&}`",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Indikatoren steigern die Tiefenschärfe?",
+                        "<ul>\n\n<li>Je\n      heller die Aufnahmeumgebung</li>\n<li>Je\n      größer die Blende</li>\n<li>Je\n      höher die Blendenzahl</li>\n<li>Je\n      kleiner die Brennweite (Weitwinkel!)</li>\n</ul>"
+                    ],
+                    "guid": "AEu3YQG&1",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was versteht man unter der \"optischen Achse\"?",
+                        "<ul>\n<li>Linie\n     zwischen Projektor und Projektionsebene</li></ul><img src=\"paste-0ad065ae38a4cfde7a1a5680db5298338e890118.jpg\"><br>"
+                    ],
+                    "guid": "glw=ie<o6-",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was vertseht man unter der \"Idealgeometrie\" in der Optik?",
+                        "<ul>\n<li>Optische\n     Achse trifft im rechten Winkel auf Projektionsfläche</li>\n<ul>\n<li>Nahezu\n      verzerrungsfreies Bild</li></ul></ul>"
+                    ],
+                    "guid": "gt7La>+9|U",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was passiert bei Zoomen?",
+                        "- die Brennweide des Objektivs ändert sich und somit der Bildausschnitt (Vorraussetzung, dass die Position der Linse unverändert bleibt)"
+                    ],
+                    "guid": "yqom~Y,_]`",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
                 }
@@ -1175,6 +1197,56 @@
                         "Die Brennweite wird erhöht.<div><img src=\"Focal-Length-Gif-Corrected.gif\"></div>"
                     ],
                     "guid": "ds?^DlUBR6",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welcher prinzipielle Unterschied besteht eigentlich zwischen SD und HD? Welches HD existiert derzeit?&nbsp;<br>",
+                        "Die Auflösung. SD = 576p, FullHD = 1080p.<div>FullHD als HD-Standard (obwohl öffentlich-rechtliche Sender auch noch HD Ready (720p) nutzen).</div>"
+                    ],
+                    "guid": "JjiAT7O|YG",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Warum und wie wurde aus BAS zwangsläufig FBAS? Was waren die zwingenden Überlegungen der Entwickler?<br>",
+                        "BAS unterstützt noch keine Farben, durch den mit FBAS eingeführten Burst wird Farbfernsehen möglich. FBAS ist rückwärtskompatibel, d.h. dass BAS-Fernseher auch FBAS empfangen und wiedergeben können (aber ohne Farbe)."
+                    ],
+                    "guid": "sQjLeG%TOS",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist der prinzipielle Unterschied zwischen RGB und YUV in der Videotechnik?&nbsp;<br>",
+                        "YUV orientiert sich eher an der menschlichen Wahrnehmung (stärkerer Fokus auf Grün-Wert). In RBG hat jede Farbe einen eigenen Kanal, YUV ist aufgeteilt in Helligkeit (Y) und Farbigkeit (U, V)."
+                    ],
+                    "guid": "nrr#+Lw,GD",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wozu dient das Gerät namens CCU? Gehen Sie bei der Erläuterung von der Begriffserklärung aus!&nbsp;<br>",
+                        "Camera Control Unit: (Fern)Steuern mehrerer Kamerakanäle."
+                    ],
+                    "guid": "y|ZKroMmy|",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Warum sind analoge Signale für große Übertragungsdistanzen wenig geeignet?&nbsp;<br>",
+                        "In größeren Distanzen (ca. ab 50m) fällt die Spannung der Kabel ab (im Gegensatz zum konstanten Widerstand), es kommt zum Übertragungsverlust."
+                    ],
+                    "guid": "r~yRslY!c[",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
                 }
