@@ -62,6 +62,16 @@
                     "guid": "v^I*S+`ip?",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist Subsampling und wozu braucht man es?",
+                        "Ein Verfahren, das der Reduzierung der benötigten Datenmenge dient, beispielsweise, um den<br>benötigten Speicherplatz zu reduzieren oder die benötigte Übertragungsbandbreite (u. a. bei<br>nachrichtentechnischen Systemen) zu beschränken.&nbsp;<br>"
+                    ],
+                    "guid": "eeRs-l$H[#",
+                    "note_model_uuid": "3b0f8f52-ae79-11eb-9351-2cf05d79ab8e",
+                    "tags": []
                 }
             ]
         },
@@ -259,6 +269,16 @@
                     "guid": "yI_EG;L$*&",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<div>Warum geht der Trend zum Breitbild?</div>",
+                        "Das Format 16:9 entspricht in etwa dem Sichtverhältnis des menschlichen Auges."
+                    ],
+                    "guid": "t*F^N57&rA",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
                 }
             ]
         },
@@ -308,9 +328,7 @@
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
-            "media_files": [
-                "Ü_1.PNG"
-            ],
+            "media_files": [],
             "name": "Cutting / Videobearbeitung",
             "notes": [
                 {
@@ -350,16 +368,6 @@
                         "- Damit man das Bild schneiden kann<br>- 2,5h = 9000 Sekunden * 50Hz (Halbbilder)"
                     ],
                     "guid": "h6rn&vf2yD",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was ist der Unterschied zwischen einem Liveschnitt und einem nichtlinearer Schnittplatz? Nennen Sie Vor- und Nachteile bzw. Besonderheiten!&nbsp;<br>",
-                        "<img src=\"Ü_1.PNG\">"
-                    ],
-                    "guid": "wL[--OZELI",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
                 },
@@ -416,6 +424,8 @@
             "extendRev": 0,
             "media_files": [
                 "Bildschirmfoto 2021-04-18 um 15.28.20.png",
+                "Vektorscope_sample.png",
+                "Vektorscope_sample_solution-6c951d09d4cae6a92f18ab92045f405c48be295f.png",
                 "big_thumb.jpg"
             ],
             "name": "Digitalisierung von Signalen",
@@ -608,6 +618,36 @@
                     ],
                     "guid": "Ikyd*91;qb",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Mit welchen Geräten kann man Videopegel messen? Mit welchen Spannungen ist maximal und minimal zu rechnen?",
+                        "Waveformmonitor,<div>min. -300mV, max. 700 mV</div>"
+                    ],
+                    "guid": "Et-5L4gq1)",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet Matching? Welches Messgerät ist dazu unverzichtbar?",
+                        "Abgleich mehrerer Kameras bezüglich Farben, Helligkeit usw mittels Messschaltung.<div>Dazu verwendet man ein Referenzdisplay mit Waveform (für Helligkeit) und Vektorskop (für Farbigkeit).</div>"
+                    ],
+                    "guid": "He=$M&mm,%",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Zeichnen Sie die Messbilder 1-4 grob in das nebenstehende Vektorskop ein!<div><img src=\"Vektorscope_sample.png\"><br></div>",
+                        "<img src=\"Vektorscope_sample_solution-6c951d09d4cae6a92f18ab92045f405c48be295f.png\">"
+                    ],
+                    "guid": "lqK}.rAO:@",
+                    "note_model_uuid": "3b0f8f52-ae79-11eb-9351-2cf05d79ab8e",
                     "tags": []
                 }
             ]
@@ -1024,6 +1064,52 @@
         {
             "__type__": "Deck",
             "children": [],
+            "crowdanki_uuid": "3b113d67-ae79-11eb-ba92-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "Ü_1.PNG"
+            ],
+            "name": "Praxisbeispiele",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist der Unterschied zwischen einem Liveschnitt und einem nichtlinearer Schnittplatz? Nennen Sie Vor- und Nachteile bzw. Besonderheiten!&nbsp;<br>",
+                        "<img src=\"Ü_1.PNG\">"
+                    ],
+                    "guid": "wL[--OZELI",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wozu dient das Gerät namens CCU? Gehen Sie bei der Erläuterung von der Begriffserklärung aus!&nbsp;<br>",
+                        "Camera Control Unit: (Fern)Steuern mehrerer Kamerakanäle."
+                    ],
+                    "guid": "y|ZKroMmy|",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Nennen Sie einige technische Probleme, die bspw. bei einer Formel1-TV-Übertragung auftreten können!",
+                        "Viele Kameras zu berücksichtigen,<div>Hohe Distanz zwischen Kamera und Übertragung (evtl. Spannungsabfall),</div><div>Gegebenheiten des Sports (schnelle Kameradrehungen nötig, Kamerafokus kommt nicht mit, etc.)</div>"
+                    ],
+                    "guid": "q^ermL/H<o",
+                    "note_model_uuid": "3b0f8f52-ae79-11eb-9351-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
             "crowdanki_uuid": "ec8f8842-9b9d-11eb-9d80-2cf05d79ab8e",
             "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
             "desc": "",
@@ -1037,7 +1123,8 @@
                 "Focal-Length-Gif-Corrected.gif",
                 "paste-61e03754f086b831b9eb3d01e64e58c47c71e345.jpg",
                 "paste-9284487387ccbe04d15fac04f49088147c377097.jpg",
-                "paste-9c3e0442d19bf2553e80f32f567f26656826dca2.jpg"
+                "paste-9c3e0442d19bf2553e80f32f567f26656826dca2.jpg",
+                "paste-cd8ae332072cebba5fadcf652fcb5725e20c85ff.jpg"
             ],
             "name": "Technische Grundlagen",
             "notes": [
@@ -1234,16 +1321,6 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Wozu dient das Gerät namens CCU? Gehen Sie bei der Erläuterung von der Begriffserklärung aus!&nbsp;<br>",
-                        "Camera Control Unit: (Fern)Steuern mehrerer Kamerakanäle."
-                    ],
-                    "guid": "y|ZKroMmy|",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
                         "Warum sind analoge Signale für große Übertragungsdistanzen wenig geeignet?&nbsp;<br>",
                         "In größeren Distanzen (ca. ab 50m) fällt die Spannung der Kabel ab (im Gegensatz zum konstanten Widerstand), es kommt zum Übertragungsverlust."
                     ],
@@ -1269,6 +1346,66 @@
                     ],
                     "guid": "Q-rBG(XbD&",
                     "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Warum kommen in der Videotechnik gern zeitkontinuierliche Signale zur Anwendung?",
+                        "Diese sind im Gegensatz zu digitalen Signalen stufenlos und unterbrechungsfrei.&nbsp;<div><img src=\"paste-cd8ae332072cebba5fadcf652fcb5725e20c85ff.jpg\"><br></div>"
+                    ],
+                    "guid": "h/-F[K*SC/",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie viele Pixel werden mit 1080p in 15 Sekunden transportiert?",
+                        "1080p → 1920x1080px mit 60 Bildern/Sekunde<div>→ 1920 * 1080 * 60fps * 15s = 1.866.240.000 px</div>"
+                    ],
+                    "guid": "xEVsL}{g82",
+                    "note_model_uuid": "3b0f8f52-ae79-11eb-9351-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Informationen werden für ein beliebiges Pixel erfasst?",
+                        "Position, Werte für Farbkanäle, Farbtiefe, Form"
+                    ],
+                    "guid": "j|qEOCiC!Z",
+                    "note_model_uuid": "3b0f8f52-ae79-11eb-9351-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Größe hat ein Pixel in mm bzw. µm?",
+                        "Die physische Größe von Pixeln variiert von Gerät zu Gerät.<br>"
+                    ],
+                    "guid": "HAFU;YC,]K",
+                    "note_model_uuid": "3b0f8f52-ae79-11eb-9351-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie hoch ist die Normal-Belichtungszeit bei Full-HD? Welche Information braucht man dafür?",
+                        "Allgemein: 1/Bildrate Sekunden<div>Beispiel: 1/60 Sekunde bei 60fps</div>"
+                    ],
+                    "guid": "wR~t)uk&Ah",
+                    "note_model_uuid": "3b0f8f52-ae79-11eb-9351-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Warum ist Glasfaserkabel gut geeignet für lange Übertragungsstrecken?",
+                        "Hohe Übertragungsraten,<div>Durch hochfrequente Lichtsignale <b>verlustfrei </b>auch über lange Strecken</div>"
+                    ],
+                    "guid": "fWtm&WfW3]",
+                    "note_model_uuid": "3b0f8f52-ae79-11eb-9351-2cf05d79ab8e",
                     "tags": []
                 }
             ]
@@ -1415,7 +1552,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Standard-6e06c",
+            "name": "Standard-6e06c-24e55",
             "req": [
                 [
                     0,
@@ -1442,6 +1579,58 @@
             ],
             "type": 0,
             "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "3b0f8f52-ae79-11eb-9351-2cf05d79ab8e",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Einfach",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}"
+                }
+            ],
+            "type": 0
         },
         {
             "__type__": "NoteModel",
