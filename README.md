@@ -4,11 +4,11 @@ This is meant as a supplement to your regular studying. Learning via Anki cards 
 
 
 [Anki](https://apps.ankiweb.net/) is a tool for creating digital flash cards and remembering things easy and intuitively. It's available for Windows, Mac, Linux and most mobile operating systems for free!<br>
-The Anki-addon [CrowdAnki](https://github.com/Stvad/CrowdAnki) is used by this repository for the distribution via GitHub.
+The Anki-addon [CrowdAnki](https://ankiweb.net/shared/info/1788670778) is used by this repository for the distribution via GitHub.
 
 ## Before you start
 * Please make sure [Anki](https://apps.ankiweb.net/) is running the most recent version.
-* Install [CrowdAnki](https://github.com/Stvad/CrowdAnki).
+* Install [CrowdAnki](https://ankiweb.net/shared/info/1788670778).
 * You should create a new Anki user dedicated to DankiDemAnki. (When importing Anki decks, merge conflicts could occur or you could publish private data to this repository. A distinct user for this repository helps averting that.)
 * Download this repository into your desired directory. 
 
