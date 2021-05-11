@@ -1,11 +1,12 @@
 # DankiDemAnki
-Collaborative German Anki decks for Media IT studies <br>
-The Anki-addon [CrowdAnki](https://github.com/Stvad/CrowdAnki) is used for the distribution via GitHub.
+**Collaborative German Anki decks for Media IT studies.** <br>
+*[Anki](https://apps.ankiweb.net/)* is a tool for creating digital flash cards and remembering things easy and intuitively. It's available for Windows, Mac, Linux and most mobile operating systems for free!<br>
+The Anki-addon *[CrowdAnki](https://github.com/Stvad/CrowdAnki)* is used by this repository for the distribution via GitHub.
 
 ## Before you start
-* Please make sure Anki is running the most recent version.
+* Please make sure [Anki](https://apps.ankiweb.net/) is running the most recent version.
 * Install [CrowdAnki](https://github.com/Stvad/CrowdAnki).
-* You should create a new Anki user dedicated to DankiDemAnki. (When importing Anki decks, merge conflicts could occur or you could publish private data to this repository. I suppose you don't want either.)
+* You should create a new Anki user dedicated to DankiDemAnki. (When importing Anki decks, merge conflicts could occur or you could publish private data to this repository. A distinct user for this repository helps averting that.)
 * Download this repository into your desired directory. 
 
 Just as a quick warning: CrowdAnki doesn't seem to be very stable or well bugfixed. On my first two days of working with it, I've already encountered various ways to freeze or crash Anki, so please follow the instructions below carefully.
