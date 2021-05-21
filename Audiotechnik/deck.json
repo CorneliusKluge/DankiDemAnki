@@ -361,9 +361,64 @@
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
-            "media_files": [],
+            "media_files": [
+                "paste-9142c9ec0533c492dc49de8c4acfb06f64594962.jpg",
+                "paste-d605b55e212af6318b572ee3dfd070a55e663196.jpg",
+                "paste-d8defb98411d883a79c81a0f1506cbd7f0799dc9.jpg"
+            ],
             "name": "Mikrofone",
-            "notes": []
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Nennen Sie 3 Richtcharakteristiken für Mikrofone und deren Kerneigenschaft.",
+                        "<img src=\"paste-d605b55e212af6318b572ee3dfd070a55e663196.jpg\"><br><h3><a><span style=\"font-weight: normal;\">&nbsp;</span>Kugeln</a> </h3>\n<div>- nehmen alles auf -&gt; Schall aus jeder Richtung\ngleichermaßen empfindlich</div>\n<div>z.B. Orchesteraufnahmen</div>\n<h3><a><span style=\"font-weight: normal;\">&nbsp;</span>Nieren</a></h3>\n<div>- erfassen den direkt von vorn besser </div>\n<div>- Sprache oder Instrumente ohne Raumklang</div>\n<h3><a><span style=\"font-weight: normal;\">&nbsp;</span>Acht</a> </h3>\n<div>- nimmt den frontalen und rückwertigen Klang\ngleichermaßen, ignoriert seitlichen Schall. </div>\n<div>- Stereomikrofonie</div>"
+                    ],
+                    "guid": "yl*QR/x?U!",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist die Richtcharakteristik bei Mikrofonen?",
+                        "Die Richtcharakteristik\ndefiniert, aus welcher Richtung das Mikrofon den Schall besonders empfindlich\naufnimmt. Stark vereinfacht gesagt: Aus welcher Richtung aufgenommen wird."
+                    ],
+                    "guid": "LCaQ^w<I/l",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Beschreiben Sie das Wirkprinzip eines Kondensatormikrofons!<br><br><img src=\"paste-d8defb98411d883a79c81a0f1506cbd7f0799dc9.jpg\">",
+                        "<div>Kondensator, der sich aus einer elektrisch leitfähigen\nMembran mit dahinterliegenden Gegenelektrode <br>-&gt; funktioniert folgendermaßen:<br><br></div>\n<div><b>Schritt 1<span style=\"font-weight: normal;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span></b>auftreffender Schall bringt die Membran zum\nSchwingen </div>\n<div><b>Schritt 2<span style=\"font-weight: normal;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span></b>Abstand zwischen Membran und Gegenelektrode\nverändert sich</div>\n<div><b>Schritt 3<span style=\"font-weight: normal;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span></b>Kapazität des Kondensators wird verändert</div>\n<div><b>Schritt 4<span style=\"font-weight: normal;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span></b>Änderung wird dann in elektrische Signale\numgewandelt&nbsp;<br><br><br></div>"
+                    ],
+                    "guid": "oltr=x/&(~",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie sieht das Impulsverhalten von dynamischen- und Kondensatormikrofonen aus?",
+                        "<img src=\"paste-9142c9ec0533c492dc49de8c4acfb06f64594962.jpg\">"
+                    ],
+                    "guid": "oQ$&i(9R;G",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Erklären Sie in einem Satz kurz, wie dynamische Mikrofone prinzipiell arbeiten!",
+                        "<div>Sie wandeln mithilfe von Elektromagnetismus Schall in ein\nelektrisches Signal um, sind robuster, aber bieten schlechtere Qualität als\nKondensator</div>"
+                    ],
+                    "guid": "H>dG,xbkP@",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                }
+            ]
         },
         {
             "__type__": "Deck",
@@ -665,7 +720,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Standard-6e06c-24e55",
+            "name": "Standard-6e06c-d6521",
             "req": [
                 [
                     0,
@@ -692,6 +747,58 @@
             ],
             "type": 0,
             "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Einfach-c578e",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}"
+                }
+            ],
+            "type": 0
         }
     ],
     "notes": []
