@@ -72,6 +72,16 @@
                     "guid": "neAEs/C<HK",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was versteht man unter Wanderprinzipien bei Mikrofonen?",
+                        "Sie beschreiben, wie der Schall in eine Ausgangsspannung gewandelt wird. <br>-&gt; haben keinen Einfluss auf die Richtcharakteristik"
+                    ],
+                    "guid": "g.$[*u;kuv",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
                 }
             ]
         },
