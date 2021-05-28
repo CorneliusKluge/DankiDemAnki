@@ -12,7 +12,78 @@
             "extendRev": 0,
             "media_files": [],
             "name": "Analog / Digitalwandlung",
-            "notes": []
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Analog - Digitalwandlung",
+                        "<ul style=\"font-weight: bold;\"><li><div><span style=\"font-weight: 400;\">1. Beseitigung aller nichthörbaren Frequenzen.</span></div></li><li><div><span style=\"font-weight: 400;\">2. Abtasttheorem: Zerlegung des Signals mit einer mindestens doppelt so hohen, konstanten&nbsp; &nbsp; Frequent, als zu übertragen ist.&nbsp;</span></div></li><li><div><span style=\"font-weight: 400;\">3. Messen und Speichern der Augenblickwerte (Sample-and-Hold-Stufe)</span></div></li><li><div><span style=\"font-weight: 400;\">4. Bessere Erfassung des Augenblickwerts durch </span><b>Oversampling</b><span style=\"font-weight: 400;\">. Die </span>Samplefrequenz<span style=\"font-weight: 400;\"> </span><span style=\"font-weight: 400;\">von CD und DVD liegt bei 44.1 bzw. 48 KHz.</span><br></div></li></ul>"
+                    ],
+                    "guid": "m]TF%HDJR*",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Digital-Analogwandlung",
+                        "<ul style=\"font-weight: bold;\"><li><div>1.<span style=\"font-weight: 400;\"> Es wird das Digitalwort im eigentlichen DA-Wandler in einzelne analoge Spannungswerte umgeformt. Die am Ausgang liegende Spannung hat einen tropfenförmigen Verlauf</span></div></li><li><div>2. Verlaufsglättung</div></li></ul><ul style=\"font-weight: bold;\"><li><div><span style=\"font-weight: 400;\">durch eine Abtast- und Halteschaltung oder durch einen Filter&nbsp;</span></div></li><li><div><span style=\"font-weight: 400;\">erneutes Abtasten in einer Abtast- und Halteschaltung reduziert die Pulsbreite&nbsp;</span></div></li></ul><ul style=\"\"><li style=\"font-weight: bold;\"><div>3.<span style=\"font-weight: 400;\"> Anschließend wird das stufenförmige Signal in einem Tiefpass rekonstruiert und geglättet, wobei dieser eine Grenzfrequenz haben muss, die der Hälfte der Samplingfrequenz entspricht.&nbsp;</span></div></li><li style=\"font-weight: bold;\"><div><b>4. Filterung</b></div></li><li style=\"font-weight: bold;\"><div><span style=\"font-weight: 400;\">höhere Frequenzen und Oberwellen, so wie Frequienzen um die Abtastrate herum werden abgeschnitten, ebenso</span></div></li><li style=\"font-weight: bold;\"><div><span style=\"font-weight: 400;\">Eingangs-Oversampling -&gt; Einfügen zusätzlicher Samplay zwischen den tatsächlichen</span></div></li></ul>"
+                    ],
+                    "guid": "QhfXe7i*=.",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Oversampling",
+                        "<b><span style=\"font-weight: 400;\">Unerwünschte </span>Spiegelspektren<span style=\"font-weight: 400;\">, die zu Intermodulationsverzerrungen führen können, werden in höhere, vom Hörbereich möglichst weit entfernt liegende Frequenzbereiche gebracht.</span></b>"
+                    ],
+                    "guid": "riLUVM1tKd",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Zeitliche Maskierung",
+                        "Außer der simultanen Maskierung existiert auch eine zeitliche Variante: Nach Registrierung eines\nTons und dessen Verstummen benötigt das Gehör eine \"Erholungszeit\", während der es einen\nähnlichen, leiseren Ton nicht wahrnimmt. Die Zeit, die vergeht, bis der leisere Ton\nwahrgenommen wird, ist abhängig vom Lautstärke- und vom Frequenzverhältnis der beiden Töne\nund liegt im Bereich von ca. 5 bis 20 ms."
+                    ],
+                    "guid": "E`M0c0PFG7",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Qualitätsverlust bei MP3",
+                        "MP3 hat teilweise nur 1/10 der Originalgröße, enfernen von sehr hohen/tiefen Töne, die zwar nicht wahrnehmbar sind, aber einen Unterschied im Vergleich zur CD machen.<div>erst ab 192kbps ist kein Unterschied mehr wahrnehmbar (mp3 = 128kbps)</div>"
+                    ],
+                    "guid": "CnDX}~XU;A",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b><span style=\"font-weight: 400;\">Oversampling&nbsp;</span></b>",
+                        "<b><span style=\"font-weight: 400;\">eine Überabtastung liegt dann vor, wenn ein&nbsp;</span><a href=\"https://de.wikipedia.org/wiki/Messwert\"><span style=\"color: rgb(0, 0, 0); font-weight: 400; text-decoration-line: none;\">Signal</span></a><span style=\"font-weight: 400;\">&nbsp;mit einer höheren&nbsp;</span><a href=\"https://de.wikipedia.org/wiki/Abtastrate\"><span style=\"color: rgb(0, 0, 0); font-weight: 400; text-decoration-line: none;\">Abtastrate</span></a><span style=\"font-weight: 400;\">&nbsp;bearbeitet wird, als für die Darstellung der&nbsp;</span><a href=\"https://de.wikipedia.org/wiki/Bandbreite\"><span style=\"color: rgb(0, 0, 0); font-weight: 400; text-decoration-line: none;\">Signalbandbreite</span></a><span style=\"font-weight: 400;\">&nbsp;benötigt wird</span></b>"
+                    ],
+                    "guid": "neAEs/C<HK",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was versteht man unter Wanderprinzipien bei Mikrofonen?",
+                        "Sie beschreiben, wie der Schall in eine Ausgangsspannung gewandelt wird. <br>-&gt; haben keinen Einfluss auf die Richtcharakteristik"
+                    ],
+                    "guid": "g.$[*u;kuv",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                }
+            ]
         },
         {
             "__type__": "Deck",
@@ -25,7 +96,108 @@
             "extendRev": 0,
             "media_files": [],
             "name": "Audiokomprimierung",
-            "notes": []
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Probleme können bei der Audiokomprimierung auftreten?",
+                        "Komplexität des Verfahrens<div>Datenverlust</div><div>Qualitätsverlust</div>"
+                    ],
+                    "guid": "Bjsje=&6sH",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Ruhehörschwelle",
+                        "Nur Töne oberhalb dieser Schwelle werden vom menschlichen\nOhr wahrgenommen"
+                    ],
+                    "guid": "s9GHYDY;3]",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Mithörschwelle&nbsp;",
+                        "leise Töne, die sich im Frequenzbereich in der Nähe von lauten\nTönen befinden, werden ebenfalls vom menschlichen Ohr nicht wahrgenommen"
+                    ],
+                    "guid": "k~iX$+zae;",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Verdeckungseffekt",
+                        "Leise Töne werden durch laute, zeitlich nacheilende Töne verdeckt"
+                    ],
+                    "guid": "x@n266at!V",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Frequenzabhängige Lautstärkeempfindung",
+                        "Das Ohr hat eine unterschiedliche\nLautstärkeempfindung bei hohen und tiefen Frequenzen"
+                    ],
+                    "guid": "k34Irb{:/d",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Stereo Redundanz",
+                        "gleiche Signale auf beiden Kanälen nur einmal speichern"
+                    ],
+                    "guid": "AL{4r2ITl?",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "5 Schritte der Audiokomprimierung",
+                        "<b><span style=\"font-weight: 400;\">1. Entfernung aller nichthörbaren Frequenzen</span></b><div><b><span style=\"font-weight: 400;\">2.&nbsp;</span></b><b>Subband-Transformation<span style=\"font-weight: 400;\"> </span><span style=\"font-weight: 400;\">des Signals (Filterbank 32 Frequenzbänder)</span></b></div><div><b><span style=\"font-weight: 400;\">3.&nbsp;</span></b><b>Matrizierung<span style=\"font-weight: 400;\"> </span><span style=\"font-weight: 400;\">(Stereo Mid/Side)</span></b></div><div><b><span style=\"font-weight: 400;\">4&nbsp;&nbsp;</span></b><b><span style=\"font-weight: 400;\">Quantisierung (</span>psychoakustische<span style=\"font-weight: 400;\"> </span><span style=\"font-weight: 400;\">Effekte)</span></b></div><div>5.<b style=\"\"> Huffman-Kodierung</b><span style=\"font-weight: 400;\"> </span><span style=\"font-weight: 400;\">(Blockbildung)</span><b><span style=\"font-weight: 400;\"><br></span></b></div>"
+                    ],
+                    "guid": "kRO,brTtX+",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b><span style=\"font-weight: 400;\">Subband-Transformation</span></b>",
+                        "<b><span style=\"font-weight: 400;\">Dabei wird das digitale Signal in verschiedene&nbsp;</span><a href=\"https://de.wikipedia.org/wiki/Frequenzspektrum\"><span style=\"color: rgb(0, 0, 0); font-weight: 400;\">Frequenzbänder</span></a><span style=\"font-weight: 400;\">&nbsp;aufgeteilt. Jedes Teilband wird abhängig von seinem&nbsp;</span><a href=\"https://de.wikipedia.org/wiki/Signalpegel\"><span style=\"color: rgb(0, 0, 0); font-weight: 400; text-decoration-line: none;\">Signalpegel</span></a><span style=\"font-weight: 400;\">&nbsp;kodiert. Dadurch gehen vorrangig vom&nbsp;</span><a href=\"https://de.wikipedia.org/wiki/Ohr\"><span style=\"color: rgb(0, 0, 0); font-weight: 400; text-decoration-line: none;\">Ohr</span></a><span style=\"font-weight: 400;\">&nbsp;nicht wahrnehmbare Signalanteile verloren (</span><a href=\"https://de.wikipedia.org/wiki/Maskierungseffekt\"><span style=\"color: rgb(0, 0, 0); font-weight: 400; text-decoration-line: none;\">Maskierungseffekt</span></a><span style=\"font-weight: 400;\">, das heißt von lauten Tönen überlagerte sehr leise Töne)</span></b>"
+                    ],
+                    "guid": "wB9Cgr|R:",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b><span style=\"font-weight: 400;\">Psychoakustik</span></b>",
+                        "<b><span style=\"font-weight: 400;\">Zusammenhang der menschlichen Empfindung von Schall als&nbsp;</span><a href=\"https://de.wikipedia.org/wiki/H%C3%B6rereignis\"><span style=\"color: rgb(0, 0, 0); font-weight: 400; text-decoration-line: none;\">Hörereignis</span></a><span style=\"font-weight: 400;\">&nbsp;und mit dessen physikalischen&nbsp;</span><a href=\"https://de.wikipedia.org/wiki/Schallfeldgr%C3%B6%C3%9Fe\"><span style=\"color: rgb(0, 0, 0); font-weight: 400; text-decoration-line: none;\">Schallfeldgrößen</span></a><span style=\"font-weight: 400;\">&nbsp;als&nbsp;</span><a href=\"https://de.wikipedia.org/wiki/Schallereignis\"><span style=\"color: rgb(0, 0, 0); font-weight: 400; text-decoration-line: none;\">Schallereignis</span></a></b>"
+                    ],
+                    "guid": "Dm[LlOXITe",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<b><span style=\"font-weight: 400;\">Huffman-Kodierung</span></b>",
+                        "<b><span style=\"font-weight: 400;\">ordnet einer festen Anzahl an Quellsymbolen jeweils Codewörter mit variabler Länge zu</span></b>"
+                    ],
+                    "guid": "M9aMv8ErR&",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
         },
         {
             "__type__": "Deck",
@@ -113,9 +285,82 @@
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
-            "media_files": [],
+            "media_files": [
+                "paste-4dd710671c1cdb584419353beeea94cebaecaf55.jpg"
+            ],
             "name": "MIDI Musical Instrumental Digital Interface",
-            "notes": []
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wozu dienen MIDI-Signale?",
+                        "„MIDI-Signale“ transportieren lediglich Steuerdaten,\ndie einem elektronischen Klangerzeuger wie z. B.\neinem Synthesizer, Sampler oder Drumcomputer\nmitteilen, welchen Ton er wie laut, wie lange mit\nwelchem seiner verfügbaren Sounds spielen soll"
+                    ],
+                    "guid": "KCv)bII@~I",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "General MIDI (GM) vs. GM Level 2",
+                        "<div>Level 1:</div>-4stimmige Polyphonie mit dyn. Stimmenzuordnung<div>-Verarbeitung von den wichtigsten Controllersignalen<br><div><br></div><div>Level 2:</div><div>-Erweiterung auf 32 Stimmen Polyphonie<br></div></div><div>neuere Controller mit stark erweiterten</div><div>-Eingriffsmöglichkeiten in die\nKlang und Effektparameter<br></div>"
+                    ],
+                    "guid": "Rh6ML@KZx*",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "SYStem EXclusive",
+                        "MIDI-Befehle zur Steuerung spezieller Klangparameter\nKlanginformationen, die von einem bestimmten Gerät vorbereitet werden\nund auch nur von diesem Gerät verarbeitet werden können"
+                    ],
+                    "guid": "K1FDf*+#<Z",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Program Change",
+                        "Standard MIDI Befehl zum Umschalten von Klängen"
+                    ],
+                    "guid": "nV{Z]R<g@H",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Noten und Controller Daten",
+                        "MIDI-Steuerbefehle zum Verändern von standardisierten Klangparametern\nz.B. Lautstärke, Sustain usw."
+                    ],
+                    "guid": "M>-]lJfSHi",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Aufbau MIDI Interface",
+                        "<img src=\"paste-4dd710671c1cdb584419353beeea94cebaecaf55.jpg\">"
+                    ],
+                    "guid": "NW2dLE823@",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "MIDI überträgt <b>keine</b> Audiosignale, sondern",
+                        "Anweisungen/ Befehle für die angeschlossenen Geräte"
+                    ],
+                    "guid": "Dea<aWZ8Xm",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
         },
         {
             "__type__": "Deck",
@@ -126,9 +371,64 @@
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
-            "media_files": [],
+            "media_files": [
+                "paste-9142c9ec0533c492dc49de8c4acfb06f64594962.jpg",
+                "paste-d605b55e212af6318b572ee3dfd070a55e663196.jpg",
+                "paste-d8defb98411d883a79c81a0f1506cbd7f0799dc9.jpg"
+            ],
             "name": "Mikrofone",
-            "notes": []
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Nennen Sie 3 Richtcharakteristiken für Mikrofone und deren Kerneigenschaft.",
+                        "<img src=\"paste-d605b55e212af6318b572ee3dfd070a55e663196.jpg\"><br><h3><a><span style=\"font-weight: normal;\">&nbsp;</span>Kugeln</a> </h3>\n<div>- nehmen alles auf -&gt; Schall aus jeder Richtung\ngleichermaßen empfindlich</div>\n<div>z.B. Orchesteraufnahmen</div>\n<h3><a><span style=\"font-weight: normal;\">&nbsp;</span>Nieren</a></h3>\n<div>- erfassen den direkt von vorn besser </div>\n<div>- Sprache oder Instrumente ohne Raumklang</div>\n<h3><a><span style=\"font-weight: normal;\">&nbsp;</span>Acht</a> </h3>\n<div>- nimmt den frontalen und rückwertigen Klang\ngleichermaßen, ignoriert seitlichen Schall. </div>\n<div>- Stereomikrofonie</div>"
+                    ],
+                    "guid": "yl*QR/x?U!",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist die Richtcharakteristik bei Mikrofonen?",
+                        "Die Richtcharakteristik\ndefiniert, aus welcher Richtung das Mikrofon den Schall besonders empfindlich\naufnimmt. Stark vereinfacht gesagt: Aus welcher Richtung aufgenommen wird."
+                    ],
+                    "guid": "LCaQ^w<I/l",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Beschreiben Sie das Wirkprinzip eines Kondensatormikrofons!<br><br><img src=\"paste-d8defb98411d883a79c81a0f1506cbd7f0799dc9.jpg\">",
+                        "<div>Kondensator, der sich aus einer elektrisch leitfähigen\nMembran mit dahinterliegenden Gegenelektrode <br>-&gt; funktioniert folgendermaßen:<br><br></div>\n<div><b>Schritt 1<span style=\"font-weight: normal;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span></b>auftreffender Schall bringt die Membran zum\nSchwingen </div>\n<div><b>Schritt 2<span style=\"font-weight: normal;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span></b>Abstand zwischen Membran und Gegenelektrode\nverändert sich</div>\n<div><b>Schritt 3<span style=\"font-weight: normal;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span></b>Kapazität des Kondensators wird verändert</div>\n<div><b>Schritt 4<span style=\"font-weight: normal;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span></b>Änderung wird dann in elektrische Signale\numgewandelt&nbsp;<br><br><br></div>"
+                    ],
+                    "guid": "oltr=x/&(~",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie sieht das Impulsverhalten von dynamischen- und Kondensatormikrofonen aus?",
+                        "<img src=\"paste-9142c9ec0533c492dc49de8c4acfb06f64594962.jpg\">"
+                    ],
+                    "guid": "oQ$&i(9R;G",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Erklären Sie in einem Satz kurz, wie dynamische Mikrofone prinzipiell arbeiten!",
+                        "<div>Sie wandeln mithilfe von Elektromagnetismus Schall in ein\nelektrisches Signal um, sind robuster, aber bieten schlechtere Qualität als\nKondensator</div>"
+                    ],
+                    "guid": "H>dG,xbkP@",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                }
+            ]
         },
         {
             "__type__": "Deck",
@@ -430,7 +730,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Standard-6e06c-aa354",
+            "name": "Standard-6e06c-d6521",
             "req": [
                 [
                     0,
@@ -457,6 +757,58 @@
             ],
             "type": 0,
             "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Einfach-c578e",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}"
+                }
+            ],
+            "type": 0
         }
     ],
     "notes": []

@@ -12,7 +12,68 @@
             "extendRev": 0,
             "media_files": [],
             "name": "Abtastung",
-            "notes": []
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was wird beim Abtasten eines Zweifarbton-Bildes (z.B. Text in einem Buch) gespeichert?&nbsp;",
+                        "<ul>\n\n\n<li>ein\n       Bit pro Pixel</li>\n<li>Helligkeit\n       und Farbe werden nicht verändert</li>\n\n</ul>"
+                    ],
+                    "guid": "j.9,AS/fCY",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was wird beim Abtasten eines Schwar-Weiß-Bildes (mit Grautönen) gespeichert?",
+                        "<ul>\n\n\n<li>es\n       wird nur der Luminanzwert zu jedem Pixel gespeichert</li>\n<li>Farbe\n       ist für das ganze Bild konstant, nur der Helligkeitswert wird\n       abgespeichert</li>\n\n</ul>"
+                    ],
+                    "guid": "rbf=7l,edb",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie funktioniert das Abtasten?",
+                        "<ul>\n<li>Videobilder\n     werden horizontal, vertikal und temporal (Bildfolge) abgetastet</li>\n<li>ein\n     Bild besteht aus einer bestimmten Anzahl von Zeilen</li>\n<li>Fernsehbilder\n     (PAL) bestehen z.B. aus 625 Zeilen, von denen nur ca. 580 sichtbar sind</li>\n<ul>\n<li>die\n      restlichen Zeilen sind Scanning-Overhead, er wird genutzt für\n      Blanking-Intervalle und zur Synchronisierung des Signals</li>\n</ul>\n<li>Im\n     Gegensatz zu den Druckwellen eines akustischen Signals kann eine diskrete\n     Folge von Einzelbildern als kontinuierliche Sequenz wahrgenommen werden</li><ul>\n<li>Grenzfrequenz\n      bei ca. 16Hz</li>\n<li>bis\n      etwa 50Hz ein Flimmereffekt</li>\n<ul>\n<li>unvollkommene\n       Speicherwirkung des Auges für optische Reize</li></ul></ul></ul>"
+                    ],
+                    "guid": "udc$LNBHyd",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was wird beim Abtasten eines Farbbildes gespeichert?",
+                        "<ul>\n\n<li>Zu\n      jedem Pixel werden 3 Komponenten gespeichert</li>\n</ul>"
+                    ],
+                    "guid": "GvaPjXlZ]G",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Abtastmethoden gibt es und wei funktionieren diese?",
+                        "<ul>\n\n<li>4:1:1</li>\n<ul>\n<li>das\n       Farbsignal wird nur bei jedem vierten Pixel, dafür aber in beiden\n       Halbbildern horizontal verschoben abgetastet</li>\n</ul>\n<li>4:2:0</li>\n<ul>\n<li>das\n       Farbsignal wird nur bei jedem zweiten Halbbild und nur in halber\n       Auflösung abgetastet</li>\n</ul>\n<li>4:4:4</li>\n<ul>\n<li>hochqualitatives\n       digitales Format</li>\n<li>jedes\n       Pixel, sowohl in Luminanz wie in den Blau- und Rotdifferenzen wird\n       abgetastet</li>\n<li>nur\n       in Effektgeräten</li>\n<li>enorme\n       Anforderungen an Hard- und Software</li>\n</ul>\n<li>4:2:2</li>\n<ul>\n<li>für\n       professionelles digitales Video</li>\n<li>jedes\n       Pixel wird nach Luminanz (Y) und jedes zweite nach den Rot- und\n       Blaudifferenzen (Cr und Cb) abgetastet</li>\n<li>dabei\n       wird die Tatsache ausgenutzt, dass das Auge weniger empfindlich auf die\n       Farbe ist als auf die Helligkeit</li>\n</ul>\n</ul>"
+                    ],
+                    "guid": "v^I*S+`ip?",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist Subsampling und wozu braucht man es?",
+                        "Ein Verfahren, das der Reduzierung der benötigten Datenmenge dient, beispielsweise, um den<br>benötigten Speicherplatz zu reduzieren oder die benötigte Übertragungsbandbreite (u. a. bei<br>nachrichtentechnischen Systemen) zu beschränken.&nbsp;<br>"
+                    ],
+                    "guid": "eeRs-l$H[#",
+                    "note_model_uuid": "3b0f8f52-ae79-11eb-9351-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
         },
         {
             "__type__": "Deck",
@@ -173,7 +234,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Erläutern Sie die Komprimierung des YUV- Modells!",
-                        "- Im YUV Farbraum steckt die Helligkeitsinformation nur in der Y-Komponente<br>- Das menschliche Auge hat verschiedene Auflösungsvermögen, deshalb ist es möglich diese Informationen verschieden zu gewichten (chrominance subsampling)<br>- Hier wird die Y-Komponente, also die Helligkeit mit voller Auflösung abgetastet, und die anderen beiden Komponenten U und V mit halber Auflösung<br>- Es werden zwei Pixel zu einem interpoliert<br><br>- Hinzu kommt, daß in einem Bild Regionen mit gleicher Helligkeit häufiger vorkommmen, , Somit wird hier noch zusätzlich eine stärkere Kompression der Y-Komponente begünstigt.<br><br>kurz: es werden nur 2 Kanäle benötigt"
+                        "- Im YUV-Farbraum steckt die Helligkeitsinformation (\"luminance\") nur in der Y-Komponente<div>- UV verantwortlich für Farbigkeit (\"chrominance\")<br>- Das menschliche Auge hat verschiedene Auflösungsvermögen, deshalb ist es möglich diese Informationen verschieden zu gewichten (chrominance subsampling)<br>- Hier wird die Y-Komponente, also die Helligkeit mit voller Auflösung abgetastet, und die anderen beiden Komponenten U und V mit halber Auflösung<br>- Es werden zwei Pixel zu einem interpoliert<br><br>- Hinzu kommt, daß in einem Bild Regionen mit gleicher Helligkeit häufiger vorkommmen, , Somit wird hier noch zusätzlich eine stärkere Kompression der Y-Komponente begünstigt.<br><br>kurz: es werden nur 2 Kanäle benötigt</div>"
                     ],
                     "guid": "O,8V_[B,4F",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
@@ -208,6 +269,16 @@
                     "guid": "yI_EG;L$*&",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<div>Warum geht der Trend zum Breitbild?</div>",
+                        "Das Format 16:9 entspricht in etwa dem Sichtverhältnis des menschlichen Auges."
+                    ],
+                    "guid": "t*F^N57&rA",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
                 }
             ]
         },
@@ -221,6 +292,7 @@
             "extendNew": 0,
             "extendRev": 0,
             "media_files": [
+                "paste-4f75a0d432e534ead1bef1361249455d0cb3b3a6.jpg",
                 "paste-7ac8244017eecaf1727c24ec9c2bcef0e8ecfbb0.jpg"
             ],
             "name": "Blockschaltpläne",
@@ -232,6 +304,16 @@
                         "Ein Zweitor ist ein Modell für ein elektrisches Bauelement oder ein elektrisches Netzwerk mit vier Anschlüssen, bei dem je zwei Anschlüsse zu einem sogenannten Tor zusammengefasst werden (Vier Pole). Ein Tor liegt dann vor, wenn die elektrische Stromstärke durch beide Anschlüsse eines Tors gegengleich ist.<br><br><img src=\"paste-7ac8244017eecaf1727c24ec9c2bcef0e8ecfbb0.jpg\"><br>"
                     ],
                     "guid": "l8Tl6OQ`Zi",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie sieht ein Blockschaltbild für einen typischen Videoschnittplatz aus?",
+                        "<img src=\"paste-4f75a0d432e534ead1bef1361249455d0cb3b3a6.jpg\"><br><div>AS – Abspieler</div>\n<div>M – Monitor</div>\n<div>LS – Lautsprecher</div>\n<div>TG – Block Burst / Ref / Sync</div>"
+                    ],
+                    "guid": "o<%]?)09Uh",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
                 }
@@ -288,6 +370,46 @@
                     "guid": "h6rn&vf2yD",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Schnittypen gibt es?",
+                        "<div>- Harter\nSchnitt (Straight Cut)</div>\n<div>- Weicher\nÜbergang (Dissolve)</div>\n<div>- Effektblende\n(Wipe)</div>"
+                    ],
+                    "guid": "m1bw9;ysjr",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was passiert bei einem Insert-Schnitt?",
+                        "<div>- Timecode auf dem Zielband bleibt erhalten, d.h.\nes muss vorher auf dem Band etwas sein</div>\n<div>- Inhalt des Zielbereichs wird komplett\nüberschrieben</div>"
+                    ],
+                    "guid": "b~lH(wE(bd",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was passiert bei einem Assemble-Schnitt?",
+                        "<div>- Timecode auf Zielband wird neu geschrieben\n(leeres Band)</div>\n<div>- Inhalt des Zielbereiches wird komplett\nüberschrieben</div>\n<div>- Nach Ende des Schnitts werden ein paar Sekunden\nTC erzeugt (für nächsten Schnitt)</div>"
+                    ],
+                    "guid": "BJuwn^Rtx|",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was versteht man bei der Videobearbeitug unter Blenden und Effekten?",
+                        "<div>Blenden:</div>\n<div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nÜbergang zwischen zwei Quellen</div>\n<div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nErforderl. Daten wie bei Dissolve</div>\n<div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nArt und Richtung einer Blende, z.B. beim Umblättern</div>\n<div>&nbsp;</div>\n<div>Effekte:</div>\n<div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nBearbeitung einer Quelle</div>\n<div>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nZ.B. Wassertropfeneffekt</div>\nTiteleinblendung"
+                    ],
+                    "guid": "Qnr]UdNFp^",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
                 }
             ]
         },
@@ -302,6 +424,8 @@
             "extendRev": 0,
             "media_files": [
                 "Bildschirmfoto 2021-04-18 um 15.28.20.png",
+                "Vektorscope_sample.png",
+                "Vektorscope_sample_solution-6c951d09d4cae6a92f18ab92045f405c48be295f.png",
                 "big_thumb.jpg"
             ],
             "name": "Digitalisierung von Signalen",
@@ -425,6 +549,106 @@
                     "guid": "m89F/:r1;4",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet die Angabe \"HD\" (nach Hr. Hartmanns Verständnis)?",
+                        "High Definition (im Sinne von \"Full HD\"):&nbsp;<div>Auflösung mit 1080p = 1920x1080 Pixel</div><div>(Laut Herr Hartmann entspricht 720p = 1280x720 Pixel dem Vortyp \"HD ready\":</div><div><a href=\"https://de.wikipedia.org/wiki/HD_ready\">https://de.wikipedia.org/wiki/HD_ready</a>.)<br></div>"
+                    ],
+                    "guid": "<DRX4BU;_",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet die Angabe \"i\" in Zusammenhang mit Videosignalen (z.B. \"1080i\")?",
+                        "Das \"i\" steht für \"interlaced (displayed pixels)\". Es gibt an, dass das Zeilensprungverfahren eingesetzt wird; es werden Halbbilder statt Vollbilder übertragen.<div><br></div><div>Im Beispiel 1080i werden 50 oder 60 Halbbilder pro Sekunde mit je 1920×540 übertragen. Durch anschließendes Deinterlacing wird die Full-HD-Auflösung 1920x1080 erreicht.</div>"
+                    ],
+                    "guid": "u0?Sc(%S_H",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet die Angabe \"p\" in Zusammenhang mit Videosignalen (z.B. \"1080p\")?",
+                        "Das \"p\" steht für \"progressively (displayed pixels)\". Es gibt an, dass das Bild per Vollbildverfahren übertragen wird.<div><br></div><div>Im Beispiel 1080p werden also nur Vollbilder mit 1920x1080 übertragen.</div>"
+                    ],
+                    "guid": "MA:}kQF=Y1",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie läuft die Umwandlung von einem analogen in ein digitales Signal ab?",
+                        "<div>Ausgangslage: kontinuierliches analoges Signal</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nAbtastung</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\ndiskontinuierliche Folge analoger Werte</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nQuantisierung</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\ndiskontinuierliche Folge digitaler Werte</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\ndigitale Darstellung</div>\n<div>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nFolge digitaler Werte als Ergebnis</div>"
+                    ],
+                    "guid": "GxsL|M{;Kf",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche zwei Hauptprobnleme sorgen bei der Digitalisierung zum Informationsverlust und wovon werden sie beeinflusst?",
+                        "<div>1.&nbsp;&nbsp;&nbsp;&nbsp;\naufeinander folgende digitale Werte entsprechen einem\nbestimmten Intervall mit bestimmter „Breite“<br><br></div>\n<div>2.&nbsp;&nbsp;&nbsp;&nbsp;\ndigitale Werte sind diskret, d.h. sie können nur einen\nbestimmten Wert annehmen (entweder 0 und 1 oder High and Low)</div>\n<div>&nbsp;<br><div><b>Fehler werden beeinflusst von:</b></div>\n<div>- Änderung der Signalpräsentation, Verbesserung\ndes Signals, z.B. Rauschreduktion</div>\n„Feinheit“ der Abtastunng<br></div>"
+                    ],
+                    "guid": "ELW-R%srrk",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Möglichkeiten der Signalabtastung gibt es? Beschreibe die Funktionsweise dieser.",
+                        "Pulsamplitudenmodulation (PAM)<br><ul>\n<li>Die\n     analogen Signale werden übermittelt durch eine Serie von Impulsen, deren\n     Amplitude die Soundstärke repräsentieren</li></ul>Pulsbreitenmodulation (PWM)<br><ul>\n<li>Die\n     analogen Signale werden übermittelt durch eine Serie von Impulsen, deren\n     Länge (Weite) die Signalstärke repräsentieren</li></ul>Pulscodemodulation (PCM)<br><ul>\n<li>die\n     analogen Signale werden übermittelt durch eine Serie von Impulsen, die den\n     binären Daten des Samples entsprechen</li></ul>"
+                    ],
+                    "guid": "Hp2!PqxpuN",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Vorteile bieten digitale Videos im vergleich zu analogen?",
+                        "<ul>\n<li>Interaktiv</li>\n<li>Komprimierung\n     möglich</li>\n<li>Kein\n     Kopierverlust</li>\n<li>Kein\n     Speicherverlust</li>\n<li>Unabhängig\n     von Fernsehnorm</li>\n<li>Über\n     digitale Netze übertragbar</li>\n<li>Darstellung\n     auf Bildschirmen  PAL muss komprimiert werden</li></ul>"
+                    ],
+                    "guid": "Ikyd*91;qb",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Mit welchen Geräten kann man Videopegel messen? Mit welchen Spannungen ist maximal und minimal zu rechnen?",
+                        "Waveformmonitor,<div>min. -300mV, max. 700 mV</div>"
+                    ],
+                    "guid": "Et-5L4gq1)",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet Matching? Welches Messgerät ist dazu unverzichtbar?",
+                        "Abgleich mehrerer Kameras bezüglich Farben, Helligkeit usw mittels Messschaltung.<div>Dazu verwendet man ein Referenzdisplay mit Waveform (für Helligkeit) und Vektorskop (für Farbigkeit).</div>"
+                    ],
+                    "guid": "He=$M&mm,%",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Zeichnen Sie die Messbilder 1-4 grob in das nebenstehende Vektorskop ein!<div><img src=\"Vektorscope_sample.png\"><br></div>",
+                        "<img src=\"Vektorscope_sample_solution-6c951d09d4cae6a92f18ab92045f405c48be295f.png\">"
+                    ],
+                    "guid": "lqK}.rAO:@",
+                    "note_model_uuid": "3b0f8f52-ae79-11eb-9351-2cf05d79ab8e",
+                    "tags": []
                 }
             ]
         },
@@ -437,9 +661,105 @@
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
-            "media_files": [],
+            "media_files": [
+                "paste-032554273e987eb77092d386b64f0182e3681aba.jpg",
+                "paste-946d3b9242f38638943f5fd027095d2b120c9a04.jpg",
+                "paste-9dc19cf568d500231b70e169f14c241725fe9138.jpg",
+                "paste-fadd6e2f4c0ae25ca7bee0c9a11d40bf83bf576e.jpg"
+            ],
             "name": "Kompression",
-            "notes": []
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welches Prinzip steht hinter der sogenannten jpg-Komprimierung?&nbsp;<br>",
+                        "Farbmodellumrechnung vom RGB zu&nbsp;YCbCr. (Theoretisch verlustfrei, nach gängigen Standards verlustbehaftet.)<br>\nTiefpassfilterung&nbsp;und&nbsp;Subsampling der Farbabweichungssignale Cb und Cr (verlustbehaftet).<br>\nEinteilung in 8×8-Blöcke und&nbsp;diskrete Kosinustransformation&nbsp;dieser Blöcke (theoretisch verlustfrei, durch Rundungsfehler aber verlustbehaftet)."
+                    ],
+                    "guid": "I_:T7[Jd[>",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Warum werden Videos komprimiert, welche Vorteile bietet es?",
+                        "<ul>\n<li>Weniger\n     Bandbreite zur Übertragung</li>\n<li>Verringerung\n     Speicherbedarf</li></ul>"
+                    ],
+                    "guid": "clsgQ~9^jA",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welches Speicherbedarf hat ein einstündiges Video im 8-Bit-Farbkanal mit den Abmaßen von 768x576px und 25 fps?",
+                        "<ul>\n<li>1\n     Video-Einzelbild (768*576*8Bit Farbe) = 1,3MB</li>\n<li>1s Video (768*576*8Bit\n     Farbe*25Frames) = 31,6MB -&gt; 254 MBit/s</li>\n<li>1h Video (768*576*8Bit\n     Farbe*25Frames*60*60) = 114GB -&gt;911GBit/s</li></ul>"
+                    ],
+                    "guid": "D^K/>ih7[5",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie sieht das Codierungsmodell aus?",
+                        "<img src=\"paste-032554273e987eb77092d386b64f0182e3681aba.jpg\">"
+                    ],
+                    "guid": "BUCW8de]&G",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Auf welcher Tatsache werden Videos beruht die erfolgreiche Kompression von Videos?&nbsp;",
+                        "<ul>\n<li>Örtlich\n     und zeitlich benachbarte Bildpunkte haben ähnliche Farbwerte</li><li>Eindeutige Erkennung von Redundanz und Irrelevanz<br></li></ul><img src=\"paste-946d3b9242f38638943f5fd027095d2b120c9a04.jpg\"><br>"
+                    ],
+                    "guid": "HlbQT:)7ab",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welchee Ziele verfolgt die Videokompression?",
+                        "<div>- konstante Datenrate für Bandaufzeichnung</div>\n<div>- Variable Datenrate für Bandaufzeichnung</div>"
+                    ],
+                    "guid": "G4ftaGj0lt",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie wird ein Videostream erzeugt?",
+                        "<div>- Quantisierungsstufen</div>\n<div>-&nbsp;Umwandeln in 0 und 1<br><br><img src=\"paste-9dc19cf568d500231b70e169f14c241725fe9138.jpg\"><br><br><div>-&nbsp;Auslesen mit Schieberegister</div>\n<div>-&nbsp;Erzeugen einer Seriellen Datenfolge</div>\n<div>-&nbsp;Wichtig ist Start- und Endbild Bsp:&nbsp;<b>1</b>000<b>1</b> oder <b>1</b>101<b>1</b></div>\n<div>-&nbsp;Weiterverarbeitung durch Multiplexer -&gt; Streams</div></div>"
+                    ],
+                    "guid": "Co9hP(QJCG",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie erfolgt die Codierung und reproduktion eines Videostreams?",
+                        "<img src=\"paste-fadd6e2f4c0ae25ca7bee0c9a11d40bf83bf576e.jpg\">"
+                    ],
+                    "guid": "sxcY{[&T>W",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Videokomprimierungen gitb es?",
+                        "<div><b>Einfache Verfahren:</b></div>\n<div>-&nbsp;Reduktion des Datenaufkommens durch Reduktion der\nBildinformation</div>\n<div>-&nbsp;Truncation (Farbtiefe reduzieren 24Bit \n8Bit)<br><br><div><b>Interpoliertes Verfahren:</b></div>\n<div>-&nbsp;Speichert nur eine Teilmenge der vorgegebenen\nBildpunkte und berechnet daraus interpolativ die restlichen Bildpunkte die zum\nvollständigen Bild noch fehlen</div>\n<div>-&nbsp;Speichert nur die Differenz</div><br><div><b>JPEG-Komprimierung</b></div>\n<div>&nbsp;</div>\n<div><b>Huffmann-Komprimierung</b></div></div>"
+                    ],
+                    "guid": "NRJqgnh]5?",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
         },
         {
             "__type__": "Deck",
@@ -451,6 +771,8 @@
             "extendNew": 0,
             "extendRev": 0,
             "media_files": [
+                "Brennweite-und-Bildwinkel-1.jpg",
+                "paste-0ad065ae38a4cfde7a1a5680db5298338e890118.jpg",
                 "paste-374ce84ea9f24ba1811e6beb0206a88d1352f8d9.jpg",
                 "paste-5cbd13dae8ed4b39e4c89e6e93d6d3777b3b3ca0.jpg",
                 "paste-c1d2a38f876a3b44aea48e5fba130dab61c264fa.jpg"
@@ -481,7 +803,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Was verstehen Sie unter \"Normalobjektiv\"?&nbsp;<br>",
-                        "Ein Objektiv, bei dem die Brennweite der Diagonalen des Aufnahmemediums entspricht.<div>43mm Brennweite bei Kleinbildformat (24 x 36 mm)<br><div><img src=\"paste-5cbd13dae8ed4b39e4c89e6e93d6d3777b3b3ca0.jpg\"><br></div></div>"
+                        "Ein Objektiv, bei dem die Brennweite der Diagonalen des Aufnahmemediums entspricht.<div>Die Brennweite beträgt meist 40-50mm. Der Bildeffekt ist ähnlich dem der menschlichen Wahrnehmung.</div><div><br></div><div>Beispiel: 43mm Brennweite bei Kleinbildformat (24 x 36 mm)<br><div><img src=\"paste-5cbd13dae8ed4b39e4c89e6e93d6d3777b3b3ca0.jpg\"><br></div></div>"
                     ],
                     "guid": "GEZ{&S184h",
                     "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
@@ -511,7 +833,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Welchen Einfluss hat der Linsendurchmesser auf die Lichtstärke eines Objektivs?",
-                        "- je größer der Durchmesser, desto lichstärker ist das Objektiv<br>- bei großer Blende (kleine Öffnung) wird weniger Licht reingelassen<br>- bei kleiner Blende (große Öffnung) wird mehr Licht reingelassen"
+                        "- je größer der Durchmesser, desto lichtstärker ist das Objektiv<br>- bei großer Blende (kleine Öffnung) wird weniger Licht reingelassen<br>- bei kleiner Blende (große Öffnung) wird mehr Licht reingelassen"
                     ],
                     "guid": "c0bm[<#NS!",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
@@ -520,7 +842,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Was ist Tiefenschärfe? Nennen sie Zusammenhänge!",
+                        "Was ist Tiefenschärfe? Nennen Sie Zusammenhänge!",
                         "Maß für die Ausdehnung des scharfen Bereiches im Objektraum eines optischen Systems<br><br>Die Schärfentiefer ist umso größer:<br>- je heller die Aufnahmeumgebung<br>- je größer die Blende<br>- je höher die Blendenzahl<br>- je kleiner die Brennweite (Weitwinkel)<br>- je größer die Entfernung zum Aufnahmeobjekt (Schärfeverlagerung)<br>- 1/3 Schärfe vor dem Objekt<br>- 2/3 Schärfe nach dem Objekt"
                     ],
                     "guid": "DVwhJQbq0~",
@@ -630,30 +952,10 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Erklären Sie den Zusammenhang zwischen Brennweite und verwendetem Objektiv!",
-                        "- große Brennweite von 50mm bis ∞<br>- kleine Brennweite von &gt;50mm bis 0<br>- Weitwinkelobjektiv&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Teleobjektiv<br>(kleine Brennweite)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (große Brennweite)"
-                    ],
-                    "guid": "xQI+V~60p*",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
                         "Welche Ringe sollte ein Profiobjektiv mindestens haben?",
                         "4 Ringe (Zoom, Schärfe, Blende, Auflagemaß)"
                     ],
                     "guid": "s/^3yb~T/!",
-                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Was verstehen Sie unter einem Normalobjektiv?",
-                        "- Normalbrennweite- 50mm ca. 46 Grad Blickwinkel<br>- gibt kaum Verzerrungen<br>- bezieht sich auf Kleinbildfilm"
-                    ],
-                    "guid": "mlYZH_kW**",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
                 },
@@ -665,6 +967,142 @@
                     ],
                     "guid": "fGUD:@C0C4",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Nenne drei Arten von Objektiven, und für welchen Brennweitenbereich deren Einteilung gilt!",
+                        "50mm: Normalobjektiv –&nbsp;entspricht in etwa menschlichem Blickwinkel von 46°<div>&lt;50mm: Weitwinkelobjektive –&nbsp;Panoramaeffekt: Bildinhalte erscheinen verkleinert, es \"passt\" mehr ins Bild</div><div>&gt;50mm: Teleobjektive – Fernrohreffekt: Bildinhalte erscheinen vergrößert</div><div><br></div><div><img src=\"Brennweite-und-Bildwinkel-1.jpg\"><br></div>"
+                    ],
+                    "guid": "Hu;&:tRj}_",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wozu dient die Blende in einem Objektiv?",
+                        "<ul>\n<li>die Blende\n     regelt den Lichteinfall in das Objektiv</li><li>große Blende (kleine Blendenzahl) -&gt; viel Lichteinfall</li><li>kleine Blende (große Blendenzahl) -&gt; wenig Lichteinfall</li></ul>"
+                    ],
+                    "guid": "Iw9X[zoUJl",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was sagt die Lichtstärke aus?",
+                        "<ul>\n<li>Lichtstärke\n     ist das Verhältnis Linsendurchmesser zu Brennweite</li>\n<ul>\n<li>Je\n      größer der Linsendurchmesser und je kleiner die Brennweite, desto\n      lichtstärker das Objektiv</li>\n<li>Weitwinkel\n      sind also lichtstärker als Teleobjektive</li>\n</ul></ul>"
+                    ],
+                    "guid": "yP$t!p.Mgq",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wann empfinden wir ein Bild als \"scharf\"?",
+                        "Wenn es hohe Kontraste und klare Strukturen aufweist.&nbsp;"
+                    ],
+                    "guid": "eI0IbOOt]0",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was versteht man unter Schärfenfiefe?",
+                        "Bereich der in hintereinander versetzten Ebenen scharf abgebildet wird"
+                    ],
+                    "guid": "qnto%(W&}`",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Indikatoren steigern die Tiefenschärfe?",
+                        "<ul>\n\n<li>Je\n      heller die Aufnahmeumgebung</li>\n<li>Je\n      größer die Blende</li>\n<li>Je\n      höher die Blendenzahl</li>\n<li>Je\n      kleiner die Brennweite (Weitwinkel!)</li>\n</ul>"
+                    ],
+                    "guid": "AEu3YQG&1",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was versteht man unter der \"optischen Achse\"?",
+                        "<ul>\n<li>Linie\n     zwischen Projektor und Projektionsebene</li></ul><img src=\"paste-0ad065ae38a4cfde7a1a5680db5298338e890118.jpg\"><br>"
+                    ],
+                    "guid": "glw=ie<o6-",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was vertseht man unter der \"Idealgeometrie\" in der Optik?",
+                        "<ul>\n<li>Optische\n     Achse trifft im rechten Winkel auf Projektionsfläche</li>\n<ul>\n<li>Nahezu\n      verzerrungsfreies Bild</li></ul></ul>"
+                    ],
+                    "guid": "gt7La>+9|U",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was passiert bei Zoomen?",
+                        "- die Brennweide des Objektivs ändert sich und somit der Bildausschnitt (Vorraussetzung, dass die Position der Linse unverändert bleibt)"
+                    ],
+                    "guid": "yqom~Y,_]`",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "3b113d67-ae79-11eb-ba92-2cf05d79ab8e",
+            "deck_config_uuid": "64afe767-979c-11eb-ac2f-2cf05d79ab8e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "Ü_1.PNG"
+            ],
+            "name": "Praxisbeispiele",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist der Unterschied zwischen einem Liveschnitt und einem nichtlinearer Schnittplatz? Nennen Sie Vor- und Nachteile bzw. Besonderheiten!&nbsp;<br>",
+                        "<img src=\"Ü_1.PNG\">"
+                    ],
+                    "guid": "wL[--OZELI",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wozu dient das Gerät namens CCU? Gehen Sie bei der Erläuterung von der Begriffserklärung aus!&nbsp;<br>",
+                        "Camera Control Unit: (Fern)Steuern mehrerer Kamerakanäle."
+                    ],
+                    "guid": "y|ZKroMmy|",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Nennen Sie einige technische Probleme, die bspw. bei einer Formel1-TV-Übertragung auftreten können!",
+                        "Viele Kameras zu berücksichtigen,<div>Hohe Distanz zwischen Kamera und Übertragung (evtl. Spannungsabfall),</div><div>Gegebenheiten des Sports (schnelle Kameradrehungen nötig, Kamerafokus kommt nicht mit, etc.)</div>"
+                    ],
+                    "guid": "q^ermL/H<o",
+                    "note_model_uuid": "3b0f8f52-ae79-11eb-9351-2cf05d79ab8e",
                     "tags": []
                 }
             ]
@@ -682,8 +1120,11 @@
                 "692px-Unmoduliertes_BA-Signal_einer_Zeile.svg (1).png",
                 "Amfm3-en-de.gif",
                 "Bildschirmfoto 2021-04-18 um 15.52.14.png",
+                "Focal-Length-Gif-Corrected.gif",
                 "paste-61e03754f086b831b9eb3d01e64e58c47c71e345.jpg",
-                "paste-9284487387ccbe04d15fac04f49088147c377097.jpg"
+                "paste-9284487387ccbe04d15fac04f49088147c377097.jpg",
+                "paste-9c3e0442d19bf2553e80f32f567f26656826dca2.jpg",
+                "paste-cd8ae332072cebba5fadcf652fcb5725e20c85ff.jpg"
             ],
             "name": "Technische Grundlagen",
             "notes": [
@@ -816,6 +1257,156 @@
                     "guid": "kwV;2p&gii",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
                     "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie rechnet man die Dauer eines Halbbildes aus? Führen Sie ein Beispiel durch!",
+                        "Nötig sind:&nbsp;<div>Anzahl Halbbilder/Sekunde</div><div><br></div><div>Bsp.: PAL mit 50 Halbbildern/Sekunde&nbsp;</div><div>→ 1s / 50 = 1000ms / 50 = 20ms pro Halbbild</div>"
+                    ],
+                    "guid": "u^Ftn]iTC5",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welchen Vorteil hat die Transformation von RGB zu YUV in Prozessen der Videotechnik?",
+                        "Helligkeitskorrekturen sind bei YUV leichter durchzuführen, da die Helligkeit über nur einen Kanal (Y) gesteuert wird. Bei RGB müssten dazu 3 Kanäle angepasst werden."
+                    ],
+                    "guid": "LGZ`T8Shbt",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was passiert mit der Brennweite einer Kamera beim Zoomen?",
+                        "Die Brennweite wird erhöht.<div><img src=\"Focal-Length-Gif-Corrected.gif\"></div>"
+                    ],
+                    "guid": "ds?^DlUBR6",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welcher prinzipielle Unterschied besteht eigentlich zwischen SD und HD? Welches HD existiert derzeit?&nbsp;<br>",
+                        "Die Auflösung. SD = 576p, FullHD = 1080p.<div>FullHD als HD-Standard (obwohl öffentlich-rechtliche Sender auch noch HD Ready (720p) nutzen).</div>"
+                    ],
+                    "guid": "JjiAT7O|YG",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Warum und wie wurde aus BAS zwangsläufig FBAS? Was waren die zwingenden Überlegungen der Entwickler?<br>",
+                        "BAS unterstützt noch keine Farben, durch den mit FBAS eingeführten Burst wird Farbfernsehen möglich. FBAS ist rückwärtskompatibel, d.h. dass BAS-Fernseher auch FBAS empfangen und wiedergeben können (aber ohne Farbe)."
+                    ],
+                    "guid": "sQjLeG%TOS",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist der prinzipielle Unterschied zwischen RGB und YUV in der Videotechnik?&nbsp;<br>",
+                        "YUV orientiert sich eher an der menschlichen Wahrnehmung (stärkerer Fokus auf Grün-Wert). In RBG hat jede Farbe einen eigenen Kanal, YUV ist aufgeteilt in Helligkeit (Y) und Farbigkeit (U, V)."
+                    ],
+                    "guid": "nrr#+Lw,GD",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Warum sind analoge Signale für große Übertragungsdistanzen wenig geeignet?&nbsp;<br>",
+                        "In größeren Distanzen (ca. ab 50m) fällt die Spannung der Kabel ab (im Gegensatz zum konstanten Widerstand), es kommt zum Übertragungsverlust."
+                    ],
+                    "guid": "r~yRslY!c[",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was ist BB? Wozu dient es und welche anderen Bezeichnungen kennen Sie?&nbsp;<br>",
+                        "Black Burst, ein Gerät zur Taktung von Studiogeräten.<div>Auch Tak genannt</div>"
+                    ],
+                    "guid": "AD{>fzO2-#",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Was bedeutet Triaxial? Zeichnen Sie den Aufbau eines solchen Kabels!&nbsp;<br>",
+                        "Triaxial wortw. \"mit drei Achsen\": Kabel mit 3 konzentrischen Leitern.<div>So können 3 Signale auf einmal übertragen werden.</div><div><br></div><div><img src=\"paste-9c3e0442d19bf2553e80f32f567f26656826dca2.jpg\"><br></div>"
+                    ],
+                    "guid": "Q-rBG(XbD&",
+                    "note_model_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Warum kommen in der Videotechnik gern zeitkontinuierliche Signale zur Anwendung?",
+                        "Diese sind im Gegensatz zu digitalen Signalen stufenlos und unterbrechungsfrei.&nbsp;<div><img src=\"paste-cd8ae332072cebba5fadcf652fcb5725e20c85ff.jpg\"><br></div>"
+                    ],
+                    "guid": "h/-F[K*SC/",
+                    "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie viele Pixel werden mit 1080p in 15 Sekunden transportiert?",
+                        "1080p → 1920x1080px mit 60 Bildern/Sekunde<div>→ 1920 * 1080 * 60fps * 15s = 1.866.240.000 px</div>"
+                    ],
+                    "guid": "xEVsL}{g82",
+                    "note_model_uuid": "3b0f8f52-ae79-11eb-9351-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Informationen werden für ein beliebiges Pixel erfasst?",
+                        "Position, Werte für Farbkanäle, Farbtiefe, Form"
+                    ],
+                    "guid": "j|qEOCiC!Z",
+                    "note_model_uuid": "3b0f8f52-ae79-11eb-9351-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Welche Größe hat ein Pixel in mm bzw. µm?",
+                        "Die physische Größe von Pixeln variiert von Gerät zu Gerät.<br>"
+                    ],
+                    "guid": "HAFU;YC,]K",
+                    "note_model_uuid": "3b0f8f52-ae79-11eb-9351-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Wie hoch ist die Normal-Belichtungszeit bei Full-HD? Welche Information braucht man dafür?",
+                        "Allgemein: 1/Bildrate Sekunden<div>Beispiel: 1/60 Sekunde bei 60fps</div>"
+                    ],
+                    "guid": "wR~t)uk&Ah",
+                    "note_model_uuid": "3b0f8f52-ae79-11eb-9351-2cf05d79ab8e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Warum ist Glasfaserkabel gut geeignet für lange Übertragungsstrecken?",
+                        "Hohe Übertragungsraten,<div>Durch hochfrequente Lichtsignale <b>verlustfrei </b>auch über lange Strecken</div>"
+                    ],
+                    "guid": "fWtm&WfW3]",
+                    "note_model_uuid": "3b0f8f52-ae79-11eb-9351-2cf05d79ab8e",
+                    "tags": []
                 }
             ]
         },
@@ -838,7 +1429,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Wo ist der Innenwiderstand wichtig?",
-                        "Bei der Anpassung im Vierpol"
+                        "Bei der Anpassung im Vierpol,<div>Wichtig für die Ermittlung des Maximalstroms</div>"
                     ],
                     "guid": "O2pd:{aCDB",
                     "note_model_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
@@ -936,6 +1527,113 @@
     "note_models": [
         {
             "__type__": "NoteModel",
+            "crowdanki_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
+            "css": ".card {\n font-family: arial;\n font-size: 16px;\n text-align: left;\n color: black;\n background-color: white;\npadding: 5px\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Standard-6e06c-24e55",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                    "bafmt": "",
+                    "bfont": "Arial",
+                    "bqfmt": "",
+                    "bsize": 12,
+                    "did": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "3b0f8f52-ae79-11eb-9351-2cf05d79ab8e",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Einfach",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
             "crowdanki_uuid": "b41f0449-9d44-11eb-baf4-00e04c206114",
             "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
             "flds": [
@@ -985,61 +1683,6 @@
                 }
             ],
             "type": 0
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "64b00e7f-979c-11eb-b32c-2cf05d79ab8e",
-            "css": ".card {\n font-family: arial;\n font-size: 16px;\n text-align: left;\n color: black;\n background-color: white;\npadding: 5px\n}",
-            "flds": [
-                {
-                    "font": "Arial",
-                    "media": [],
-                    "name": "Vorderseite",
-                    "ord": 0,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "media": [],
-                    "name": "Rückseite",
-                    "ord": 1,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Standard-6e06c",
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tags": [],
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
-                    "bafmt": "",
-                    "bfont": "Arial",
-                    "bqfmt": "",
-                    "bsize": 12,
-                    "did": null,
-                    "name": "Karte 1",
-                    "ord": 0,
-                    "qfmt": "{{Vorderseite}}"
-                }
-            ],
-            "type": 0,
-            "vers": []
         }
     ],
     "notes": []
